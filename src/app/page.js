@@ -75,7 +75,7 @@ export default function Home() {
             </div>
           </div>
           <div>
-            <img src='/header_computer.png' width={455} height={375}></img>
+            <img src='/SI2023/header_computer.png' width={455} height={375}></img>
           </div>
         </header>
         <div>
@@ -143,7 +143,7 @@ export default function Home() {
               <circle cx="159.057" cy="54.1649" r="5" transform="rotate(-89.9406 159.057 54.1649)" fill="black" />
               <circle cx="159.091" cy="21.1649" r="5" transform="rotate(-89.9406 159.091 21.1649)" fill="black" />
             </svg>
-            <img className='md:w-[422px] w-[215px]' src='/planalto_da_ufv.png' width={422} height={261}></img>
+            <img className='md:w-[422px] w-[215px]' src='/SI2023/planalto_da_ufv.png' width={422} height={261}></img>
           </div>
         </div>
         <div id='evento' className='mx-5 md:mx-20 mt-10 md:mt-0 flex flex-col'>
@@ -162,7 +162,7 @@ export default function Home() {
         <div className="my-10 text-white">
           <div className='bg-gradient-to-b from-transparent to-[#38124A] h-20'></div>
           <div className='bg-[#38124A] flex-col-reverse md:flex-row flex justify-evenly p-8 md:p-16'>
-            <img className='md:w-1/3' src='/maratona_antiga.png' width={468} height={621}></img>
+            <img className='md:w-1/3' src='/SI2023/maratona_antiga.png' width={468} height={621}></img>
             <div className='md:w-1/3 flex flex-col items-center justify-center' id='maratona'>
               <span className='text-4xl md:text-6xl font-bold font-poppins'>MARATONA</span>
               <span className='mt-8 text-justify'>{Info.EVENT_MARATONA_DESCRITION}</span >
