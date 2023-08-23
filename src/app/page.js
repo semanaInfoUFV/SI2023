@@ -50,7 +50,7 @@ export default function Home() {
             <div className='mt-12 flex w-1/2 md:w-auto flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-5'>
               <Button href={Info.EVENT_SALE_URL} variant="contained" disableElevation className='bt-tickets bg-[#38124A] rounded-3xl py-4 px-7 hover:bg-[#E4E7E5] text-[#F6F6F6] font-bold border-2 border-solid hover:border-[#38124A] hover:text-[#38124A]'>
                 <Stack spacing={1} direction="row">
-                  <span>INGRESSOS</span>
+                  <span>INSCRIÇÕES</span>
                   <SvgIcon>
                     <svg width="25" height="20" viewBox="0 0 25 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M12.5 0H16.6667V4H12.5V0Z" fill="#FFFFFF" />
@@ -215,7 +215,7 @@ export default function Home() {
         <div className='mx-5 md:mx-20 mt-20' id="parceiros">
           <div className='flex justify-between'>
             <span className='text-4xl md:text-6xl font-bold font-poppins'>
-              NOSSOS <span className='text-[#38124A]'>PARCEIROS</span>
+              NOSSOS <span className='text-[#38124A]'>PATROCINADORES</span>
             </span>
             <svg className='-mt-8 md:-mt-14 -mr-20' width="165" height="110" viewBox="0 0 165 110" fill="none" xmlns="http://www.w3.org/2000/svg">
               <circle cx="5.00518" cy="104.005" r="5" transform="rotate(-89.9406 5.00518 104.005)" fill="black" />

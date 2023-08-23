@@ -12,7 +12,7 @@ export default function Footer() {
                 <span className='text-2xl md:text-4xl font-bold text-white'>GARANTA A <br></br>SUA VAGA!</span>
                 <Button href={Info.EVENT_SALE_URL} variant="contained" disableElevation className='w-min mt-5 md:mt-0 bt-tickets-invert hover:bg-[#38124A] rounded-3xl py-4 px-7 bg-[#E4E7E5] hover:text-[#F6F6F6] font-bold border-2 border-solid hover:border-[#E4E7E5] text-[#38124A]'>
                     <Stack spacing={1} direction="row">
-                        <span>INGRESSOS</span>
+                        <span>INSCRIÇÕES</span>
                         <SvgIcon>
                             <svg width="25" height="20" viewBox="0 0 25 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M12.5 0H16.6667V4H12.5V0Z" fill="#38124A" />
@@ -40,7 +40,7 @@ export default function Footer() {
                         <Link className='underline text-white underline-offset-3 font-bold' href="#programacao">PROGRAMAÇÃO</Link>
                         <Link className='underline text-white underline-offset-3 font-bold' href="#maratona">MARATONA</Link>
                         <Link className='underline text-white underline-offset-3 font-bold flex space-x-2' href="">
-                            <span>INGRESSOS</span>
+                            <span>INSCRIÇÕES</span>
                             <svg width="21" height="22" viewBox="0 0 21 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M3.42892 3.92874L6.3752 0.982464L9.20363 3.81089L6.25735 6.75717L3.42892 3.92874Z" fill="white" />
                                 <path d="M9.20363 3.81089L12.1499 0.864614L14.9783 3.69304L12.0321 6.63932L9.20363 3.81089Z" fill="white" />

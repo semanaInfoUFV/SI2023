@@ -40,9 +40,10 @@ export default function BasicTabs() {
         <Box sx={{ width: '100%' }}>
             <Box className="flex flex-col items-center mb-10 border-transparent" sx={{ borderBottom: 1, borderColor: 'divider' }}>
                 <Tabs className='' value={value} onChange={handleChange} aria-label="basic tabs" variant='fullWidth'>
-                    <Tab className='mx-5 aria-selected:bg-[#38124A] aria-selected:text-white rounded-3xl py-4 px-7 text-black font-bold border-2 border-solid aria-selected:border-[#38124A] hover:bg-[#38124A] hover:border-[#38124A] hover:text-white' label="DIA 1" {...a11yProps(0)} />
-                    <Tab className='mx-5 aria-selected:bg-[#38124A] aria-selected:text-white rounded-3xl py-4 px-7 text-black font-bold border-2 border-solid aria-selected:border-[#38124A] hover:bg-[#38124A] hover:border-[#38124A] hover:text-white' label="DIA 2" {...a11yProps(1)} />
-                    <Tab className='mx-5 aria-selected:bg-[#38124A] aria-selected:text-white rounded-3xl py-4 px-7 text-black font-bold border-2 border-solid aria-selected:border-[#38124A] hover:bg-[#38124A] hover:border-[#38124A] hover:text-white' label="DIA 3" {...a11yProps(2)} />
+                    <Tab className='mx-5 aria-selected:bg-[#38124A] aria-selected:text-white rounded-3xl py-4 px-7 text-black font-bold border-2 border-solid aria-selected:border-[#38124A] hover:bg-[#38124A] hover:border-[#38124A] hover:text-white' label="31/08" {...a11yProps(0)} />
+                    <Tab className='mx-5 aria-selected:bg-[#38124A] aria-selected:text-white rounded-3xl py-4 px-7 text-black font-bold border-2 border-solid aria-selected:border-[#38124A] hover:bg-[#38124A] hover:border-[#38124A] hover:text-white' label="01/09" {...a11yProps(1)} />
+                    <Tab className='mx-5 aria-selected:bg-[#38124A] aria-selected:text-white rounded-3xl py-4 px-7 text-black font-bold border-2 border-solid aria-selected:border-[#38124A] hover:bg-[#38124A] hover:border-[#38124A] hover:text-white' label="02/09" {...a11yProps(2)} />
+                    <Tab className='mx-5 aria-selected:bg-[#38124A] aria-selected:text-white rounded-3xl py-4 px-7 text-black font-bold border-2 border-solid aria-selected:border-[#38124A] hover:bg-[#38124A] hover:border-[#38124A] hover:text-white' label="03/09" {...a11yProps(2)} />
                 </Tabs>
             </Box>
             <div
