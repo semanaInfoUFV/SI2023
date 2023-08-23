@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  background: url('/background.png');
+}
+
+.bt-tickets:hover svg path {
+  fill: #38124A;
+}
+
+.bt-tickets-invert:hover svg path {
+  fill: #F6F6F6;
+}
+
+.svg-icon-si:hover g path {
+  stroke: #ffffff;
+  fill: #38124A;
+}
+
+.svg-icon-si-menu g path {
+  stroke: #ffffff;
+}
+
+.MuiTabs-indicator {
+  background-color: transparent;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/Inter-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/Poppins-Regular.ttf");
+}
