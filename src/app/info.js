@@ -9,11 +9,11 @@ export const EVENT_MARATONA_SUBSCRIPTION_URL = "";
 export const EVENT_SCHEDULE_DESCRIPTION = "Programação sujeita a alterações."
 export const DAY_1_SCHEDULE = [
     {
-        hour: "08:00",
-        title: "Introdução aos Transformers e ao Hugging Face",
-        speaker: "Alan Turing",
-        local: "Sala 204 - PVB",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ligula urna, ornare mollis sodales quis, suscipit eu sem. Donec pretium quam ac ante vulputate, nec faucibus dolor cursus. Curabitur et elit pulvinar, posuere lorem sed, molestie ipsum. Maecenas porttitor risus nisl, convallis hendrerit justo iaculis id. In nibh neque, finibus non urna at, eleifend pretium tortor. Nulla porttitor sed eros sed elementum. Vivamus pellentesque tortor eros, sit amet porttitor tortor consectetur et. Morbi velit erat, pellentesque id condimentum sed, lacinia eget eros. Suspendisse blandit faucibus nisi, ut feugiat metus convallis eget. Aliquam et ipsum lectus. Sed non lorem ac tortor ornare efficitur. Aenean accumsan, enim quis facilisis posuere, ex velit pellentesque nisi, ultrices dapibus justo arcu volutpat ligula. Nam porttitor dui in mauris rutrum aliquam. Praesent convallis nunc pretium, auctor augue ut, fermentum sem. Curabitur sodales iaculis velit, at ullamcorper purus malesuada sed. Ut feugiat vitae risus vel volutpat. Donec metus purus, ornare ut sollicitudin ac, mattis sit amet arcu. Nunc finibus est nisl, non imperdiet lorem tempor vel. In tristique commodo placerat. Proin eget velit et ligula elementum viverra ac et urna. Nunc in venenatis ante.",
+        hour: "08:30 às 12:30",
+        title: "Maratona de Programação da Semana de Informática",
+        speaker: "",
+        local: "LBI - Prédio da CEF",
+        description: "Maratona interna da UFV. Evento não-oficial da SBC, aberto ao público do Curso de Ciência da Computação. Acontecerá no segundo andar do prédio da Caixa Econômica Federal, nos laboratórios de ensino do Departamento de Informática.",
         image: "/SI2023/planalto_da_ufv.png",
         speakerlink: "",
         subscription_url: "",
