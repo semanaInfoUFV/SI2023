@@ -73,7 +73,7 @@ export default function BasicTabs() {
                                 <div className='flex-col md:flex-row flex justify-center items-center md:space-x-5'>
                                     <div className='flex md:space-x-5 justify-between md:justify-center items-center w-full md:w-auto'>
                                         <span className='text-2xl font-bold'>{data.hour}</span>
-                                        <Avatar className='w-10 h-10 md:w-20 md:h-20' alt="Remy Sharp" src="/planalto_da_ufv.png" />
+                                        <Avatar className='w-10 h-10 md:w-20 md:h-20' alt={data.speaker} src={data.image} />
                                     </div>
                                     <div className='flex flex-col w-full'>
                                         <h2 className='uppercase font-bold text-xl md:text-2xl'>
@@ -143,7 +143,7 @@ export default function BasicTabs() {
                                 <div className='flex-col md:flex-row flex justify-center items-center md:space-x-5'>
                                     <div className='flex md:space-x-5 justify-between md:justify-center items-center w-full md:w-auto'>
                                         <span className='text-2xl font-bold'>{data.hour}</span>
-                                        <Avatar className='w-10 h-10 md:w-20 md:h-20' alt="Remy Sharp" src="/planalto_da_ufv.png" />
+                                        <Avatar className='w-10 h-10 md:w-20 md:h-20' alt={data.speaker} src={data.image} />
                                     </div>
                                     <div className='flex flex-col w-full'>
                                         <h2 className='uppercase font-bold text-xl md:text-2xl'>
@@ -213,7 +213,7 @@ export default function BasicTabs() {
                                 <div className='flex-col md:flex-row flex justify-center items-center md:space-x-5'>
                                     <div className='flex md:space-x-5 justify-between md:justify-center items-center w-full md:w-auto'>
                                         <span className='text-2xl font-bold'>{data.hour}</span>
-                                        <Avatar className='w-10 h-10 md:w-20 md:h-20' alt="Remy Sharp" src="/planalto_da_ufv.png" />
+                                        <Avatar className='w-10 h-10 md:w-20 md:h-20' alt={data.speaker} src={data.image} />
                                     </div>
                                     <div className='flex flex-col w-full'>
                                         <h2 className='uppercase font-bold text-xl md:text-2xl'>

@@ -17,7 +17,7 @@
 }
 
 body {
-  background: url('/background.png');
+  background: url('/SI2023/background.png');
 }
 
 .bt-tickets:hover svg path {
@@ -43,10 +43,10 @@ body {
 
 @font-face {
   font-family: "Inter";
-  src: url("/Inter-Regular.ttf");
+  src: url("/SI2023/Inter-Regular.ttf");
 }
 
 @font-face {
   font-family: "Poppins";
-  src: url("/Poppins-Regular.ttf");
+  src: url("/SI2023/Poppins-Regular.ttf");
 }
