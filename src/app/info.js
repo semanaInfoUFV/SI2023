@@ -444,6 +444,10 @@ export const COMMON_QUESTIONS = [
         response: "Sim. Além da Maratona da Semana de Informática, o minicurso (React) também tem inscrições separadas, devido ao número restrito de vagas. Há, ainda, o processo seletivo da patrocinadora BITKA (ver pergunta frequente específica). As atividades mencionadas aqui serão gratuitas para quem já se inscreveu no evento geral."
     },
     {
+        question: "Como me inscrever nas atividades com inscrição separada?",
+        response: "Acesse a grade de programação do evento e clique sobre a atividade. Juntamente com a descrição, haverá um botão (ou dois) que irá te redirecionar para o respectivo formulário de inscrição."
+    },
+    {
         question: "Quem pode participar do processo seletivo da BITKA?",
         response: "Alunos que estão cursando do 4º período para frente. Porém, quem estiver em períodos anteriores a esses pode enviar o currículo para ser cadastrado na base de talentos da empresa para futuras oportunidades. Para mais informações, consulte a atividade correspondente na seção PROGRAMAÇÃO."
     },
