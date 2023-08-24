@@ -327,6 +327,7 @@ export const EVENT_SPONSORS = [
     "/SI2023/cientec.png",
     "/SI2023/levity.png",
     "/SI2023/sydle.png",
+    "/SI2023/oriontec.png"
 ];
 
 export const COMMON_QUESTIONS = [
