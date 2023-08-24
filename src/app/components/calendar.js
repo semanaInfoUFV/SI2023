@@ -38,12 +38,12 @@ export default function BasicTabs() {
 
     return (
         <Box sx={{ width: '100%' }}>
-            <Box className="flex flex-col items-center mb-10 border-transparent" sx={{ borderBottom: 1, borderColor: 'divider' }}>
-                <Tabs className='' value={value} onChange={handleChange} aria-label="basic tabs" variant='fullWidth'>
-                    <Tab className='mx-5 aria-selected:bg-[#38124A] aria-selected:text-white rounded-3xl py-4 px-7 text-black font-bold border-2 border-solid aria-selected:border-[#38124A] hover:bg-[#38124A] hover:border-[#38124A] hover:text-white' label="31/ago" {...a11yProps(0)} />
-                    <Tab className='mx-5 aria-selected:bg-[#38124A] aria-selected:text-white rounded-3xl py-4 px-7 text-black font-bold border-2 border-solid aria-selected:border-[#38124A] hover:bg-[#38124A] hover:border-[#38124A] hover:text-white' label="01/set" {...a11yProps(1)} />
-                    <Tab className='mx-5 aria-selected:bg-[#38124A] aria-selected:text-white rounded-3xl py-4 px-7 text-black font-bold border-2 border-solid aria-selected:border-[#38124A] hover:bg-[#38124A] hover:border-[#38124A] hover:text-white' label="02/set" {...a11yProps(2)} />
-                    <Tab className='mx-5 aria-selected:bg-[#38124A] aria-selected:text-white rounded-3xl py-4 px-7 text-black font-bold border-2 border-solid aria-selected:border-[#38124A] hover:bg-[#38124A] hover:border-[#38124A] hover:text-white' label="03/set" {...a11yProps(2)} />
+            <Box className="flex flex-col items-center mb-10 border-transparent  m-10" sx={{ borderBottom: 1, borderColor: 'divider' }}>
+                <Tabs value={value} onChange={handleChange} aria-label="basic tabs" variant='fullWidth'>
+                    <Tab className='mx-1 md:mx-5 aria-selected:bg-[#38124A] aria-selected:text-white rounded-3xl py-4 md:px-7 text-black font-bold border-2 border-solid aria-selected:border-[#38124A] hover:bg-[#38124A] hover:border-[#38124A] hover:text-white' label="31/ago" {...a11yProps(0)} />
+                    <Tab className='mx-1 md:mx-5 aria-selected:bg-[#38124A] aria-selected:text-white rounded-3xl py-4 md:px-7 text-black font-bold border-2 border-solid aria-selected:border-[#38124A] hover:bg-[#38124A] hover:border-[#38124A] hover:text-white' label="01/set" {...a11yProps(1)} />
+                    <Tab className='mx-1 md:mx-5 aria-selected:bg-[#38124A] aria-selected:text-white rounded-3xl py-4 md:px-7 text-black font-bold border-2 border-solid aria-selected:border-[#38124A] hover:bg-[#38124A] hover:border-[#38124A] hover:text-white' label="02/set" {...a11yProps(2)} />
+                    <Tab className='mx-1 md:mx-5 aria-selected:bg-[#38124A] aria-selected:text-white rounded-3xl py-4 md:px-7 text-black font-bold border-2 border-solid aria-selected:border-[#38124A] hover:bg-[#38124A] hover:border-[#38124A] hover:text-white' label="03/set" {...a11yProps(3)} />
                 </Tabs>
             </Box>
             <div
@@ -53,7 +53,7 @@ export default function BasicTabs() {
                 aria-labelledby={`simple-tab-0`}>
                 <div>
                     {Info.DAY_1_SCHEDULE.map((data, index) => (
-                        <Accordion key={index} disableGutters className='bg-transparent my-5 shadow-none mx-5 md:mx-20  ' expanded={expanded === 'day1_schedule' + index} onChange={handleChangeCalendar('day1_schedule' + index)}>
+                        <Accordion key={index} disableGutters className='bg-transparent my-5 shadow-none mx-5 md:mx-20 ' expanded={expanded === 'day1_schedule' + index} onChange={handleChangeCalendar('day1_schedule' + index)}>
                             <AccordionSummary className='border-solid border-[#38124A] border-2 rounded-2xl w-full'
                                 expandIcon={<SvgIcon><svg width="24" height="30" viewBox="0 0 24 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M24 15V20H19.2V15H24Z" fill="#38124A" />
@@ -71,9 +71,9 @@ export default function BasicTabs() {
                                 aria-controls={'day1_schedule' + index + 'bh-content'}
                                 id={'day1_schedule' + index + 'bh-header'}
                             >
-                                <div className='flex-col md:flex-row flex justify-center items-center md:space-x-5'>
-                                    <div className='flex md:space-x-5 justify-between md:justify-center items-center w-full md:w-auto'>
-                                        <span className='text-2xl font-bold'>{data.hour}</span>
+                                <div className='flex-col md:flex-row flex justify-center items-center md:space-x-5 w-full '>
+                                    <div className='flex md:space-x-5 justify-between items-center w-full md:w-1/3'>
+                                        <span className='text-lg font-bold'>{data.hour}</span>
                                         <Avatar className='w-10 h-10 md:w-20 md:h-20' alt={data.speaker} src={data.image} />
                                     </div>
                                     <div className='flex flex-col w-full'>
@@ -141,9 +141,9 @@ export default function BasicTabs() {
                                 aria-controls={'day2_schedule' + index + 'bh-content'}
                                 id={'day2_schedule' + index + 'bh-header'}
                             >
-                                <div className='flex-col md:flex-row flex justify-center items-center md:space-x-5'>
-                                    <div className='flex md:space-x-5 justify-between md:justify-center items-center w-full md:w-auto'>
-                                        <span className='text-2xl font-bold'>{data.hour}</span>
+                                <div className='flex-col md:flex-row flex justify-center items-center md:space-x-5 w-full'>
+                                    <div className='flex md:space-x-5 justify-between items-center w-full md:w-1/3'>
+                                        <span className='text-lg font-bold'>{data.hour}</span>
                                         <Avatar className='w-10 h-10 md:w-20 md:h-20' alt={data.speaker} src={data.image} />
                                     </div>
                                     <div className='flex flex-col w-full'>
@@ -211,9 +211,9 @@ export default function BasicTabs() {
                                 aria-controls={'day3_schedule' + index + 'bh-content'}
                                 id={'day3_schedule' + index + 'bh-header'}
                             >
-                                <div className='flex-col md:flex-row flex justify-center items-center md:space-x-5'>
-                                    <div className='flex md:space-x-5 justify-between md:justify-center items-center w-full md:w-auto'>
-                                        <span className='text-2xl font-bold'>{data.hour}</span>
+                                <div className='flex-col md:flex-row flex justify-center items-center md:space-x-5 w-full'>
+                                    <div className='flex md:space-x-5 justify-between items-center w-full md:w-1/3'>
+                                        <span className='text-lg font-bold'>{data.hour}</span>
                                         <Avatar className='w-10 h-10 md:w-20 md:h-20' alt={data.speaker} src={data.image} />
                                     </div>
                                     <div className='flex flex-col w-full'>
@@ -281,9 +281,9 @@ export default function BasicTabs() {
                                 aria-controls={'day3_schedule' + index + 'bh-content'}
                                 id={'day3_schedule' + index + 'bh-header'}
                             >
-                                <div className='flex-col md:flex-row flex justify-center items-center md:space-x-5'>
-                                    <div className='flex md:space-x-5 justify-between md:justify-center items-center w-full md:w-auto'>
-                                        <span className='text-2xl font-bold'>{data.hour}</span>
+                                <div className='flex-col md:flex-row flex justify-center items-center md:space-x-5 w-full'>
+                                    <div className='flex md:space-x-5 justify-between items-center w-full md:w-1/3'>
+                                        <span className='text-lg font-bold'>{data.hour}</span>
                                         <Avatar className='w-10 h-10 md:w-20 md:h-20' alt={data.speaker} src={data.image} />
                                     </div>
                                     <div className='flex flex-col w-full'>

@@ -175,7 +175,7 @@ export default function Home() {
           </div>
           <div className='bg-gradient-to-b to-transparent from-[#38124A] h-20'></div>
         </div>
-        <div className='mb-10' id='programacao'>
+        <div className='mb-10 w-full' id='programacao'>
           <div className='flex justify-center'>
             <svg className='-mr-5 md:-mr-8 -mt-7 z-10 w-10 md:w-16' width="70" height="73" viewBox="0 0 70 73" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M28.8209 15.9325L38.4799 28.8717L27.3029 32.0078L28.8209 15.9325Z" fill="#38124A" />
@@ -193,7 +193,7 @@ export default function Home() {
               <path d="M2.89752 27.4463C2.89752 27.4463 7.48161 21.4938 12.5211 18.5304C15.2052 16.9521 18.1748 15.5711 21.0417 14.8905M21.0417 14.8905C23.6544 14.2702 26.1818 14.2315 28.3304 15.1551C32.9768 17.1522 30.1057 20.7574 27.7395 22.5291C25.3732 24.3008 21.7975 25.9878 20.0894 21.3255C19.3756 19.3771 19.8603 17.1288 21.0417 14.8905ZM21.0417 14.8905C22.6873 11.7727 25.6846 8.67444 28.6768 6.43396C33.8172 2.58502 41.7507 3.48682 41.7507 3.48682" stroke="#38124A" stroke-width="5" stroke-linecap="round" />
             </svg>
           </div>
-          <span className='text-lg mx-5 md:mx-20   text-justify md:text-center mt-5'>
+          <span className='text-lg mx-5 md:mx-20 text-center flex items-center mt-5'>
             {Info.EVENT_SCHEDULE_DESCRIPTION}
           </span >
         </div>
@@ -231,8 +231,8 @@ export default function Home() {
           <span className='text-lg text-justify md:text-center my-5 '>
             {Info.EVENT_SPONSORS_DESCRIPTION}
           </span >
-          <div className="bg-[#38124A] -mx-20 py-10 overflow-hidden">
-            <div className="flex space-x-8 animate-infinite-slider infinite">
+          <div className="bg-[#38124A] -mx-10 md:-mx-20 py-10 overflow-hidden">
+            <div className="flex space-x-8 animate-infinite-slider infinite w-full">
               {Info.EVENT_SPONSORS.map((image, index) => (
                 <img key={index} className='slide flex w-40 md:w-72 items-center justify-center' src={image}></img>  
               ))}
