@@ -1,12 +1,12 @@
 export const EVENT_DATE = new Date('2023-08-31T08:00:00-03:00');
 export const EVENT_SALE_URL = 'https://eventos.funarbe.org.br/xxviii-semana-da-informatica';
 
-export const EVENT_DESCRIPTION = "A semana de informática é um evento voltado para que os alunos da área de Tecnologia da Informação. Este ano a organização é de competência do Departamento de Informática da UFV. Serão 4 dias de evento com minicursos, painel de discussão, competições de programação e palestras ministrados por profissionais gabaritados de diversas empresas, professores e pesquisadores do segmento de computação de todo o país. Temas como Inteligência Artificial, Tecnologia da Informação, Inclusão, Carreira e Empreendedorismo serão abordados.";
+export const EVENT_DESCRIPTION = "A semana de informática é um evento voltado para que os alunos da área de Tecnologia da Informação. Este ano a organização é de competência do Departamento de Informática da UFV. Serão 4 dias de evento, entre os dias 31/08/2023 e 03/09/2023, com minicursos, painel de discussão, competições de programação e palestras ministrados por profissionais gabaritados de diversas empresas, professores e pesquisadores do segmento de computação de todo o país. Temas como Inteligência Artificial, Tecnologia da Informação, Inclusão, Carreira e Empreendedorismo serão abordados.";
 
 export const EVENT_MARATONA_DESCRITION = "A Maratona de Programação é um evento da Sociedade Brasileira de Computação que existe desde o ano de 1996. Nasceu das competições regionais classificatórias para as etapas mundiais da competição de programação, o International Collegiate Programming Contest, e é parte da regional sul-americana do evento. Ela se destina a alunos e alunas de cursos de graduação e início de pós-graduação na área de Computação e afins. A competição promove nos estudantes a criatividade, a capacidade de trabalho em equipe, a busca de novas soluções de software e a habilidade de resolver problemas sob pressão. A cada ano, observa-se que as instituições de ensino e, principalmente, as grandes empresas da área têm valorizado os alunos que participam do evento.";
 export const EVENT_MARATONA_SUBSCRIPTION_URL = "";
 
-export const EVENT_SCHEDULE_DESCRIPTION = "Programação sujeita a alterações."
+export const EVENT_SCHEDULE_DESCRIPTION = "Atividades para o período de 31/08/2023 a 03/09/2023. ATENÇÃO: Programação sujeita a alterações. Acompanhe o site para se manter a par das atualizações e novidades."
 export const DAY_1_SCHEDULE = [
     {
         hour: "08:30 - 12:30",
