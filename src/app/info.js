@@ -1,7 +1,7 @@
 export const EVENT_DATE = new Date('2023-08-31T08:00:00-03:00');
 export const EVENT_SALE_URL = '';
 
-export const EVENT_DESCRIPTION = "A semana de informática é um evento voltado para que os alunos da área de tecnologia da informação. Este ano a organização é de competência do Departamento de Informática da UFV. Serão 3 dias de evento com minicursos e palestras ministrados por profissionais gabaritados de diversas empresas, professores e pesquisadores do segmento de computação de todo o país. Temas como Inteligência Artificial, Tecnologia da informação e Empreendedorismo serão abordados.";
+export const EVENT_DESCRIPTION = "A semana de informática é um evento voltado para que os alunos da área de Tecnologia da Informação. Este ano a organização é de competência do Departamento de Informática da UFV. Serão 4 dias de evento com minicursos, painel de discussão, competições de programação e palestras ministrados por profissionais gabaritados de diversas empresas, professores e pesquisadores do segmento de computação de todo o país. Temas como Inteligência Artificial, Tecnologia da Informação, Inclusão, Carreira e Empreendedorismo serão abordados.";
 
 export const EVENT_MARATONA_DESCRITION = "A Maratona de Programação é um evento da Sociedade Brasileira de Computação que existe desde o ano de 1996. Nasceu das competições regionais classificatórias para as etapas mundiais da competição de programação, o International Collegiate Programming Contest, e é parte da regional sul-americana do evento. Ela se destina a alunos e alunas de cursos de graduação e início de pós-graduação na área de Computação e afins. A competição promove nos estudantes a criatividade, a capacidade de trabalho em equipe, a busca de novas soluções de software e a habilidade de resolver problemas sob pressão. A cada ano, observa-se que as instituições de ensino e, principalmente, as grandes empresas da área têm valorizado os alunos que participam do evento.";
 export const EVENT_MARATONA_SUBSCRIPTION_URL = "";
@@ -19,7 +19,7 @@ export const DAY_1_SCHEDULE = [
         subscription_url: "",
     },
     {
-        hour: "14:00",
+        hour: "14:00        ",
         title: "Palestra Cientec",
         speaker: "",
         local: "Auditório da Biblioteca Central / UFV",
@@ -29,7 +29,7 @@ export const DAY_1_SCHEDULE = [
         subscription_url: "",
     },
     {
-        hour: "15:00",
+        hour: "15:00        ",
         title: "Palestra Sydle",
         speaker: "",
         local: "Auditório da Biblioteca Central / UFV",
@@ -39,7 +39,7 @@ export const DAY_1_SCHEDULE = [
         subscription_url: "",
     },
     {
-        hour: "16:00",
+        hour: "16:00        ",
         title: "Coffee-break",
         speaker: "",
         local: "Auditório da Biblioteca Central / UFV",
@@ -59,7 +59,7 @@ export const DAY_1_SCHEDULE = [
         subscription_url: "",
     },
     {
-        hour: "18:00",
+        hour: "18:00        ",
         title: "Abertura do Evento e Divulgação dos Resultados da Maratona da SI",
         speaker: "",
         local: "Auditório da Biblioteca Central / UFV",
@@ -92,7 +92,7 @@ export const DAY_2_SCHEDULE = [
         subscription_url: "",
     },
     {
-        hour: "10:30",
+        hour: "10:30                        ",
         title: "Coffee-break",
         speaker: "",
         local: "Auditório da Biblioteca Central / UFV",
@@ -102,7 +102,7 @@ export const DAY_2_SCHEDULE = [
         subscription_url: "",
     },
     {
-        hour: "14:00",
+        hour: "14:00                        ",
         title: "Palestra a confirmar",
         speaker: "",
         local: "Auditório da Biblioteca Central / UFV",
@@ -112,7 +112,7 @@ export const DAY_2_SCHEDULE = [
         subscription_url: "",
     },
     {
-        hour: "15:00",
+        hour: "15:00                        ",
         title: "Palestra a confirmar: Computação Gráfica",
         speaker: "",
         local: "Auditório da Biblioteca Central / UFV",
@@ -122,7 +122,7 @@ export const DAY_2_SCHEDULE = [
         subscription_url: "",
     },
     {
-        hour: "16:00",
+        hour: "16:00                        ",
         title: "Coffee-break",
         speaker: "",
         local: "Auditório da Biblioteca Central / UFV",
@@ -132,7 +132,7 @@ export const DAY_2_SCHEDULE = [
         subscription_url: "",
     },
     {
-        hour: "16:30",
+        hour: "16:30                        ",
         title: "BITKA Analytics - Decisões Inteligentes, Resultados Extraordinários: História, Inovação e Oportunidades",
         speaker: "Colaboradores da BITKA Analytics",
         local: "Auditório da Biblioteca Central / UFV",
@@ -142,7 +142,7 @@ export const DAY_2_SCHEDULE = [
         subscription_url: "",
     },
     {
-        hour: "17:30",
+        hour: "17:30                        ",
         title: "Palestra a confirmar: Sistemas de Informação Geográficas",
         speaker: "",
         local: "Auditório da Biblioteca Central / UFV",
@@ -155,7 +155,7 @@ export const DAY_2_SCHEDULE = [
 
 export const DAY_3_SCHEDULE = [
     {
-        hour: "08:30",
+        hour: "08:30                        ",
         title: "A interdisciplinaridade na carreira. O Relato de um pato.",
         speaker: "Jéferson Coêlho",
         local: "Auditório da Biblioteca Central / UFV",
@@ -175,7 +175,7 @@ export const DAY_3_SCHEDULE = [
         subscription_url: "",
     },
     {
-        hour: "09:30",
+        hour: "09:30                        ",
         title: "Coffee-break",
         speaker: "",
         local: "Auditório da Biblioteca Central / UFV",
@@ -185,7 +185,7 @@ export const DAY_3_SCHEDULE = [
         subscription_url: "",
     },
     {
-        hour: "10:00 - 12:30",
+        hour: "10:00 - 12:30        ",
         title: "Tutorial: Desinformação em Plataformas Digitais: Conceitos, Abordagens Tecnológicas e Desafios.",
         speaker: "Julio Cesar Reis",
         local: "Auditório da Biblioteca Central / UFV",
@@ -195,7 +195,7 @@ export const DAY_3_SCHEDULE = [
         subscription_url: "",
     },
     {
-        hour: "14:00",
+        hour: "14:00                        ",
         title: "Palestra a confirmar: Descrição automática de Imagens",
         speaker: "",
         local: "Auditório da Biblioteca Central / UFV",
@@ -205,7 +205,7 @@ export const DAY_3_SCHEDULE = [
         subscription_url: "",
     },
     {
-        hour: "15:00",
+        hour: "15:00                        ",
         title: "Palestra a confirmar: Federated Learning",
         speaker: "",
         local: "Auditório da Biblioteca Central / UFV",
@@ -215,7 +215,7 @@ export const DAY_3_SCHEDULE = [
         subscription_url: "",
     },
     {
-        hour: "16:00",
+        hour: "16:00                        ",
         title: "Coffee-break e confraternização",
         speaker: "",
         local: "Auditório da Biblioteca Central / UFV",
@@ -225,7 +225,7 @@ export const DAY_3_SCHEDULE = [
         subscription_url: "",
     },
     {
-        hour: "19:30",
+        hour: "19:30                        ",
         title: "Divulgação dos Resultados da Maratona da SBC",
         speaker: "",
         local: "Auditório da Biblioteca Central / UFV",
