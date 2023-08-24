@@ -11,7 +11,7 @@ import Divider from '@mui/material/Divider';
 import Drawer from '@mui/material/Drawer';
 import * as React from 'react';
 import PropTypes from 'prop-types';
-
+import * as Info from '../info'
 
 export default function NavBar() {
     const { window } = PropTypes.func
