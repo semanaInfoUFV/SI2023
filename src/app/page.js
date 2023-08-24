@@ -209,7 +209,7 @@ export default function Home() {
             <div className='md:w-1/3 flex flex-col items-center justify-center' id='maratona'>
               <span className='text-4xl md:text-6xl font-bold font-poppins'>MARATONA</span>
               <span className='mt-8 text-justify'>{Info.EVENT_MARATONA_DESCRITION}</span >
-              <Button href={Info.EVENT_MARATONA_SUBSCRIPTION_URL} variant="contained" disableElevation className='mb-10 md:mb-0 bt-tickets-invert hover:bg-[#38124A] rounded-3xl py-4 px-7 bg-[#E4E7E5] hover:text-[#F6F6F6] font-bold border-2 border-solid hover:border-[#E4E7E5] text-[#38124A] mt-10'>
+              <Button target="_blank" href={Info.EVENT_MARATONA_SUBSCRIPTION_URL} variant="contained" disableElevation className='mb-10 md:mb-0 bt-tickets-invert hover:bg-[#38124A] rounded-3xl py-4 px-7 bg-[#E4E7E5] hover:text-[#F6F6F6] font-bold border-2 border-solid hover:border-[#E4E7E5] text-[#38124A] mt-10'>
                 <Stack spacing={1} direction="row">
                   <span>INSCRIÇÕES PARA A MARATONA SI</span>
                 </Stack>
