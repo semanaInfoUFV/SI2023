@@ -48,7 +48,7 @@ export const DAY_1_SCHEDULE = [
         speaker: "",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Pausa para socialização",
-        image: "/SI2023/cafe.jpg",
+        image: "/SI2023/coffee.png",
         speakerlink: "",
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
@@ -61,7 +61,7 @@ export const DAY_1_SCHEDULE = [
         speaker: "Convidadas",
         local: "Auditório da Biblioteca Central / UFV",
         description: "A Profa. Maria Lúcia, do Departamento de Informática, mediará um painel para discussão da atuação e representatividade das mulheres na academia e mercado da área da Computação. Participarão ex-alunas do curso, profissionais do mercado, gestora de pessoas e acadêmicas.",
-        image: "/SI2023/logodpi.jpg",
+        image: "/SI2023/logo_dpi.png",
         speakerlink: "",
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
@@ -74,7 +74,7 @@ export const DAY_1_SCHEDULE = [
         speaker: "",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Uma breve cerimônia de abertura do evento, seguida da divulgação dos resultados da Maratona",
-        image: "/SI2023/logodpi.jpg",
+        image: "/SI2023/logo_dpi.png",
         speakerlink: "",
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
@@ -116,7 +116,7 @@ export const DAY_2_SCHEDULE = [
         speaker: "",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Pausa para socialização",
-        image: "/SI2023/cafe.jpg",
+        image: "/SI2023/coffee.png",
         speakerlink: "",
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
@@ -129,7 +129,7 @@ export const DAY_2_SCHEDULE = [
         speaker: "",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Aguardando confirmação do palestrante. Mais informações em breve",
-        image: "/SI2023/logodpi.jpg",
+        image: "/SI2023/logo_dpi.png",
         speakerlink: "",
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
@@ -142,7 +142,7 @@ export const DAY_2_SCHEDULE = [
         speaker: "",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Aguardando confirmação do palestrante. Mais informações em breve",
-        image: "/SI2023/logodpi.jpg",
+        image: "/SI2023/logo_dpi.png",
         speakerlink: "",
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
@@ -155,7 +155,7 @@ export const DAY_2_SCHEDULE = [
         speaker: "",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Pausa para socialização",
-        image: "/SI2023/cafe.jpg",
+        image: "/SI2023/coffee.png",
         speakerlink: "",
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
@@ -181,7 +181,7 @@ export const DAY_2_SCHEDULE = [
         speaker: "",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Aguardando confirmação do palestrante. Mais informações em breve",
-        image: "/SI2023/logodpi.jpg",
+        image: "/SI2023/logo_dpi.png",
         speakerlink: "",
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
@@ -197,7 +197,7 @@ export const DAY_3_SCHEDULE = [
         speaker: "Jéferson Coêlho",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Um relato bem-humorado da experiência pessoal do palestrante através de sua carreira acadêmica e profissional e de como a interdisciplinaridade o ajudou a alcançar seus objetivos.",
-        image: "/SI2023/logodpi.jpg",
+        image: "/SI2023/logo_dpi.png",
         speakerlink: "",
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
@@ -223,7 +223,7 @@ export const DAY_3_SCHEDULE = [
         speaker: "",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Pausa para socialização",
-        image: "/SI2023/cafe.jpg",
+        image: "/SI2023/coffee.png",
         speakerlink: "",
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
@@ -236,7 +236,7 @@ export const DAY_3_SCHEDULE = [
         speaker: "Julio Cesar Reis",
         local: "Auditório da Biblioteca Central / UFV",
         description: "O prof. Julio Reis, do Departamento de Informática, irá apresentar uma versão resumida do curso que ministrou no 43º Congresso da SBC, ocorrido no dia 07/08/2023.",
-        image: "/SI2023/logodpi.jpg",
+        image: "/SI2023/logo_dpi.png",
         speakerlink: "",
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
@@ -249,7 +249,7 @@ export const DAY_3_SCHEDULE = [
         speaker: "",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Aguardando confirmação do palestrante. Mais informações em breve",
-        image: "/SI2023/logodpi.jpg",
+        image: "/SI2023/logo_dpi.png",
         speakerlink: "",
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
@@ -262,7 +262,7 @@ export const DAY_3_SCHEDULE = [
         speaker: "",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Aguardando confirmação dos palestrantes. Mais informações em breve",
-        image: "/SI2023/logodpi.jpg",
+        image: "/SI2023/logo_dpi.png",
         speakerlink: "",
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
@@ -275,7 +275,7 @@ export const DAY_3_SCHEDULE = [
         speaker: "",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Pausa para socialização",
-        image: "/SI2023/cafe.jpg",
+        image: "/SI2023/coffee.png",
         speakerlink: "",
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
@@ -288,7 +288,7 @@ export const DAY_3_SCHEDULE = [
         speaker: "",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Divulgação dos resultados da Maratona",
-        image: "/SI2023/logodpi.jpg",
+        image: "/SI2023/logo_dpi.png",
         speakerlink: "",
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
@@ -304,7 +304,7 @@ export const DAY_4_SCHEDULE = [
         speaker: "",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Aguardando confirmação dos palestrantes. Mais informações em breve",
-        image: "/SI2023/logodpi.jpg",
+        image: "/SI2023/logo_dpi.png",
         speakerlink: "",
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
@@ -317,7 +317,7 @@ export const DAY_4_SCHEDULE = [
         speaker: "",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Pausa para socialização",
-        image: "/SI2023/cafe.jpg",
+        image: "/SI2023/coffee.png",
         speakerlink: "",
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
@@ -330,7 +330,7 @@ export const DAY_4_SCHEDULE = [
         speaker: "Victor Alexandrino (Microsoft)",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Aguardando detalhes. Mais informações em breve",
-        image: "/SI2023/logodpi.jpg",
+        image: "/SI2023/logo_dpi.png",
         speakerlink: "",
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
@@ -343,7 +343,7 @@ export const DAY_4_SCHEDULE = [
         speaker: "",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Aguardando detalhes. Mais informações em breve",
-        image: "/SI2023/logodpi.jpg",
+        image: "/SI2023/logo_dpi.png",
         speakerlink: "",
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
@@ -356,7 +356,7 @@ export const DAY_4_SCHEDULE = [
         speaker: "Guttardo Pereira (Bioflore)",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Formado em Ciência da Computação pela UFV, Guttardo Pereira traz uma visão inspiradora que une a paixão pela tecnologia e o empreendedorismo. Durante a graduação na UFV viveu experiências únicas que somente a vida de um estudante de Viçosa pode proporcionar. Entrou no mercado como desenvolvedor, mas logo descobriu sua paixão pelo empreendedorismo. A cultura da UFV de Ensino, Pesquisa e Extensão foram essenciais para o surgimento da Bioflore, startup fundada por ele e mais dois amigos, pesquisadores com formação na UFV. Nesta apresentação ele compartilhará um pouco sobre a Bioflore, mostrará como o conhecimento sólido em programação pode ser uma ferramenta poderosa para gerar ideias inovadoras, além de explorar os vários desafios enfrentados na vida de um empreendedor de primeira viagem. Durante a palestra, será compartilhada a a experiência do palestrante como ex-aluno da UFV, desenvolvedor e co-fundador da Bioflore. Irá abordar sua carreira, o surgimento da Bioflore, a missão da empresa, focada em mudanças climáticas e sustentabilidade, e os desafios e rotinas que enfrentou como empreendedor. ",
-        image: "/SI2023/logodpi.jpg",
+        image: "/SI2023/logo_dpi.png",
         speakerlink: "",
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
@@ -369,7 +369,7 @@ export const DAY_4_SCHEDULE = [
         speaker: "",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Pausa para socialização",
-        image: "/SI2023/cafe.jpg",
+        image: "/SI2023/coffee.png",
         speakerlink: "",
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
@@ -382,7 +382,7 @@ export const DAY_4_SCHEDULE = [
         speaker: "",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Aguardando detalhes. Mais informações em breve",
-        image: "/SI2023/logodpi.jpg",
+        image: "/SI2023/logo_dpi.png",
         speakerlink: "",
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
@@ -395,7 +395,7 @@ export const DAY_4_SCHEDULE = [
         speaker: "",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Breve cerimônia de encerramento do evento.",
-        image: "/SI2023/logodpi.jpg",
+        image: "/SI2023/logo_dpi.png",
         speakerlink: "",
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },

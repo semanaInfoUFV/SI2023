@@ -101,7 +101,7 @@ export default function NavBar() {
                             </svg>
                             <span className='font-bold z-10 absolute inset-y-2 inset-x-9'>MARATONA</span></Link>
                     </Stack>
-                    <Button href={Info.EVENT_SALE_URL} variant="contained" disableElevation className='bt-tickets bg-[#38124A] rounded-3xl py-4 px-7 hover:bg-[#E4E7E5] text-[#F6F6F6] font-bold border-2 border-solid hover:border-[#38124A] hover:text-[#38124A]'>
+                    <Button target='_blank' href={Info.EVENT_SALE_URL} variant="contained" disableElevation className='bt-tickets bg-[#38124A] rounded-3xl py-4 px-7 hover:bg-[#E4E7E5] text-[#F6F6F6] font-bold border-2 border-solid hover:border-[#38124A] hover:text-[#38124A]'>
                         <Stack spacing={1} direction="row">
                             <span>INSCRIÇÕES</span>
                             <SvgIcon>
