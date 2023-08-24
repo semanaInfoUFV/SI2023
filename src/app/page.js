@@ -45,7 +45,7 @@ export default function Home() {
         <header className='mx-2 px-7 flex flex-col md:flex-row mt-8 justify-center'>
           <div className='md:w-1/2'>
             <span className='font-bold text-4xl md:text-7xl font-poppins'>
-              <span className='text-[#38124A]'>28ª</span> SEMANA DE INFORMÁTICA DPI/UFV
+              <span className='text-[#38124A]'>28ª</span> SEMANA DE INFORMÁTICA DPI - UFV
             </span>
             <div className='mt-12 flex w-1/2 md:w-auto flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-5'>
               <Button href={Info.EVENT_SALE_URL} variant="contained" disableElevation className='bt-tickets bg-[#38124A] rounded-3xl py-4 px-7 hover:bg-[#E4E7E5] text-[#F6F6F6] font-bold border-2 border-solid hover:border-[#38124A] hover:text-[#38124A]'>
