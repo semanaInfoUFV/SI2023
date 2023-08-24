@@ -39,7 +39,7 @@ export default function Footer() {
                         <Link className='underline text-white underline-offset-3 font-bold' href="#evento">EVENTO</Link>
                         <Link className='underline text-white underline-offset-3 font-bold' href="#programacao">PROGRAMAÇÃO</Link>
                         <Link className='underline text-white underline-offset-3 font-bold' href="#maratona">MARATONA</Link>
-                        <Link className='underline text-white underline-offset-3 font-bold flex space-x-2' href="">
+                        <Link className='underline text-white underline-offset-3 font-bold flex space-x-2'  href={Info.EVENT_SALE_URL}>
                             <span>INSCRIÇÕES</span>
                             <svg width="21" height="22" viewBox="0 0 21 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M3.42892 3.92874L6.3752 0.982464L9.20363 3.81089L6.25735 6.75717L3.42892 3.92874Z" fill="white" />
@@ -55,7 +55,6 @@ export default function Footer() {
                             </svg>
                         </Link>
                         <Link className='underline text-white underline-offset-3 font-bold' href="#parceiros">PATROCÍNIO</Link>
-                        &lt;!-- <Link className='underline text-white underline-offset-3 font-bold' href="#contato">CONTATO</Link> --&gt;
                     </div ></div>
                 <div className='w-full md:w-1/3 flex flex-col items-center justify-center py-5 md:py-0'>
                     <span className='text-white underline-offset-3 font-bold mb-5'>REALIZAÇÃO</span>
