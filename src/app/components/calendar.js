@@ -258,9 +258,9 @@ export default function BasicTabs() {
             </div>
             <div
                 role="tabpanel"
-                hidden={value !== 2}
-                id={`simple-tabpanel-2`}
-                aria-labelledby={`simple-tab-2`}>
+                hidden={value !== 3}
+                id={`simple-tabpanel-3`}
+                aria-labelledby={`simple-tab-3`}>
                 <div>
                     {Info.DAY_4_SCHEDULE.map((data, index) => (
                         <Accordion key={index} disableGutters className='bg-transparent my-5 shadow-none mx-5 md:mx-20  ' expanded={expanded === 'day3_schedule' + index} onChange={handleChangeCalendar('day3_schedule' + index)}>

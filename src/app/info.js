@@ -14,7 +14,17 @@ export const DAY_1_SCHEDULE = [
         speaker: "",
         local: "LBI - Prédio da CEF",
         description: "Maratona interna da UFV. Evento não-oficial da SBC, aberto ao público do Curso de Ciência da Computação. Acontecerá no segundo andar do prédio da Caixa Econômica Federal, nos laboratórios de ensino do Departamento de Informática.",
-        image: "/SI2023/planalto_da_ufv.png",
+        image: "/SI2023/maratona-logo.jpg",
+        speakerlink: "",
+        subscription_url: "",
+    },
+    {
+        hour: "14:00",
+        title: "Palestra Cientec",
+        speaker: "A confirmar",
+        local: "Auditório da Biblioteca Central / UFV",
+        description: "Mais informações em breve",
+        image: "/SI2023/cientec.png",
         speakerlink: "",
         subscription_url: "",
     }
