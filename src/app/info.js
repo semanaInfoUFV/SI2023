@@ -16,7 +16,7 @@ export const DAY_1_SCHEDULE = [
         description: "Maratona interna da UFV. Evento não-oficial da SBC, aberto ao público do Curso de Ciência da Computação. Acontecerá no segundo andar do prédio da Caixa Econômica Federal, nos laboratórios de ensino do Departamento de Informática.",
         image: "/SI2023/maratona-logo.jpg",
         speakerlink: "",
-        subscription_url: "",
+        links: []
     },
     {
         hour: "14:00        ",
@@ -26,7 +26,9 @@ export const DAY_1_SCHEDULE = [
         description: "Mais informações em breve",
         image: "/SI2023/cientec.png",
         speakerlink: "",
-        subscription_url: "",
+        links: [
+            ////{ button_name: "INSCREVA-SE", button_url: "", },
+        ]
     },
     {
         hour: "15:00        ",
@@ -36,7 +38,9 @@ export const DAY_1_SCHEDULE = [
         description: "Mais informações em breve",
         image: "/SI2023/sydle.png",
         speakerlink: "",
-        subscription_url: "",
+        links: [
+            ////{ button_name: "INSCREVA-SE", button_url: "", },
+        ]
     },
     {
         hour: "16:00        ",
@@ -46,7 +50,10 @@ export const DAY_1_SCHEDULE = [
         description: "Pausa para socialização",
         image: "/SI2023/cafe.jpg",
         speakerlink: "",
-        subscription_url: "",
+        links: [
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+        ]
     },
     {
         hour: "16:30 - 18:00",
@@ -56,7 +63,10 @@ export const DAY_1_SCHEDULE = [
         description: "A Profa. Maria Lúcia, do Departamento de Informática, mediará um painel para discussão da atuação e representatividade das mulheres na academia e mercado da área da Computação. Participarão ex-alunas do curso, profissionais do mercado, gestora de pessoas e acadêmicas.",
         image: "/SI2023/logodpi.jpg",
         speakerlink: "",
-        subscription_url: "",
+        links: [
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+        ]
     },
     {
         hour: "18:00        ",
@@ -66,7 +76,10 @@ export const DAY_1_SCHEDULE = [
         description: "Uma breve cerimônia de abertura do evento, seguida da divulgação dos resultados da Maratona",
         image: "/SI2023/logodpi.jpg",
         speakerlink: "",
-        subscription_url: "",
+        links: [
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+        ]
     },
 ];
 
@@ -79,7 +92,10 @@ export const DAY_2_SCHEDULE = [
         description: "Mini-curso da plataforma React JS, ministrado por profissional da Levty. Mais informações em breve",
         image: "/SI2023/levity.png",
         speakerlink: "",
-        subscription_url: "",
+        links: [
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+        ]
     },
     {
         hour: "09:30 - 12:00 / 13:00 - 15:00",
@@ -89,7 +105,10 @@ export const DAY_2_SCHEDULE = [
         description: "A BITKA, empresa que cria soluções inovadoras na área de sistemas de apoio a decisão, está à procura de talentos para preencher futuras vagas nas áreas de TI, Otimização e Análise Preditiva. Faremos na Semana da Informática a primeira etapa do processo seletivo, que será aberta para candidatos que estão cursando do 4º período para frente ( quem estiver em períodos anteriores a esses podem enviar o currículo para cadastramos na nossa base de talentos para futuras oportunidades). Iremos considerar currículos para vagas efetivas ou part-time dependendo da proximidade de formatura de cada candidato. Temos como prioridade construir um ambiente saudável, colaborativo e justo entre as pessoas para que possamos construir soluções incríveis. Venha trabalhar em uma empresa que está em pleno crescimento e que investe na carreira das suas pessoas. Mais informações em breve",
         image: "/SI2023/bitka.png",
         speakerlink: "",
-        subscription_url: "",
+        links: [
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+        ]
     },
     {
         hour: "10:30                        ",
@@ -99,7 +118,10 @@ export const DAY_2_SCHEDULE = [
         description: "Pausa para socialização",
         image: "/SI2023/cafe.jpg",
         speakerlink: "",
-        subscription_url: "",
+        links: [
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+        ]
     },
     {
         hour: "14:00                        ",
@@ -109,7 +131,10 @@ export const DAY_2_SCHEDULE = [
         description: "Aguardando confirmação do palestrante. Mais informações em breve",
         image: "/SI2023/logodpi.jpg",
         speakerlink: "",
-        subscription_url: "",
+        links: [
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+        ]
     },
     {
         hour: "15:00                        ",
@@ -119,7 +144,10 @@ export const DAY_2_SCHEDULE = [
         description: "Aguardando confirmação do palestrante. Mais informações em breve",
         image: "/SI2023/logodpi.jpg",
         speakerlink: "",
-        subscription_url: "",
+        links: [
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+        ]
     },
     {
         hour: "16:00                        ",
@@ -129,7 +157,10 @@ export const DAY_2_SCHEDULE = [
         description: "Pausa para socialização",
         image: "/SI2023/cafe.jpg",
         speakerlink: "",
-        subscription_url: "",
+        links: [
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+        ]
     },
     {
         hour: "16:30                        ",
@@ -139,7 +170,10 @@ export const DAY_2_SCHEDULE = [
         description: "Nessa conversa, iremos compartilhar a história da BITKA, empresa que foi criada por grandes referências no mercado brasileiro na área de sistemas de apoio a decisão. Apesar de pouco tempo de existência, a BITKA se destaca pelo extraordinário crescimento desde então. Atualmente o time conta com aproximadamente 140 pessoas sendo 60% desses cientistas de dados. Aliando técnicas de análise prescritiva (otimização) e preditiva, a BITKA tem como objetivo criar soluções de planejamento aderentes à realidade dos clientes e que irão auxiliá-los a extrair o máximo potencial do seu negócio. A filosofia da empresa é construir um ambiente saudável e colaborativo entre as pessoas, ajudando cada indivíduo a atingir a excelência profissional e proporcionando o ambiente correto para a construção de soluções incríveis. Nesse ambiente a prioridade é valorizar as diferenças entre cada um dos indivíduos entendendo que elas são essenciais para construirmos sistemas aderentes e impactantes. Um acompanhamento de carreira, com feedbacks justos e transparentes, foi construído para sustentar esses pilares. Os Palestrantes, além de dar dicas sobre carreira, irão falar um pouco a respeito dos projetos inovadores e oportunidades abertas na BITKA.",
         image: "/SI2023/bitka.png",
         speakerlink: "",
-        subscription_url: "",
+        links: [
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+        ]
     },
     {
         hour: "17:30                        ",
@@ -149,7 +183,10 @@ export const DAY_2_SCHEDULE = [
         description: "Aguardando confirmação do palestrante. Mais informações em breve",
         image: "/SI2023/logodpi.jpg",
         speakerlink: "",
-        subscription_url: "",
+        links: [
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+        ]
     }
 ];
 
@@ -162,7 +199,10 @@ export const DAY_3_SCHEDULE = [
         description: "Um relato bem-humorado da experiência pessoal do palestrante através de sua carreira acadêmica e profissional e de como a interdisciplinaridade o ajudou a alcançar seus objetivos.",
         image: "/SI2023/logodpi.jpg",
         speakerlink: "",
-        subscription_url: "",
+        links: [
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+        ]
     },
     {
         hour: "09:30 - 12:00 / 13:30 - 19:00",
@@ -172,7 +212,10 @@ export const DAY_3_SCHEDULE = [
         description: "Etapa regional da maratona oficial da SBC. Este ano, será concomitante com a Semana de Informática. As inscrições foram feitas previamente, pelos meios convencionais da SBC. Participarão 17 equipes, de 3 cidades/instituições distintas. As cidades de Viçosa, Ubá e Leopoldina estarão representadas. A competição acontecerá no segundo andar do prédio da Caixa Econômica Federal, nos laboratórios de ensino do Departamento de Informática.",
         image: "/SI2023/maratona-logo.jpg",
         speakerlink: "",
-        subscription_url: "",
+        links: [
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+        ]
     },
     {
         hour: "09:30                        ",
@@ -182,7 +225,10 @@ export const DAY_3_SCHEDULE = [
         description: "Pausa para socialização",
         image: "/SI2023/cafe.jpg",
         speakerlink: "",
-        subscription_url: "",
+        links: [
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+        ]
     },
     {
         hour: "10:00 - 12:30        ",
@@ -192,7 +238,10 @@ export const DAY_3_SCHEDULE = [
         description: "O prof. Julio Reis, do Departamento de Informática, irá apresentar uma versão resumida do curso que ministrou no 43º Congresso da SBC, ocorrido no dia 07/08/2023.",
         image: "/SI2023/logodpi.jpg",
         speakerlink: "",
-        subscription_url: "",
+        links: [
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+        ]
     },
     {
         hour: "14:00                        ",
@@ -202,7 +251,10 @@ export const DAY_3_SCHEDULE = [
         description: "Aguardando confirmação do palestrante. Mais informações em breve",
         image: "/SI2023/logodpi.jpg",
         speakerlink: "",
-        subscription_url: "",
+        links: [
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+        ]
     },
     {
         hour: "15:00                        ",
@@ -212,7 +264,10 @@ export const DAY_3_SCHEDULE = [
         description: "Aguardando confirmação dos palestrantes. Mais informações em breve",
         image: "/SI2023/logodpi.jpg",
         speakerlink: "",
-        subscription_url: "",
+        links: [
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+        ]
     },
     {
         hour: "16:00                        ",
@@ -222,7 +277,10 @@ export const DAY_3_SCHEDULE = [
         description: "Pausa para socialização",
         image: "/SI2023/cafe.jpg",
         speakerlink: "",
-        subscription_url: "",
+        links: [
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+        ]
     },
     {
         hour: "19:30                        ",
@@ -232,7 +290,10 @@ export const DAY_3_SCHEDULE = [
         description: "Divulgação dos resultados da Maratona",
         image: "/SI2023/logodpi.jpg",
         speakerlink: "",
-        subscription_url: "",
+        links: [
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+        ]
     }
 ];
 
@@ -245,7 +306,10 @@ export const DAY_4_SCHEDULE = [
         description: "Aguardando confirmação dos palestrantes. Mais informações em breve",
         image: "/SI2023/logodpi.jpg",
         speakerlink: "",
-        subscription_url: "",
+        links: [
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+        ]
     },
     {
         hour: "10:30                        ",
@@ -255,7 +319,10 @@ export const DAY_4_SCHEDULE = [
         description: "Pausa para socialização",
         image: "/SI2023/cafe.jpg",
         speakerlink: "",
-        subscription_url: "",
+        links: [
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+        ]
     },
     {
         hour: "11:00                        ",
@@ -265,7 +332,10 @@ export const DAY_4_SCHEDULE = [
         description: "Aguardando detalhes. Mais informações em breve",
         image: "/SI2023/logodpi.jpg",
         speakerlink: "",
-        subscription_url: "",
+        links: [
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+        ]
     },
     {
         hour: "14:00                        ",
@@ -275,7 +345,10 @@ export const DAY_4_SCHEDULE = [
         description: "Aguardando detalhes. Mais informações em breve",
         image: "/SI2023/logodpi.jpg",
         speakerlink: "",
-        subscription_url: "",
+        links: [
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+        ]
     },
     {
         hour: "15:00                        ",
@@ -285,7 +358,10 @@ export const DAY_4_SCHEDULE = [
         description: "Formado em Ciência da Computação pela UFV, Guttardo Pereira traz uma visão inspiradora que une a paixão pela tecnologia e o empreendedorismo. Durante a graduação na UFV viveu experiências únicas que somente a vida de um estudante de Viçosa pode proporcionar. Entrou no mercado como desenvolvedor, mas logo descobriu sua paixão pelo empreendedorismo. A cultura da UFV de Ensino, Pesquisa e Extensão foram essenciais para o surgimento da Bioflore, startup fundada por ele e mais dois amigos, pesquisadores com formação na UFV. Nesta apresentação ele compartilhará um pouco sobre a Bioflore, mostrará como o conhecimento sólido em programação pode ser uma ferramenta poderosa para gerar ideias inovadoras, além de explorar os vários desafios enfrentados na vida de um empreendedor de primeira viagem. Durante a palestra, será compartilhada a a experiência do palestrante como ex-aluno da UFV, desenvolvedor e co-fundador da Bioflore. Irá abordar sua carreira, o surgimento da Bioflore, a missão da empresa, focada em mudanças climáticas e sustentabilidade, e os desafios e rotinas que enfrentou como empreendedor. ",
         image: "/SI2023/logodpi.jpg",
         speakerlink: "",
-        subscription_url: "",
+        links: [
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+        ]
     },
     {
         hour: "16:00                        ",
@@ -295,7 +371,10 @@ export const DAY_4_SCHEDULE = [
         description: "Pausa para socialização",
         image: "/SI2023/cafe.jpg",
         speakerlink: "",
-        subscription_url: "",
+        links: [
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+        ]
     },
     {
         hour: "16:30                        ",
@@ -305,7 +384,10 @@ export const DAY_4_SCHEDULE = [
         description: "Aguardando detalhes. Mais informações em breve",
         image: "/SI2023/logodpi.jpg",
         speakerlink: "",
-        subscription_url: "",
+        links: [
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+        ]
     },
     {
         hour: "17:30                        ",
@@ -315,9 +397,12 @@ export const DAY_4_SCHEDULE = [
         description: "Breve cerimônia de encerramento do evento.",
         image: "/SI2023/logodpi.jpg",
         speakerlink: "",
-        subscription_url: "",
+        links: [
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+        ]
     }
-    
+
 ];
 
 export const EVENT_SPONSORS_DESCRIPTION = "Empresas apoiadoras e patrocinadoras do evento.";
