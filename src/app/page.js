@@ -168,21 +168,7 @@ export default function Home() {
               <span className='mt-8 text-justify'>{Info.EVENT_MARATONA_DESCRITION}</span >
               <Button href={Info.EVENT_MARATONA_SUBSCRIPTION_URL } variant="contained" disableElevation className='mb-10 md:mb-0 bt-tickets-invert hover:bg-[#38124A] rounded-3xl py-4 px-7 bg-[#E4E7E5] hover:text-[#F6F6F6] font-bold border-2 border-solid hover:border-[#E4E7E5] text-[#38124A] mt-10'>
                 <Stack spacing={1} direction="row">
-                  <span>INSCRIÇÃO</span>
-                  <SvgIcon>
-                    <svg width="25" height="20" viewBox="0 0 25 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M12.5 0H16.6667V4H12.5V0Z" fill="#38124A" />
-                      <path d="M16.6667 4H20.8333V8H16.6667V4Z" fill="#38124A" />
-                      <path d="M16.6667 12H20.8333V16H16.6667V12Z" fill="#38124A" />
-                      <path d="M12.5 16H16.6667V20H12.5V16Z" fill="#38124A" />
-                      <path d="M16.6667 8H20.8333V12H16.6667V8Z" fill="#38124A" />
-                      <path d="M12.5 8H16.6667V12H12.5V8Z" fill="#38124A" />
-                      <path d="M8.33333 8H12.5V12H8.33333V8Z" fill="#38124A" />
-                      <path d="M4.16667 8H8.33333V12H4.16667V8Z" fill="#38124A" />
-                      <path d="M0 8H4.16667V12H0V8Z" fill="#38124A" />
-                      <path d="M20.8333 8H25V12H20.8333V8Z" fill="#38124A" />
-                    </svg>
-                  </SvgIcon>
+                  <span>INSCRIÇÕES ENCERRADAS</span>
                 </Stack>
               </Button>
             </div>

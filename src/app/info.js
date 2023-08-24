@@ -331,7 +331,23 @@ export const EVENT_SPONSORS = [
 
 export const COMMON_QUESTIONS = [
     {
-        question: "Como me inscrever?",
+        question: "Como me inscrever no evento?",
         response: "A partir do dia 24/08/2023, às 08:00h, as inscrições estarão abertas para todos interessados. As inscrições serão feitas utilizando um sistema da FUNARBE, em um link externo. Basta clicar nas opções de link com o texto 'Inscrições'."
+    },
+    {
+        question: "Como me inscrever nas Maratonas?",
+        response: "Infelizmente, não é mais possível realizar inscrições nas maratonas de programação. O evento oficial da SBC tem o processo de inscrição independente da organização da Semana de Informática e o mesmo já aconteceu. Também para a Maratona da Semana de Informática, o processo de inscrição transcorreu de forma independente e as mesmas também já se encontram encerradas."
+    },
+    {
+        question: "Existem atividades da Semana de Informática com inscrição separada?",
+        response: "Sim. Além das Maratonas, que já estão com inscrições encerrradas, os dois minicursos (React JS e Desinformação em Plataformas Digitais) terão inscrições separadas, devido ao número restrito de vagas. Também há o processo seletivo da patrocinadora BITKA (ver pergunta frequente específica). Todas estas inscrições serão disponibilizadas em breve. As atividades mencionadas aqui serão gratuitas para quem já se inscreveu no evento geral."
+    },
+    {
+        question: "Quem pode participar do processo seletivo da BITKA?",
+        response: "Alunos que estão cursando do 4º período para frente. Porém, quem estiver em períodos anteriores a esses pode enviar o currículo para ser cadastrado na base de talentos da empresa para futuras oportunidades. Para mais informações, consulte a atividade correspondente na seção PROGRAMAÇÃO."
+    },
+    {
+        question: "Acontecerão atividades simultâneas/em paralelo?",
+        response: "Em parte da programação do evento, sim. A Maratona de Programação da SBC e o processo seletivo da BITKA acontecerão em paralelo com outras atividades. Consulte a programação do evento."
     }
 ];
