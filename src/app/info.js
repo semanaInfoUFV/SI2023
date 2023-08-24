@@ -1,5 +1,5 @@
 export const EVENT_DATE = new Date('2023-08-31T08:00:00-03:00');
-export const EVENT_SALE_URL = '';
+export const EVENT_SALE_URL = 'https://eventos.funarbe.org.br/xxviii-semana-da-informatica';
 
 export const EVENT_DESCRIPTION = "A semana de informática é um evento voltado para que os alunos da área de Tecnologia da Informação. Este ano a organização é de competência do Departamento de Informática da UFV. Serão 4 dias de evento com minicursos, painel de discussão, competições de programação e palestras ministrados por profissionais gabaritados de diversas empresas, professores e pesquisadores do segmento de computação de todo o país. Temas como Inteligência Artificial, Tecnologia da Informação, Inclusão, Carreira e Empreendedorismo serão abordados.";
 
@@ -238,15 +238,86 @@ export const DAY_3_SCHEDULE = [
 
 export const DAY_4_SCHEDULE = [
     {
-        hour: "08:00",
-        title: "Introdução aos Transformers e ao Hugging Face",
-        speaker: "Alan Turing",
-        local: "Sala 204 - PVB",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ligula urna, ornare mollis sodales quis, suscipit eu sem. Donec pretium quam ac ante vulputate, nec faucibus dolor cursus. Curabitur et elit pulvinar, posuere lorem sed, molestie ipsum. Maecenas porttitor risus nisl, convallis hendrerit justo iaculis id. In nibh neque, finibus non urna at, eleifend pretium tortor. Nulla porttitor sed eros sed elementum. Vivamus pellentesque tortor eros, sit amet porttitor tortor consectetur et. Morbi velit erat, pellentesque id condimentum sed, lacinia eget eros. Suspendisse blandit faucibus nisi, ut feugiat metus convallis eget. Aliquam et ipsum lectus. Sed non lorem ac tortor ornare efficitur. Aenean accumsan, enim quis facilisis posuere, ex velit pellentesque nisi, ultrices dapibus justo arcu volutpat ligula. Nam porttitor dui in mauris rutrum aliquam. Praesent convallis nunc pretium, auctor augue ut, fermentum sem. Curabitur sodales iaculis velit, at ullamcorper purus malesuada sed. Ut feugiat vitae risus vel volutpat. Donec metus purus, ornare ut sollicitudin ac, mattis sit amet arcu. Nunc finibus est nisl, non imperdiet lorem tempor vel. In tristique commodo placerat. Proin eget velit et ligula elementum viverra ac et urna. Nunc in venenatis ante.",
-        image: "/SI2023/planalto_da_ufv.png",
+        hour: "09:30                        ",
+        title: "Palestra a confirmar: Jogos Digitais",
+        speaker: "",
+        local: "Auditório da Biblioteca Central / UFV",
+        description: "Aguardando confirmação dos palestrantes. Mais informações em breve",
+        image: "/SI2023/logodpi.jpg",
+        speakerlink: "",
+        subscription_url: "",
+    },
+    {
+        hour: "10:30                        ",
+        title: "Coffee-break",
+        speaker: "",
+        local: "Auditório da Biblioteca Central / UFV",
+        description: "Pausa para socialização",
+        image: "/SI2023/cafe.jpg",
+        speakerlink: "",
+        subscription_url: "",
+    },
+    {
+        hour: "11:00                        ",
+        title: "Iniciando no mercado + exemplos de projetos",
+        speaker: "Victor Alexandrino (Microsoft)",
+        local: "Auditório da Biblioteca Central / UFV",
+        description: "Aguardando detalhes. Mais informações em breve",
+        image: "/SI2023/logodpi.jpg",
+        speakerlink: "",
+        subscription_url: "",
+    },
+    {
+        hour: "14:00                        ",
+        title: "Palestra Cadence",
+        speaker: "",
+        local: "Auditório da Biblioteca Central / UFV",
+        description: "Aguardando detalhes. Mais informações em breve",
+        image: "/SI2023/logodpi.jpg",
+        speakerlink: "",
+        subscription_url: "",
+    },
+    {
+        hour: "15:00                        ",
+        title: "Startups: Decifrando os Desafios Iniciais",
+        speaker: "Guttardo Pereira (Bioflore)",
+        local: "Auditório da Biblioteca Central / UFV",
+        description: "Formado em Ciência da Computação pela UFV, Guttardo Pereira traz uma visão inspiradora que une a paixão pela tecnologia e o empreendedorismo. Durante a graduação na UFV viveu experiências únicas que somente a vida de um estudante de Viçosa pode proporcionar. Entrou no mercado como desenvolvedor, mas logo descobriu sua paixão pelo empreendedorismo. A cultura da UFV de Ensino, Pesquisa e Extensão foram essenciais para o surgimento da Bioflore, startup fundada por ele e mais dois amigos, pesquisadores com formação na UFV. Nesta apresentação ele compartilhará um pouco sobre a Bioflore, mostrará como o conhecimento sólido em programação pode ser uma ferramenta poderosa para gerar ideias inovadoras, além de explorar os vários desafios enfrentados na vida de um empreendedor de primeira viagem. Durante a palestra, será compartilhada a a experiência do palestrante como ex-aluno da UFV, desenvolvedor e co-fundador da Bioflore. Irá abordar sua carreira, o surgimento da Bioflore, a missão da empresa, focada em mudanças climáticas e sustentabilidade, e os desafios e rotinas que enfrentou como empreendedor. ",
+        image: "/SI2023/logodpi.jpg",
+        speakerlink: "",
+        subscription_url: "",
+    },
+    {
+        hour: "16:00                        ",
+        title: "Coffee-break",
+        speaker: "",
+        local: "Auditório da Biblioteca Central / UFV",
+        description: "Pausa para socialização",
+        image: "/SI2023/cafe.jpg",
+        speakerlink: "",
+        subscription_url: "",
+    },
+    {
+        hour: "16:30                        ",
+        title: "Graphics & Performance Engineering in Mobile Games",
+        speaker: "",
+        local: "Auditório da Biblioteca Central / UFV",
+        description: "Aguardando detalhes. Mais informações em breve",
+        image: "/SI2023/logodpi.jpg",
+        speakerlink: "",
+        subscription_url: "",
+    },
+    {
+        hour: "17:30                        ",
+        title: "Encerramento",
+        speaker: "",
+        local: "Auditório da Biblioteca Central / UFV",
+        description: "Breve cerimônia de encerramento do evento.",
+        image: "/SI2023/logodpi.jpg",
         speakerlink: "",
         subscription_url: "",
     }
+    
 ];
 
 export const EVENT_SPONSORS_DESCRIPTION = "Empresas apoiadoras e patrocinadoras do evento.";
