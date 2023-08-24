@@ -9,6 +9,16 @@ import { Box, SvgIcon, Tab, Tabs } from '@mui/material';
 import BasicTabs from './components/calendar';
 import Doubts from './components/doubts';
 import { StyledEngineProvider } from '@mui/material/styles';
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+
+import { Pagination, Navigation } from 'swiper/modules';
+
+
 import * as Info from './info'
 
 export default function Home() {
@@ -154,9 +164,28 @@ export default function Home() {
           <span className='text-4xl md:text-6xl font-bold font-poppins'>
             <span className='text-[#38124A]'>NOVIDADES</span>
           </span>
-          <span className='mt-3'>Ultimas atualizações da Semana de Informática</span>
-          <div className='bg-[#38124A]  h-48 md:-mx-20 -mx-5 my-8'>
+          <span className='mt-3'>Últimas atualizações da Semana de Informática</span>
+          <div className='bg-[#38124A] h-60 md:-mx-20 -mx-5 my-8'>
+            <Swiper
+              pagination={{
+                type: 'fraction',
+              }}
+              navigation={true}
+              modules={[Pagination, Navigation]}  
+              className="flex w-full h-60 flex-col justify-center items-center text-white"
+            >
+              {Info.UPDATES.map((data, index) => (
+                <SwiperSlide key={index} >
+                  <div className='flex w-full h-60 flex-col justify-center items-center p-12'>
+                    <div className='flex flex-col text-white'>
+                      <span className='text-xl font-bold'>{data.title}</span>
+                      <span>{data.content}</span>
+                    </div>
+                  </div>
+                </SwiperSlide>
+              ))}
 
+            </Swiper>
           </div>
         </div>
 

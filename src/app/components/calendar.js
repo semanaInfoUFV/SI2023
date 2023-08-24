@@ -93,9 +93,9 @@ export default function BasicTabs() {
                                     <span className='text-justify'>{data.description} </span >
                                     <div>
                                         {data.links.map((data, index) => (
-                                            <Button target='_blank' key={index} href={data.subscription_url} variant="contained" disableElevation className='bt-tickets-invert hover:bg-[#38124A] rounded-3xl py-4 px-7 bg-[#E4E7E5] hover:text-[#F6F6F6] font-bold border-2 border-solid hover:border-[#E4E7E5] text-[#38124A] md:mt-10 mt-5 md:mx-2 w-min'>
+                                            <Button target='_blank' key={index} href={data.button_url} variant="contained" disableElevation className='bt-tickets-invert hover:bg-[#38124A] rounded-3xl py-4 px-7 bg-[#E4E7E5] hover:text-[#F6F6F6] font-bold border-2 border-solid hover:border-[#E4E7E5] text-[#38124A] md:mt-10 mt-5 md:mx-2 w-min'>
                                                 <Stack spacing={1} direction="row">
-                                                    <span>INSCRIÇÃO</span>
+                                                    <span>{data.button_name}</span>
                                                     <SvgIcon>
                                                         <svg width="25" height="20" viewBox="0 0 25 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                             <path d="M12.5 0H16.6667V4H12.5V0Z" fill="#38124A" />
@@ -167,9 +167,9 @@ export default function BasicTabs() {
                                     <span className='text-justify'>{data.description} </span >
                                     <div>
                                         {data.links.map((data, index) => (
-                                            <Button target='_blank' key={index} href={data.subscription_url} variant="contained" disableElevation className='bt-tickets-invert hover:bg-[#38124A] rounded-3xl py-4 px-7 bg-[#E4E7E5] hover:text-[#F6F6F6] font-bold border-2 border-solid hover:border-[#E4E7E5] text-[#38124A] md:mt-10 mt-5 md:mx-2 w-min'>
+                                            <Button target='_blank' key={index} href={data.button_url} variant="contained" disableElevation className='bt-tickets-invert hover:bg-[#38124A] rounded-3xl py-4 px-7 bg-[#E4E7E5] hover:text-[#F6F6F6] font-bold border-2 border-solid hover:border-[#E4E7E5] text-[#38124A] md:mt-10 mt-5 md:mx-2 w-min'>
                                                 <Stack spacing={1} direction="row">
-                                                    <span>INSCRIÇÃO</span>
+                                                    <span>{data.button_name}</span>
                                                     <SvgIcon>
                                                         <svg width="25" height="20" viewBox="0 0 25 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                             <path d="M12.5 0H16.6667V4H12.5V0Z" fill="#38124A" />
@@ -241,9 +241,9 @@ export default function BasicTabs() {
                                     <span className='text-justify'>{data.description} </span >
                                     <div>
                                         {data.links.map((data, index) => (
-                                            <Button target='_blank' key={index} href={data.subscription_url} variant="contained" disableElevation className='bt-tickets-invert hover:bg-[#38124A] rounded-3xl py-4 px-7 bg-[#E4E7E5] hover:text-[#F6F6F6] font-bold border-2 border-solid hover:border-[#E4E7E5] text-[#38124A] md:mt-10 mt-5 md:mx-2 w-min'>
+                                            <Button target='_blank' key={index} href={data.button_url} variant="contained" disableElevation className='bt-tickets-invert hover:bg-[#38124A] rounded-3xl py-4 px-7 bg-[#E4E7E5] hover:text-[#F6F6F6] font-bold border-2 border-solid hover:border-[#E4E7E5] text-[#38124A] md:mt-10 mt-5 md:mx-2 w-min'>
                                                 <Stack spacing={1} direction="row">
-                                                    <span>INSCRIÇÃO</span>
+                                                    <span>{data.button_name}</span>
                                                     <SvgIcon>
                                                         <svg width="25" height="20" viewBox="0 0 25 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                             <path d="M12.5 0H16.6667V4H12.5V0Z" fill="#38124A" />
@@ -314,10 +314,10 @@ export default function BasicTabs() {
                                 <Typography className='text-white p-5 flex flex-col items-center'>
                                     <span className='text-justify'>{data.description} </span >
                                     <div>
-                                        {data.links.map((data, index) => (
-                                            <Button target='_blank' key={index} href={data.subscription_url} variant="contained" disableElevation className='bt-tickets-invert hover:bg-[#38124A] rounded-3xl py-4 px-7 bg-[#E4E7E5] hover:text-[#F6F6F6] font-bold border-2 border-solid hover:border-[#E4E7E5] text-[#38124A] md:mt-10 mt-5 md:mx-2 w-min'>
+                                    {data.links.map((data, index) => (
+                                            <Button target='_blank' key={index} href={data.button_url} variant="contained" disableElevation className='bt-tickets-invert hover:bg-[#38124A] rounded-3xl py-4 px-7 bg-[#E4E7E5] hover:text-[#F6F6F6] font-bold border-2 border-solid hover:border-[#E4E7E5] text-[#38124A] md:mt-10 mt-5 md:mx-2 w-min'>
                                                 <Stack spacing={1} direction="row">
-                                                    <span>INSCRIÇÃO</span>
+                                                    <span>{data.button_name}</span>
                                                     <SvgIcon>
                                                         <svg width="25" height="20" viewBox="0 0 25 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                             <path d="M12.5 0H16.6667V4H12.5V0Z" fill="#38124A" />

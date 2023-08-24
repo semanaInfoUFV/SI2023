@@ -437,3 +437,10 @@ export const COMMON_QUESTIONS = [
         response: "Em parte da programação do evento, sim. A Maratona de Programação da SBC e o processo seletivo da BITKA acontecerão em paralelo com outras atividades. Consulte a programação do evento."
     }
 ];
+
+export const UPDATES = [
+    {
+        "title": "Sem novas atualizações",
+        "content": ""
+    },
+]

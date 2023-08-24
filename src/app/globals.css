@@ -50,3 +50,26 @@ body {
   font-family: "Poppins";
   src: url("/SI2023/Poppins-Regular.ttf");
 }
+
+.swiper-button-prev::after {
+  color: #ffffff;
+  display: none;
+}
+
+.swiper-button-next::after {
+  color: #ffffff;
+  display: none;
+}
+
+.swiper-button-next {
+  background-image: url("/seta-next.svg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+}
+.swiper-button-prev {
+  background-image: url("/seta-prev.svg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+}
