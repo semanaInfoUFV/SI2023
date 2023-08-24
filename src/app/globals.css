@@ -62,13 +62,13 @@ body {
 }
 
 .swiper-button-next {
-  background-image: url("/seta-next.svg");
+  background-image: url("/SI2023/seta-next.svg");
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-position: center;
 }
 .swiper-button-prev {
-  background-image: url("/seta-prev.svg");
+  background-image: url("/SI2023/seta-prev.svg");
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-position: center;
