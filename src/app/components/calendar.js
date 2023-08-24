@@ -93,7 +93,7 @@ export default function BasicTabs() {
                                     <span className='text-justify'>{data.description} </span >
                                     <div>
                                         {data.links.map((data, index) => (
-                                            <Button key={index} href={data.subscription_url} variant="contained" disableElevation className='bt-tickets-invert hover:bg-[#38124A] rounded-3xl py-4 px-7 bg-[#E4E7E5] hover:text-[#F6F6F6] font-bold border-2 border-solid hover:border-[#E4E7E5] text-[#38124A] md:mt-10 mt-5 md:mx-2 w-min'>
+                                            <Button target='_blank' key={index} href={data.subscription_url} variant="contained" disableElevation className='bt-tickets-invert hover:bg-[#38124A] rounded-3xl py-4 px-7 bg-[#E4E7E5] hover:text-[#F6F6F6] font-bold border-2 border-solid hover:border-[#E4E7E5] text-[#38124A] md:mt-10 mt-5 md:mx-2 w-min'>
                                                 <Stack spacing={1} direction="row">
                                                     <span>INSCRIÇÃO</span>
                                                     <SvgIcon>
@@ -167,7 +167,7 @@ export default function BasicTabs() {
                                     <span className='text-justify'>{data.description} </span >
                                     <div>
                                         {data.links.map((data, index) => (
-                                            <Button key={index} href={data.subscription_url} variant="contained" disableElevation className='bt-tickets-invert hover:bg-[#38124A] rounded-3xl py-4 px-7 bg-[#E4E7E5] hover:text-[#F6F6F6] font-bold border-2 border-solid hover:border-[#E4E7E5] text-[#38124A] md:mt-10 mt-5 md:mx-2 w-min'>
+                                            <Button target='_blank' key={index} href={data.subscription_url} variant="contained" disableElevation className='bt-tickets-invert hover:bg-[#38124A] rounded-3xl py-4 px-7 bg-[#E4E7E5] hover:text-[#F6F6F6] font-bold border-2 border-solid hover:border-[#E4E7E5] text-[#38124A] md:mt-10 mt-5 md:mx-2 w-min'>
                                                 <Stack spacing={1} direction="row">
                                                     <span>INSCRIÇÃO</span>
                                                     <SvgIcon>
@@ -241,7 +241,7 @@ export default function BasicTabs() {
                                     <span className='text-justify'>{data.description} </span >
                                     <div>
                                         {data.links.map((data, index) => (
-                                            <Button key={index} href={data.subscription_url} variant="contained" disableElevation className='bt-tickets-invert hover:bg-[#38124A] rounded-3xl py-4 px-7 bg-[#E4E7E5] hover:text-[#F6F6F6] font-bold border-2 border-solid hover:border-[#E4E7E5] text-[#38124A] md:mt-10 mt-5 md:mx-2 w-min'>
+                                            <Button target='_blank' key={index} href={data.subscription_url} variant="contained" disableElevation className='bt-tickets-invert hover:bg-[#38124A] rounded-3xl py-4 px-7 bg-[#E4E7E5] hover:text-[#F6F6F6] font-bold border-2 border-solid hover:border-[#E4E7E5] text-[#38124A] md:mt-10 mt-5 md:mx-2 w-min'>
                                                 <Stack spacing={1} direction="row">
                                                     <span>INSCRIÇÃO</span>
                                                     <SvgIcon>
@@ -315,7 +315,7 @@ export default function BasicTabs() {
                                     <span className='text-justify'>{data.description} </span >
                                     <div>
                                         {data.links.map((data, index) => (
-                                            <Button key={index} href={data.subscription_url} variant="contained" disableElevation className='bt-tickets-invert hover:bg-[#38124A] rounded-3xl py-4 px-7 bg-[#E4E7E5] hover:text-[#F6F6F6] font-bold border-2 border-solid hover:border-[#E4E7E5] text-[#38124A] md:mt-10 mt-5 md:mx-2 w-min'>
+                                            <Button target='_blank' key={index} href={data.subscription_url} variant="contained" disableElevation className='bt-tickets-invert hover:bg-[#38124A] rounded-3xl py-4 px-7 bg-[#E4E7E5] hover:text-[#F6F6F6] font-bold border-2 border-solid hover:border-[#E4E7E5] text-[#38124A] md:mt-10 mt-5 md:mx-2 w-min'>
                                                 <Stack spacing={1} direction="row">
                                                     <span>INSCRIÇÃO</span>
                                                     <SvgIcon>

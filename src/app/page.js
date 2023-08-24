@@ -44,11 +44,14 @@ export default function Home() {
         <NavBar></NavBar>
         <header className='mx-2 px-7 flex flex-col md:flex-row mt-8 justify-center'>
           <div className='md:w-1/2'>
-            <span className='font-bold text-4xl md:text-7xl font-poppins'>
-              <span className='text-[#38124A]'>28ª</span> SEMANA DE INFORMÁTICA
-            </span>
-            <div className='mt-12 flex w-1/2 md:w-auto flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-5'>
-              <Button href={Info.EVENT_SALE_URL} variant="contained" disableElevation className='bt-tickets bg-[#38124A] rounded-3xl py-4 px-7 hover:bg-[#E4E7E5] text-[#F6F6F6] font-bold border-2 border-solid hover:border-[#38124A] hover:text-[#38124A]'>
+            <div className='flex flex-col'>
+              <span className='font-bold text-4xl md:text-7xl font-poppins'>
+                <span className='text-[#38124A] font-bold'>28ª</span> SEMANA DE INFORMÁTICA
+              </span>
+              <span className='font-bold mt-3'>DOS DIAS <span className='text-[#38124A]'>31/08 À 03/09</span></span>
+            </div>
+            <div className='mt-8 flex w-1/2 md:w-auto flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-5'>
+              <Button target='_blank' href={Info.EVENT_SALE_URL} variant="contained" disableElevation className='bt-tickets bg-[#38124A] rounded-3xl py-4 px-7 hover:bg-[#E4E7E5] text-[#F6F6F6] font-bold border-2 border-solid hover:border-[#38124A] hover:text-[#38124A]'>
                 <Stack spacing={1} direction="row">
                   <span>INSCRIÇÕES</span>
                   <SvgIcon>
@@ -146,6 +149,17 @@ export default function Home() {
             <img className='md:w-[422px] w-[215px]' src='/SI2023/planalto_da_ufv.png' width={422} height={261}></img>
           </div>
         </div>
+
+        <div className='md:mx-20 mx-5 flex flex-col'>
+          <span className='text-4xl md:text-6xl font-bold font-poppins'>
+            <span className='text-[#38124A]'>NOVIDADES</span>
+          </span>
+          <span className='mt-3'>Ultimas atualizações da Semana de Informática</span>
+          <div className='bg-[#38124A]  h-48 md:-mx-20 -mx-5 my-8'>
+
+          </div>
+        </div>
+
         <div id='evento' className='mx-5 md:mx-20 mt-10 md:mt-0 flex flex-col'>
           <span className='text-4xl md:text-6xl font-bold font-poppins'>
             O <span className='text-[#38124A]'>EVENTO</span>
@@ -166,7 +180,7 @@ export default function Home() {
             <div className='md:w-1/3 flex flex-col items-center justify-center' id='maratona'>
               <span className='text-4xl md:text-6xl font-bold font-poppins'>MARATONA</span>
               <span className='mt-8 text-justify'>{Info.EVENT_MARATONA_DESCRITION}</span >
-              <Button href={Info.EVENT_MARATONA_SUBSCRIPTION_URL } variant="contained" disableElevation className='mb-10 md:mb-0 bt-tickets-invert hover:bg-[#38124A] rounded-3xl py-4 px-7 bg-[#E4E7E5] hover:text-[#F6F6F6] font-bold border-2 border-solid hover:border-[#E4E7E5] text-[#38124A] mt-10'>
+              <Button href={Info.EVENT_MARATONA_SUBSCRIPTION_URL} variant="contained" disableElevation className='mb-10 md:mb-0 bt-tickets-invert hover:bg-[#38124A] rounded-3xl py-4 px-7 bg-[#E4E7E5] hover:text-[#F6F6F6] font-bold border-2 border-solid hover:border-[#E4E7E5] text-[#38124A] mt-10'>
                 <Stack spacing={1} direction="row">
                   <span>INSCRIÇÕES ENCERRADAS</span>
                 </Stack>
@@ -234,10 +248,10 @@ export default function Home() {
           <div className="bg-[#38124A] -mx-10 md:-mx-20 py-10 overflow-hidden">
             <div className="flex space-x-8 animate-infinite-slider infinite w-full">
               {Info.EVENT_SPONSORS.map((image, index) => (
-                <img key={index} className='slide flex w-40 md:w-72 items-center justify-center' src={image}></img>  
+                <img key={index} className='slide flex w-40 md:w-72 items-center justify-center' src={image}></img>
               ))}
               {Info.EVENT_SPONSORS.map((image, index) => (
-                <img key={Info.EVENT_SPONSORS.length + index} className='slide flex w-40 md:w-72 items-center justify-center' src={image}></img>  
+                <img key={Info.EVENT_SPONSORS.length + index} className='slide flex w-40 md:w-72 items-center justify-center' src={image}></img>
               ))}
             </div>
           </div>
