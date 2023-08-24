@@ -4,7 +4,7 @@ export const EVENT_SALE_URL = 'https://eventos.funarbe.org.br/xxviii-semana-da-i
 export const EVENT_DESCRIPTION = "A semana de informática é um evento voltado para que os alunos da área de Tecnologia da Informação. Este ano a organização é de competência do Departamento de Informática da UFV. Serão 4 dias de evento, entre os dias 31/08/2023 e 03/09/2023, com minicursos, painel de discussão, competições de programação e palestras ministrados por profissionais gabaritados de diversas empresas, professores e pesquisadores do segmento de computação de todo o país. Temas como Inteligência Artificial, Tecnologia da Informação, Inclusão, Carreira e Empreendedorismo serão abordados.";
 
 export const EVENT_MARATONA_DESCRITION = "A Maratona de Programação é um evento da Sociedade Brasileira de Computação que existe desde o ano de 1996. Nasceu das competições regionais classificatórias para as etapas mundiais da competição de programação, o International Collegiate Programming Contest, e é parte da regional sul-americana do evento. Ela se destina a alunos e alunas de cursos de graduação e início de pós-graduação na área de Computação e afins. A competição promove nos estudantes a criatividade, a capacidade de trabalho em equipe, a busca de novas soluções de software e a habilidade de resolver problemas sob pressão. A cada ano, observa-se que as instituições de ensino e, principalmente, as grandes empresas da área têm valorizado os alunos que participam do evento.";
-export const EVENT_MARATONA_SUBSCRIPTION_URL = "";
+export const EVENT_MARATONA_SUBSCRIPTION_URL = "https://forms.gle/sLiRHMxc1VRKvGdg7";
 
 export const EVENT_SCHEDULE_DESCRIPTION = "Atividades para o período de 31/08/2023 a 03/09/2023. ATENÇÃO: Programação sujeita a alterações. Acompanhe o site para se manter a par das atualizações e novidades."
 export const DAY_1_SCHEDULE = [
@@ -16,7 +16,9 @@ export const DAY_1_SCHEDULE = [
         description: "Maratona interna da UFV. Evento não-oficial da SBC, aberto ao público do Curso de Ciência da Computação. Acontecerá no segundo andar do prédio da Caixa Econômica Federal, nos laboratórios de ensino do Departamento de Informática.",
         image: "/SI2023/maratona-logo.jpg",
         speakerlink: "",
-        links: []
+        links: [
+            { button_name: "Inscrição", button_url: "https://forms.gle/sLiRHMxc1VRKvGdg7", },
+        ]
     },
     {
         hour: "14:00        ",
@@ -73,7 +75,7 @@ export const DAY_1_SCHEDULE = [
         title: "Abertura do Evento e Divulgação dos Resultados da Maratona da SI",
         speaker: "",
         local: "Auditório da Biblioteca Central / UFV",
-        description: "Uma breve cerimônia de abertura do evento, seguida da divulgação dos resultados da Maratona",
+        description: "Uma breve cerimônia de abertura do evento, seguida da divulgação dos resultados da Maratona da Semana de Informática",
         image: "/SI2023/logo_dpi.png",
         speakerlink: "",
         links: [
@@ -86,14 +88,14 @@ export const DAY_1_SCHEDULE = [
 export const DAY_2_SCHEDULE = [
     {
         hour: "08:30 - 10:30 / 11:00 - 12:00",
-        title: "Mini-curso de React JS",
+        title: "Minicurso de React JS",
         speaker: "Levty",
-        local: "Local a confirmar",
-        description: "Mini-curso da plataforma React JS, ministrado por profissional da Levty. Mais informações em breve",
+        local: "Laboratório de Ensino DPI - CCE 416",
+        description: "Minicurso da plataforma React JS, ministrado por profissional da Levty. Atenção: será no laboratório do prédio do CCE (sala 416). O curso poderá ser feito em duplas, portanto, existem 50 vagas disponíveis",
         image: "/SI2023/levity.png",
         speakerlink: "",
         links: [
-            //{ button_name: "INSCREVA-SE", button_url: "", },
+            { button_name: "Inscrição", button_url: "https://forms.gle/MFJjDjN5f4yGt6gw7", },
             //{ button_name: "INSCREVA-SE", button_url: "", },
         ]
     },
@@ -106,8 +108,8 @@ export const DAY_2_SCHEDULE = [
         image: "/SI2023/bitka.png",
         speakerlink: "",
         links: [
-            //{ button_name: "INSCREVA-SE", button_url: "", },
-            //{ button_name: "INSCREVA-SE", button_url: "", },
+            { button_name: "Inscrição", button_url: "https://forms.gle/d9tYw3w9kpdtF9Y46", },
+            { button_name: "Agendamento de entrevista", button_url: "https://calendly.com/d/2vz-c92-yqq/semana-da-informatica-ufv-bitka", },
         ]
     },
     {
@@ -125,10 +127,10 @@ export const DAY_2_SCHEDULE = [
     },
     {
         hour: "14:00                        ",
-        title: "Palestra a confirmar",
-        speaker: "",
+        title: "A interdisciplinaridade na carreira. O Relato de um pato.",
+        speaker: "Jéferson Coêlho",
         local: "Auditório da Biblioteca Central / UFV",
-        description: "Aguardando confirmação do palestrante. Mais informações em breve",
+        description: "Um relato bem-humorado da experiência pessoal do palestrante através de sua carreira acadêmica e profissional e de como a interdisciplinaridade o ajudou a alcançar seus objetivos.",
         image: "/SI2023/logo_dpi.png",
         speakerlink: "",
         links: [
@@ -138,10 +140,10 @@ export const DAY_2_SCHEDULE = [
     },
     {
         hour: "15:00                        ",
-        title: "Palestra a confirmar: Computação Gráfica",
-        speaker: "",
+        title: "Renderização Neural",
+        speaker: "Thiago Luange",
         local: "Auditório da Biblioteca Central / UFV",
-        description: "Aguardando confirmação do palestrante. Mais informações em breve",
+        description: "A renderização neural é uma classe de métodos, baseados em redes neurais profundas que podem criar imagens e vídeos inéditos com base em cenas existentes. Oferecendo ao usuário controle sobre propriedades da cena, como iluminação, parâmetros da câmera, poses, geometria, formas e estruturas semânticas. Mais informações em breve",
         image: "/SI2023/logo_dpi.png",
         speakerlink: "",
         links: [
@@ -177,10 +179,10 @@ export const DAY_2_SCHEDULE = [
     },
     {
         hour: "17:30                        ",
-        title: "Palestra a confirmar: Sistemas de Informação Geográficas",
-        speaker: "",
+        title: "Banco de Dados Geográficos: uma história",
+        speaker: "Prof. Marconi Pereira / UFSJ",
         local: "Auditório da Biblioteca Central / UFV",
-        description: "Aguardando confirmação do palestrante. Mais informações em breve",
+        description: "Aguardando detalhes. Mais informações em breve",
         image: "/SI2023/logo_dpi.png",
         speakerlink: "",
         links: [
@@ -193,10 +195,10 @@ export const DAY_2_SCHEDULE = [
 export const DAY_3_SCHEDULE = [
     {
         hour: "08:30                        ",
-        title: "A interdisciplinaridade na carreira. O Relato de um pato.",
-        speaker: "Jéferson Coêlho",
+        title: "Deep Learning para Visão Computacional: Aplicações e Estado da Arte",
+        speaker: "Hugo Oliveira",
         local: "Auditório da Biblioteca Central / UFV",
-        description: "Um relato bem-humorado da experiência pessoal do palestrante através de sua carreira acadêmica e profissional e de como a interdisciplinaridade o ajudou a alcançar seus objetivos.",
+        description: "Aguardando detalhes. Mais informações em breve",
         image: "/SI2023/logo_dpi.png",
         speakerlink: "",
         links: [
@@ -245,10 +247,10 @@ export const DAY_3_SCHEDULE = [
     },
     {
         hour: "14:00                        ",
-        title: "Palestra a confirmar: Descrição automática de Imagens",
-        speaker: "",
+        title: "Modelos text-to-image e image-to-text",
+        speaker: "Daniel L. Fernandes",
         local: "Auditório da Biblioteca Central / UFV",
-        description: "Aguardando confirmação do palestrante. Mais informações em breve",
+        description: "Aguardando detalhes Mais informações em breve",
         image: "/SI2023/logo_dpi.png",
         speakerlink: "",
         links: [
@@ -283,12 +285,25 @@ export const DAY_3_SCHEDULE = [
         ]
     },
     {
+        hour: "17:00                        ",
+        title: "Atividade a confirmar: robótica",
+        speaker: "",
+        local: "Local a confirmar",
+        description: "Aguarando confirmações. Mais informações em breve",
+        image: "/SI2023/coffee.png",
+        speakerlink: "",
+        links: [
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+        ]
+    },
+    {
         hour: "19:30                        ",
         title: "Divulgação dos Resultados da Maratona da SBC",
         speaker: "",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Divulgação dos resultados da Maratona",
-        image: "/SI2023/logo_dpi.png",
+        image: "/SI2023/maratona-logo.jpg",
         speakerlink: "",
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
@@ -300,8 +315,8 @@ export const DAY_3_SCHEDULE = [
 export const DAY_4_SCHEDULE = [
     {
         hour: "09:30                        ",
-        title: "Palestra a confirmar: Jogos Digitais",
-        speaker: "",
+        title: "Geração Procedural em Jogos Digitais",
+        speaker: "Lucas N. Ferreira",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Aguardando confirmação dos palestrantes. Mais informações em breve",
         image: "/SI2023/logo_dpi.png",
@@ -422,11 +437,11 @@ export const COMMON_QUESTIONS = [
     },
     {
         question: "Como me inscrever nas Maratonas?",
-        response: "Infelizmente, não é mais possível realizar inscrições nas maratonas de programação. O evento oficial da SBC tem o processo de inscrição independente da organização da Semana de Informática e o mesmo já aconteceu. Também para a Maratona da Semana de Informática, o processo de inscrição transcorreu de forma independente e as mesmas também já se encontram encerradas."
+        response: "Para a Maratona da Semana de Informática, as inscrições estão abertas. Basta clicar no botão presente na seção MARATONA, da página principal ou clicar na atividade, dentro da grade de programação, e usar o botão INSCRIÇÃO. No entanto, infelizmente não é mais possível realizar inscrições na Maratona Brasileira de Programação. O evento oficial da SBC tem o processo de inscrição independente da organização da Semana de Informática e o mesmo já aconteceu."
     },
     {
         question: "Existem atividades da Semana de Informática com inscrição separada?",
-        response: "Sim. Além das Maratonas, que já estão com inscrições encerrradas, os dois minicursos (React JS e Desinformação em Plataformas Digitais) terão inscrições separadas, devido ao número restrito de vagas. Também há o processo seletivo da patrocinadora BITKA (ver pergunta frequente específica). Todas estas inscrições serão disponibilizadas em breve. As atividades mencionadas aqui serão gratuitas para quem já se inscreveu no evento geral."
+        response: "Sim. Além da Maratona da Semana de Informática, o minicurso (React) também tem inscrições separadas, devido ao número restrito de vagas. Há, ainda, o processo seletivo da patrocinadora BITKA (ver pergunta frequente específica). As atividades mencionadas aqui serão gratuitas para quem já se inscreveu no evento geral."
     },
     {
         question: "Quem pode participar do processo seletivo da BITKA?",
@@ -440,7 +455,19 @@ export const COMMON_QUESTIONS = [
 
 export const UPDATES = [
     {
-        "title": "Sem novas atualizações",
-        "content": ""
+        "title": "24/08, 19:30h",
+        "content": "Adicionados links de inscrição e agendamento de entrevista para o processo seletivo da BITKA"
+    },
+    {
+        "title": "24/08, 19:30h",
+        "content": "Abertas inscrições para o mini-curso de React JS"
+    },
+    {
+        "title": "24/08, 19:30h",
+        "content": "Inscrições abertas Maratona de Semana de Informática"
+    },
+    {
+        "title": "24/08, 19:30h",
+        "content": "Atualizações e ajustes grade de programação"
     },
 ]
