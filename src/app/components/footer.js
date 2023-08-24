@@ -54,8 +54,8 @@ export default function Footer() {
                                 <path d="M14.9783 3.69304L17.9246 0.746762L20.753 3.57519L17.8068 6.52147L14.9783 3.69304Z" fill="white" />
                             </svg>
                         </Link>
-                        <Link className='underline text-white underline-offset-3 font-bold' href="#parceiros">PARCEIROS</Link>
-                        <Link className='underline text-white underline-offset-3 font-bold' href="#contato">CONTATO</Link>
+                        <Link className='underline text-white underline-offset-3 font-bold' href="#parceiros">PATROCÍNIO</Link>
+                        &lt;!-- <Link className='underline text-white underline-offset-3 font-bold' href="#contato">CONTATO</Link> --&gt;
                     </div ></div>
                 <div className='w-full md:w-1/3 flex flex-col items-center justify-center py-5 md:py-0'>
                     <span className='text-white underline-offset-3 font-bold mb-5'>REALIZAÇÃO</span>
