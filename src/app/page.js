@@ -277,10 +277,10 @@ export default function Home() {
           <div className="bg-[#38124A] -mx-10 md:-mx-20 py-10 overflow-hidden">
             <div className="flex space-x-8 animate-infinite-slider infinite w-full">
               {Info.EVENT_SPONSORS.map((data, index) => (
-                <Link key={index} target="_blank" href={data.url}><img className='slide flex w-40 md:w-72 items-center justify-center' src={data.image}></img></Link>
+                <Link className='w-40 md:w-72' key={index} target="_blank" href={data.url}><img className='slide flex w-40 md:w-72 items-center justify-center' src={data.image}></img></Link>
               ))}
               {Info.EVENT_SPONSORS.map((data, index) => (
-                <Link key={Info.EVENT_SPONSORS.length + index} target="_blank" href={data.url}><img className='slide flex w-40 md:w-72 items-center justify-center' src={data.image}></img></Link>
+                <Link className='w-40 md:w-72' key={Info.EVENT_SPONSORS.length + index} target="_blank" href={data.url}><img className='slide flex w-40 md:w-72 items-center justify-center' src={data.image}></img></Link>
               ))}
             </div>
           </div>
