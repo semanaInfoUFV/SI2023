@@ -62,7 +62,7 @@ export const DAY_1_SCHEDULE = [
         title: "Painel: Trilhando Caminhos na Tecnologia",
         speaker: "Convidadas",
         local: "Auditório da Biblioteca Central / UFV",
-        description: "Um painel composto exclusivamente por mulheres discutirá os caminhos da carreira de um profissional de TI. Participarão profissionais da UFV e do mercado de trabalho, ex-alunas e também uma gestora de pessoas da área de TI.",
+        description: "Um painel composto exclusivamente por mulheres discutirá os caminhos da carreira de um profissional de TI. Participarão profissionais da UFV e do mercado de trabalho e ex-alunas do curso de Ciência da Computação da UFV.",
         image: "/SI2023/logo_dpi.png",
         speakerlink: "",
         links: [
