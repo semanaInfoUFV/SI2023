@@ -285,19 +285,6 @@ export const DAY_3_SCHEDULE = [
         ]
     },
     {
-        hour: "17:00                        ",
-        title: "Atividade a confirmar: robótica",
-        speaker: "",
-        local: "Local a confirmar",
-        description: "Aguarando confirmações. Mais informações em breve",
-        image: "/SI2023/logo_dpi.png",
-        speakerlink: "",
-        links: [
-            //{ button_name: "INSCREVA-SE", button_url: "", },
-            //{ button_name: "INSCREVA-SE", button_url: "", },
-        ]
-    },
-    {
         hour: "19:30                        ",
         title: "Divulgação dos Resultados da Maratona da SBC",
         speaker: "",
