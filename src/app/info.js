@@ -62,7 +62,7 @@ export const DAY_1_SCHEDULE = [
         title: "Painel: Trilhando Caminhos na Tecnologia",
         speaker: "Convidadas",
         local: "Auditório da Biblioteca Central / UFV",
-        description: "Um painel composto exclusivamente por mulheres discutirá os caminhos da carreira de um profissional de TI. Participarão profissionais da UFV, do mercado de trabalho que são ex-alunas e também uma gestora de pessoas da área de TI.",
+        description: "Um painel composto exclusivamente por mulheres discutirá os caminhos da carreira de um profissional de TI. Participarão profissionais da UFV e do mercado de trabalho, ex-alunas e também uma gestora de pessoas da área de TI.",
         image: "/SI2023/logo_dpi.png",
         speakerlink: "",
         links: [
@@ -263,7 +263,7 @@ export const DAY_3_SCHEDULE = [
         title: "Título: Explorando o Drex - A importância da blockchain na criação do Real Digital Brasileiro",
         speaker: "Bruno Coelho",
         local: "Auditório da Biblioteca Central / UFV",
-        description: "Formado em Ciência da Computação pela UFV, Bruno Coelho atua como engenheiro de software na área automotiva e é entusiasta de crypto e finanças no geral. A palestra cobrirá aspectos importantes para a criação da moeda digital brasileira, por parte do Banco Central, como: Fundamentos do Drex, Arquitetura Técnica, Papel das Blockchains, Processo de Transação e Mineração, Desafios Técnicos e Soluções e Impacto no Setor de TI.",
+        description: "Formado em Ciência da Computação pela UFV, Bruno Coelho atua como engenheiro de software na área automotiva e é entusiasta de crypto e finanças no geral. A palestra cobrirá aspectos importantes para a criação da moeda digital brasileira por parte do Banco Central, como: Fundamentos do Drex, Arquitetura Técnica, Papel das Blockchains, Processo de Transação e Mineração, Desafios Técnicos e Soluções e Impacto no Setor de TI.",
         image: "/SI2023/logo_dpi.png",
         speakerlink: "",
         links: [
@@ -290,7 +290,7 @@ export const DAY_3_SCHEDULE = [
         speaker: "",
         local: "Local a confirmar",
         description: "Aguarando confirmações. Mais informações em breve",
-        image: "/SI2023/coffee.png",
+        image: "/SI2023/logo_dpi.png",
         speakerlink: "",
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
