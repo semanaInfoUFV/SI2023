@@ -260,7 +260,7 @@ export const DAY_3_SCHEDULE = [
     },
     {
         hour: "15:00                        ",
-        title: "Título: Explorando o Drex - A importancia da blockchain na criação do Real Digital Brasileiro",
+        title: "Título: Explorando o Drex - A importância da blockchain na criação do Real Digital Brasileiro",
         speaker: "Bruno Coelho",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Formado em Ciência da Computação pela UFV, Bruno Coelho atua como engenheiro de software na área automotiva e é entusiasta de crypto e finanças no geral. A palestra cobrirá aspectos importantes para a criação da moeda digital brasileira, por parte do Banco Central, como: Fundamentos do Drex, Arquitetura Técnica, Papel das Blockchains, Processo de Transação e Mineração, Desafios Técnicos e Soluções e Impacto no Setor de TI.",
@@ -393,10 +393,10 @@ export const DAY_4_SCHEDULE = [
     },
     {
         hour: "16:30                        ",
-        title: "Graphics & Performance Engineering in Mobile Games",
-        speaker: "",
+        title: "Engenharia de Performance e Gráficos para Jogos para Dispositivos Móveis",
+        speaker: "Marcelo Menezes (Wildlife Studios)",
         local: "Auditório da Biblioteca Central / UFV",
-        description: "Aguardando detalhes. Mais informações em breve",
+        description: "Marcelo é bacharel e mestre em Ciência da Computação pela UFV. Em seu mestrado pesquisou e desenvolveu algoritmos exatos para solucionar problemas de geometria computacional utilizando GPUs. Atualmente trabalha como Graphics Engineer na Wildlife Studios, onde é um dos engenheiros responsáveis pela rendering stack e performance em live games. Nessa palestra discutiremos sobre a carreira em desenvolvimento de jogos, com foco em gráficos e performance em dispositivos móveis. Tópicos importantes em um mercado cada vez mais competitivo.",
         image: "/SI2023/logo_dpi.png",
         speakerlink: "",
         links: [
