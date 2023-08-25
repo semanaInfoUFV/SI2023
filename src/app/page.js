@@ -49,6 +49,10 @@ export default function Home() {
     };
   }, []);
 
+  const openInNewTab = url => {
+    window.open(url, '_blank', 'noopener,noreferrer');
+  };
+
   return (
     <StyledEngineProvider injectFirst>
       <div className='font-inter'>
@@ -278,13 +282,11 @@ export default function Home() {
           <div className="bg-[#38124A] -mx-10 md:-mx-20 py-10 overflow-hidden">
             <div className="flex space-x-8 animate-infinite-slider infinite w-full">
               {Info.EVENT_SPONSORS.map((data, index) => (
-                <Link target='_blank' key={index} href={data.url}>
-                  <img className='w-auto md:w-auto' src={data.image}></img>
-                </Link>))}
+                <img onClick={() => openInNewTab(data.url)} key={index} className='w-40 md:w-72 cursor-pointer' src={data.image}></img>
+              ))}
               {Info.EVENT_SPONSORS.map((data, index) => (
-                <Link target='_blank' href={data.url} key={Info.EVENT_SPONSORS.length + index} >
-                  <img className='w-auto md:w-auto' src={data.image}></img>
-                </Link>))}
+                <img onClick={() => openInNewTab(data.url)} key={Info.EVENT_SPONSORS.length + index} className='w-40 md:w-72 cursor-pointer' src={data.image}></img>
+              ))}
             </div>
           </div>
           <svg className='-mt-5 md:mt-0 -ml-14 md:ml-0 w-20 md:w-40' width="165" height="110" viewBox="0 0 165 110" fill="none" xmlns="http://www.w3.org/2000/svg">
