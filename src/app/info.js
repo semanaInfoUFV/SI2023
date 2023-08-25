@@ -423,11 +423,26 @@ export const DAY_4_SCHEDULE = [
 export const EVENT_SPONSORS_DESCRIPTION = "Empresas apoiadoras e patrocinadoras do evento.";
 
 export const EVENT_SPONSORS = [
-    "/SI2023/bitka.png",
-    "/SI2023/cientec.png",
-    "/SI2023/levity.png",
-    "/SI2023/sydle.png",
-    "/SI2023/oriontec.png"
+    {
+        image:"/SI2023/bitka.png",
+        url:"https://www.bitkaanalytics.com.br/",
+    },
+    {
+        image:"/SI2023/cientec.png",
+        url:"",
+    },
+    {
+        image:"/SI2023/levity.png",
+        url:"https://levty.com/br/",
+    },
+    {
+        image:"/SI2023/sydle.png",
+        url:"https://www.sydle.com/br/",
+    },
+    {
+        image:"/SI2023/oriontec.png",
+        url:"https://www.oriontec.com.br/",
+    },
 ];
 
 export const COMMON_QUESTIONS = [

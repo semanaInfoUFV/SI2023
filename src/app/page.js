@@ -17,7 +17,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
 import { Pagination, Navigation } from 'swiper/modules';
-
+import Link from 'next/link';
 
 import * as Info from './info'
 
@@ -276,11 +276,11 @@ export default function Home() {
           </span >
           <div className="bg-[#38124A] -mx-10 md:-mx-20 py-10 overflow-hidden">
             <div className="flex space-x-8 animate-infinite-slider infinite w-full">
-              {Info.EVENT_SPONSORS.map((image, index) => (
-                <img key={index} className='slide flex w-40 md:w-72 items-center justify-center' src={image}></img>
+              {Info.EVENT_SPONSORS.map((data, index) => (
+                <Link key={index} target="_blank" href={data.url}><img className='slide flex w-40 md:w-72 items-center justify-center' src={data.image}></img></Link>
               ))}
-              {Info.EVENT_SPONSORS.map((image, index) => (
-                <img key={Info.EVENT_SPONSORS.length + index} className='slide flex w-40 md:w-72 items-center justify-center' src={image}></img>
+              {Info.EVENT_SPONSORS.map((data, index) => (
+                <Link key={Info.EVENT_SPONSORS.length + index} target="_blank" href={data.url}><img className='slide flex w-40 md:w-72 items-center justify-center' src={data.image}></img></Link>
               ))}
             </div>
           </div>
