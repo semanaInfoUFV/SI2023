@@ -241,7 +241,7 @@ export default function Home() {
               <path d="M2.89752 27.4463C2.89752 27.4463 7.48161 21.4938 12.5211 18.5304C15.2052 16.9521 18.1748 15.5711 21.0417 14.8905M21.0417 14.8905C23.6544 14.2702 26.1818 14.2315 28.3304 15.1551C32.9768 17.1522 30.1057 20.7574 27.7395 22.5291C25.3732 24.3008 21.7975 25.9878 20.0894 21.3255C19.3756 19.3771 19.8603 17.1288 21.0417 14.8905ZM21.0417 14.8905C22.6873 11.7727 25.6846 8.67444 28.6768 6.43396C33.8172 2.58502 41.7507 3.48682 41.7507 3.48682" stroke="#38124A" stroke-width="5" stroke-linecap="round" />
             </svg>
           </div>
-          <span className='text-lg mx-5 md:mx-20 text-center flex items-center mt-5 w-full'>
+          <span className='text-lg mx-5 md:mx-20 text-center flex items-center mt-5'>
             {Info.EVENT_SCHEDULE_DESCRIPTION}
           </span >
         </div>
