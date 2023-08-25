@@ -59,10 +59,10 @@ export const DAY_1_SCHEDULE = [
     },
     {
         hour: "16:30 - 18:00",
-        title: "Painel: Mulheres na Computação",
+        title: "Painel: Trilhando Caminhos na Tecnologia",
         speaker: "Convidadas",
         local: "Auditório da Biblioteca Central / UFV",
-        description: "A Profa. Maria Lúcia, do Departamento de Informática, mediará um painel para discussão da atuação e representatividade das mulheres na academia e mercado da área da Computação. Participarão ex-alunas do curso, profissionais do mercado, gestora de pessoas e acadêmicas.",
+        description: "Um painel composto exclusivamente por mulheres discutirá os caminhos da carreira de um profissional de TI. Participarão profissionais da UFV, do mercado de trabalho que são ex-alunas e também uma gestora de pessoas da área de TI.",
         image: "/SI2023/logo_dpi.png",
         speakerlink: "",
         links: [
@@ -260,10 +260,10 @@ export const DAY_3_SCHEDULE = [
     },
     {
         hour: "15:00                        ",
-        title: "Palestra a confirmar: Federated Learning",
-        speaker: "",
+        title: "Título: Explorando o Drex - A importancia da blockchain na criação do Real Digital Brasileiro",
+        speaker: "Bruno Coelho",
         local: "Auditório da Biblioteca Central / UFV",
-        description: "Aguardando confirmação dos palestrantes. Mais informações em breve",
+        description: "Formado em Ciência da Computação pela UFV, Bruno Coelho atua como engenheiro de software na área automotiva e é entusiasta de crypto e finanças no geral. A palestra cobrirá aspectos importantes para a criação da moeda digital brasileira, por parte do Banco Central, como: Fundamentos do Drex, Arquitetura Técnica, Papel das Blockchains, Processo de Transação e Mineração, Desafios Técnicos e Soluções e Impacto no Setor de TI.",
         image: "/SI2023/logo_dpi.png",
         speakerlink: "",
         links: [
@@ -459,6 +459,10 @@ export const COMMON_QUESTIONS = [
 
 export const UPDATES = [
     {
+        "title": "25/08, 13:30h",
+        "content": "Novas atualizações na grade de programação"
+    },
+    {
         "title": "24/08, 19:30h",
         "content": "Adicionados links de inscrição e agendamento de entrevista para o processo seletivo da BITKA"
     },
@@ -469,9 +473,5 @@ export const UPDATES = [
     {
         "title": "24/08, 19:30h",
         "content": "Inscrições abertas Maratona de Semana de Informática"
-    },
-    {
-        "title": "24/08, 19:30h",
-        "content": "Atualizações e ajustes grade de programação"
-    },
+    }
 ]
