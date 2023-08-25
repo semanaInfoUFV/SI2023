@@ -87,7 +87,7 @@ export const DAY_1_SCHEDULE = [
 
 export const DAY_2_SCHEDULE = [
     {
-        hour: "08:30 - 10:30 / 11:00 - 12:00",
+        hour: "08:30 - 10:30",
         title: "Minicurso de React JS",
         speaker: "Levty",
         local: "Laboratório de Ensino DPI - CCE 416",
@@ -100,7 +100,7 @@ export const DAY_2_SCHEDULE = [
         ]
     },
     {
-        hour: "09:30 - 12:00 / 13:00 - 15:00",
+        hour: "13:00 - 15:00",
         title: "Processo Seletivo BITKA",
         speaker: "BITKA",
         local: "Local a confirmar",
@@ -123,6 +123,32 @@ export const DAY_2_SCHEDULE = [
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
             //{ button_name: "INSCREVA-SE", button_url: "", },
+        ]
+    },
+    {
+        hour: "11:00 - 12:00",
+        title: "Minicurso de React JS",
+        speaker: "Levty",
+        local: "Laboratório de Ensino DPI - CCE 416",
+        description: "Minicurso da plataforma React JS, ministrado por profissional da Levty. Atenção: será no laboratório do prédio do CCE (sala 416). O curso poderá ser feito em duplas, portanto, existem 50 vagas disponíveis",
+        image: "/SI2023/levity.png",
+        speakerlink: "",
+        links: [
+            { button_name: "Inscrição", button_url: "https://forms.gle/MFJjDjN5f4yGt6gw7", },
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+        ]
+    },
+    {
+        hour: "13:00 - 15:00",
+        title: "Processo Seletivo BITKA",
+        speaker: "BITKA",
+        local: "Local a confirmar",
+        description: "A BITKA, empresa que cria soluções inovadoras na área de sistemas de apoio a decisão, está à procura de talentos para preencher futuras vagas nas áreas de TI, Otimização e Análise Preditiva. Faremos na Semana da Informática a primeira etapa do processo seletivo, que será aberta para candidatos que estão cursando do 4º período para frente ( quem estiver em períodos anteriores a esses podem enviar o currículo para cadastramos na nossa base de talentos para futuras oportunidades). Iremos considerar currículos para vagas efetivas ou part-time dependendo da proximidade de formatura de cada candidato. Temos como prioridade construir um ambiente saudável, colaborativo e justo entre as pessoas para que possamos construir soluções incríveis. Venha trabalhar em uma empresa que está em pleno crescimento e que investe na carreira das suas pessoas. Mais informações em breve",
+        image: "/SI2023/bitka.png",
+        speakerlink: "",
+        links: [
+            { button_name: "Inscrição", button_url: "https://forms.gle/d9tYw3w9kpdtF9Y46", },
+            { button_name: "Agendamento de entrevista", button_url: "https://calendly.com/d/2vz-c92-yqq/semana-da-informatica-ufv-bitka", },
         ]
     },
     {
@@ -207,7 +233,7 @@ export const DAY_3_SCHEDULE = [
         ]
     },
     {
-        hour: "09:30 - 12:00 / 13:30 - 19:00",
+        hour: "09:30 - 12:00",
         title: "Maratona Brasileira de Programação - Sede Regional de Viçosa.",
         speaker: "",
         local: "LBI - Prédio da CEF",
@@ -239,6 +265,19 @@ export const DAY_3_SCHEDULE = [
         local: "Auditório da Biblioteca Central / UFV",
         description: "O prof. Julio Reis, do Departamento de Informática, irá apresentar uma versão resumida do curso que ministrou no 43º Congresso da SBC, ocorrido no dia 07/08/2023.",
         image: "/SI2023/logo_dpi.png",
+        speakerlink: "",
+        links: [
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+        ]
+    },
+    {
+        hour: "13:30 - 19:00",
+        title: "Maratona Brasileira de Programação - Sede Regional de Viçosa.",
+        speaker: "",
+        local: "LBI - Prédio da CEF",
+        description: "Etapa regional da maratona oficial da SBC. Este ano, será concomitante com a Semana de Informática. As inscrições foram feitas previamente, pelos meios convencionais da SBC. Participarão 17 equipes, de 3 cidades/instituições distintas. As cidades de Viçosa, Ubá e Leopoldina estarão representadas. A competição acontecerá no segundo andar do prédio da Caixa Econômica Federal, nos laboratórios de ensino do Departamento de Informática.",
+        image: "/SI2023/maratona-logo.jpg",
         speakerlink: "",
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
