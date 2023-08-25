@@ -17,9 +17,10 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
 import { Pagination, Navigation } from 'swiper/modules';
-import Link from 'next/link';
+
 
 import * as Info from './info'
+import Link from 'next/link';
 
 export default function Home() {
 
@@ -171,7 +172,7 @@ export default function Home() {
                 type: 'fraction',
               }}
               navigation={true}
-              modules={[Pagination, Navigation]}  
+              modules={[Pagination, Navigation]}
               className="flex w-full h-60 flex-col justify-center items-center text-white"
             >
               {Info.UPDATES.map((data, index) => (
@@ -277,11 +278,13 @@ export default function Home() {
           <div className="bg-[#38124A] -mx-10 md:-mx-20 py-10 overflow-hidden">
             <div className="flex space-x-8 animate-infinite-slider infinite w-full">
               {Info.EVENT_SPONSORS.map((data, index) => (
-                <Link key={index} target="_blank" href={data.url}><img className='slide flex w-40 h-40 md:w-72 md:h-72 items-center justify-center' src={data.image}></img></Link>
-              ))}
+                <Link target='_blank' key={index} href={data.url}>
+                  <img className='w-auto md:w-auto' src={data.image}></img>
+                </Link>))}
               {Info.EVENT_SPONSORS.map((data, index) => (
-                <Link key={Info.EVENT_SPONSORS.length + index} target="_blank" href={data.url}><img className='slide flex w-40 h-40 md:w-72 md:h-72 items-center justify-center' src={data.image}></img></Link>
-              ))}
+                <Link target='_blank' href={data.url} key={Info.EVENT_SPONSORS.length + index} >
+                  <img className='w-auto md:w-auto' src={data.image}></img>
+                </Link>))}
             </div>
           </div>
           <svg className='-mt-5 md:mt-0 -ml-14 md:ml-0 w-20 md:w-40' width="165" height="110" viewBox="0 0 165 110" fill="none" xmlns="http://www.w3.org/2000/svg">
