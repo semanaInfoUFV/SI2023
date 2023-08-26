@@ -196,8 +196,8 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-            <span className=' flex justify-center text-center text-white mt-10'>Copyright © 2023 semana de informática powered by departamento de informática</span>
-            <span className=' flex justify-center text-center text-white mt-5'>
+            <span className=' uppercase flex justify-center text-center text-white mt-10'>Copyright © 2023 semana de informática powered by departamento de informática</span>
+            <span className=' uppercase flex justify-center text-center text-white mt-5'>
             Feito por
             <a className=' text-blue-200 ml-1' target="_blank" href="https://www.linkedin.com/in/lorena-souza-moreira/">Lorena Moreira</a>,
             <a className=' text-blue-200 ml-1 mr-1' target="_blank" href="https://www.linkedin.com/in/lfvicent3/">Luiz Costa</a> e
