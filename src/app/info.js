@@ -100,7 +100,7 @@ export const DAY_2_SCHEDULE = [
         ]
     },
     {
-        hour: "13:00 - 15:00",
+        hour: "09:30 - 12:00",
         title: "Processo Seletivo BITKA",
         speaker: "BITKA",
         local: "Local a confirmar",
