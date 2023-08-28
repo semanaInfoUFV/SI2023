@@ -21,6 +21,7 @@ import { Pagination, Navigation } from 'swiper/modules';
 
 import * as Info from './info'
 import Link from 'next/link';
+import CustomizedDialogs from './components/speakersInfo';
 
 export default function Home() {
 

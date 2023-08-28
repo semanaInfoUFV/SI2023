@@ -11,76 +11,159 @@ export const DAY_1_SCHEDULE = [
     {
         hour: "08:30 - 12:30",
         title: "Maratona de Programação da Semana de Informática",
-        speaker: "",
+        speakerDescription: "",
         local: "LBI - Prédio da CEF",
         description: "Maratona interna da UFV. Evento não-oficial da SBC, aberto ao público do Curso de Ciência da Computação. Acontecerá no segundo andar do prédio da Caixa Econômica Federal, nos laboratórios de ensino do Departamento de Informática.",
         image: "/SI2023/maratona-logo.jpg",
-        speakerlink: "",
+
         links: [
             { button_name: "Inscrição", button_url: "https://forms.gle/sLiRHMxc1VRKvGdg7", },
+        ],
+        speakers: [
+            /*{
+                name: "teste",
+                role: "teste",
+                picture: "/no_picture.png",
+                htmlDescription: '<p style="color: #ff0000;">TESTANDO</p>',
+            },
+            {
+                name: "teste2",
+                role: "teste2",
+                picture: "/no_picture_2.png",
+                htmlDescription: "<p></p>",
+            }*/
         ]
     },
     {
         hour: "14:00        ",
         title: "Palestra Cientec",
-        speaker: "",
+        speakerDescription: "",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Mais informações em breve",
         image: "/SI2023/cientec.png",
-        speakerlink: "",
         links: [
             ////{ button_name: "INSCREVA-SE", button_url: "", },
+        ],
+        speakers: [
+            /*{
+                name: "teste",
+                role: "teste",
+                picture: "/no_picture.png",
+                htmlDescription: "<p></p>",
+            },
+            {
+                name: "teste2",
+                role: "teste2",
+                picture: "/no_picture_2.png",
+                htmlDescription: "<p></p>",
+            }*/
         ]
     },
     {
         hour: "15:00        ",
         title: "Palestra Sydle",
-        speaker: "",
+        speakerDescription: "",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Mais informações em breve",
         image: "/SI2023/sydle.png",
-        speakerlink: "",
+
         links: [
             ////{ button_name: "INSCREVA-SE", button_url: "", },
+        ],
+        speakers: [
+            /*{
+                name: "teste",
+                role: "teste",
+                picture: "/no_picture.png",
+                htmlDescription: "<p></p>",
+            },
+            {
+                name: "teste2",
+                role: "teste2",
+                picture: "/no_picture_2.png",
+                htmlDescription: "<p></p>",
+            }*/
         ]
     },
     {
         hour: "16:00        ",
         title: "Coffee-break",
-        speaker: "",
+        speakerDescription: "",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Pausa para socialização",
         image: "/SI2023/coffee.png",
-        speakerlink: "",
+
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
             //{ button_name: "INSCREVA-SE", button_url: "", },
+        ],
+        speakers: [
+            /*{
+                name: "teste",
+                role: "teste",
+                picture: "/no_picture.png",
+                htmlDescription: "<p></p>",
+            },
+            {
+                name: "teste2",
+                role: "teste2",
+                picture: "/no_picture_2.png",
+                htmlDescription: "<p></p>",
+            }*/
         ]
     },
     {
         hour: "16:30 - 18:00",
         title: "Painel: Trilhando Caminhos na Tecnologia",
-        speaker: "Convidadas",
+        speakerDescription: "Convidadas",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Um painel composto exclusivamente por mulheres discutirá os caminhos da carreira de um profissional de TI. Participarão profissionais da UFV e do mercado de trabalho e ex-alunas do curso de Ciência da Computação da UFV.",
         image: "/SI2023/logo_dpi.png",
-        speakerlink: "",
+
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
             //{ button_name: "INSCREVA-SE", button_url: "", },
+        ],
+        speakers: [
+            /*{
+                name: "teste",
+                role: "teste",
+                picture: "/no_picture.png",
+                htmlDescription: "<p></p>",
+            },
+            {
+                name: "teste2",
+                role: "teste2",
+                picture: "/no_picture_2.png",
+                htmlDescription: "<p></p>",
+            }*/
         ]
     },
     {
         hour: "18:00        ",
         title: "Abertura do Evento e Divulgação dos Resultados da Maratona da SI",
-        speaker: "",
+        speakerDescription: "",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Uma breve cerimônia de abertura do evento, seguida da divulgação dos resultados da Maratona da Semana de Informática",
         image: "/SI2023/logo_dpi.png",
-        speakerlink: "",
+
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
             //{ button_name: "INSCREVA-SE", button_url: "", },
+        ],
+        speakers: [
+            /*{
+                name: "teste",
+                role: "teste",
+                picture: "/no_picture.png",
+                htmlDescription: "<p></p>",
+            },
+            {
+                name: "teste2",
+                role: "teste2",
+                picture: "/no_picture_2.png",
+                htmlDescription: "<p></p>",
+            }*/
         ]
     },
 ];
@@ -89,131 +172,271 @@ export const DAY_2_SCHEDULE = [
     {
         hour: "08:30 - 10:30",
         title: "Minicurso de React JS",
-        speaker: "Levty",
+        speakerDescription: "Levty",
         local: "Laboratório de Ensino DPI - CCE 416",
         description: "Minicurso da plataforma React JS, ministrado por profissional da Levty. Atenção: será no laboratório do prédio do CCE (sala 416). O curso poderá ser feito em duplas, portanto, existem 50 vagas disponíveis",
         image: "/SI2023/levity.png",
-        speakerlink: "",
+
         links: [
             { button_name: "Inscrição", button_url: "https://forms.gle/MFJjDjN5f4yGt6gw7", },
             //{ button_name: "INSCREVA-SE", button_url: "", },
+        ],
+        speakers: [
+            /*{
+                name: "teste",
+                role: "teste",
+                picture: "/no_picture.png",
+                htmlDescription: "<p></p>",
+            },
+            {
+                name: "teste2",
+                role: "teste2",
+                picture: "/no_picture_2.png",
+                htmlDescription: "<p></p>",
+            }*/
         ]
     },
     {
         hour: "09:30 - 12:00",
         title: "Processo Seletivo BITKA",
-        speaker: "BITKA",
+        speakerDescription: "BITKA",
         local: "Local a confirmar",
         description: "A BITKA, empresa que cria soluções inovadoras na área de sistemas de apoio a decisão, está à procura de talentos para preencher futuras vagas nas áreas de TI, Otimização e Análise Preditiva. Faremos na Semana da Informática a primeira etapa do processo seletivo, que será aberta para candidatos que estão cursando do 4º período para frente ( quem estiver em períodos anteriores a esses podem enviar o currículo para cadastramos na nossa base de talentos para futuras oportunidades). Iremos considerar currículos para vagas efetivas ou part-time dependendo da proximidade de formatura de cada candidato. Temos como prioridade construir um ambiente saudável, colaborativo e justo entre as pessoas para que possamos construir soluções incríveis. Venha trabalhar em uma empresa que está em pleno crescimento e que investe na carreira das suas pessoas. Mais informações em breve",
         image: "/SI2023/bitka.png",
-        speakerlink: "",
+
         links: [
             { button_name: "Inscrição", button_url: "https://forms.gle/d9tYw3w9kpdtF9Y46", },
             { button_name: "Agendamento de entrevista", button_url: "https://calendly.com/d/2vz-c92-yqq/semana-da-informatica-ufv-bitka", },
+        ],
+        speakers: [
+            /*{
+                name: "teste",
+                role: "teste",
+                picture: "/no_picture.png",
+                htmlDescription: "<p></p>",
+            },
+            {
+                name: "teste2",
+                role: "teste2",
+                picture: "/no_picture_2.png",
+                htmlDescription: "<p></p>",
+            }*/
         ]
     },
     {
         hour: "10:30                        ",
         title: "Coffee-break",
-        speaker: "",
+        speakerDescription: "",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Pausa para socialização",
         image: "/SI2023/coffee.png",
-        speakerlink: "",
+
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
             //{ button_name: "INSCREVA-SE", button_url: "", },
+        ],
+        speakers: [
+            /*{
+                name: "teste",
+                role: "teste",
+                picture: "/no_picture.png",
+                htmlDescription: "<p></p>",
+            },
+            {
+                name: "teste2",
+                role: "teste2",
+                picture: "/no_picture_2.png",
+                htmlDescription: "<p></p>",
+            }*/
         ]
     },
     {
         hour: "11:00 - 12:00",
         title: "Minicurso de React JS",
-        speaker: "Levty",
+        speakerDescription: "Levty",
         local: "Laboratório de Ensino DPI - CCE 416",
         description: "Minicurso da plataforma React JS, ministrado por profissional da Levty. Atenção: será no laboratório do prédio do CCE (sala 416). O curso poderá ser feito em duplas, portanto, existem 50 vagas disponíveis",
         image: "/SI2023/levity.png",
-        speakerlink: "",
+
         links: [
             { button_name: "Inscrição", button_url: "https://forms.gle/MFJjDjN5f4yGt6gw7", },
             //{ button_name: "INSCREVA-SE", button_url: "", },
+        ],
+        speakers: [
+            /*{
+                name: "teste",
+                role: "teste",
+                picture: "/no_picture.png",
+                htmlDescription: "<p></p>",
+            },
+            {
+                name: "teste2",
+                role: "teste2",
+                picture: "/no_picture_2.png",
+                htmlDescription: "<p></p>",
+            }*/
         ]
     },
     {
         hour: "13:00 - 15:00",
         title: "Processo Seletivo BITKA",
-        speaker: "BITKA",
+        speakerDescription: "BITKA",
         local: "Local a confirmar",
         description: "A BITKA, empresa que cria soluções inovadoras na área de sistemas de apoio a decisão, está à procura de talentos para preencher futuras vagas nas áreas de TI, Otimização e Análise Preditiva. Faremos na Semana da Informática a primeira etapa do processo seletivo, que será aberta para candidatos que estão cursando do 4º período para frente ( quem estiver em períodos anteriores a esses podem enviar o currículo para cadastramos na nossa base de talentos para futuras oportunidades). Iremos considerar currículos para vagas efetivas ou part-time dependendo da proximidade de formatura de cada candidato. Temos como prioridade construir um ambiente saudável, colaborativo e justo entre as pessoas para que possamos construir soluções incríveis. Venha trabalhar em uma empresa que está em pleno crescimento e que investe na carreira das suas pessoas. Mais informações em breve",
         image: "/SI2023/bitka.png",
-        speakerlink: "",
+
         links: [
             { button_name: "Inscrição", button_url: "https://forms.gle/d9tYw3w9kpdtF9Y46", },
             { button_name: "Agendamento de entrevista", button_url: "https://calendly.com/d/2vz-c92-yqq/semana-da-informatica-ufv-bitka", },
+        ],
+        speakers: [
+            /*{
+                name: "teste",
+                role: "teste",
+                picture: "/no_picture.png",
+                htmlDescription: "<p></p>",
+            },
+            {
+                name: "teste2",
+                role: "teste2",
+                picture: "/no_picture_2.png",
+                htmlDescription: "<p></p>",
+            }*/
         ]
     },
     {
         hour: "14:00                        ",
         title: "A interdisciplinaridade na carreira. O Relato de um pato.",
-        speaker: "Jéferson Coêlho",
+        speakerDescription: "Jéferson Coêlho",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Um relato bem-humorado da experiência pessoal do palestrante através de sua carreira acadêmica e profissional e de como a interdisciplinaridade o ajudou a alcançar seus objetivos.",
         image: "/SI2023/logo_dpi.png",
-        speakerlink: "",
+
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
             //{ button_name: "INSCREVA-SE", button_url: "", },
+        ],
+        speakers: [
+            /*{
+                name: "teste",
+                role: "teste",
+                picture: "/no_picture.png",
+                htmlDescription: "<p></p>",
+            },
+            {
+                name: "teste2",
+                role: "teste2",
+                picture: "/no_picture_2.png",
+                htmlDescription: "<p></p>",
+            }*/
         ]
     },
     {
         hour: "15:00                        ",
         title: "Renderização Neural",
-        speaker: "Thiago Luange",
+        speakerDescription: "Thiago Luange",
         local: "Auditório da Biblioteca Central / UFV",
         description: "A renderização neural é uma classe de métodos, baseados em redes neurais profundas que podem criar imagens e vídeos inéditos com base em cenas existentes. Oferecendo ao usuário controle sobre propriedades da cena, como iluminação, parâmetros da câmera, poses, geometria, formas e estruturas semânticas. Mais informações em breve",
         image: "/SI2023/logo_dpi.png",
-        speakerlink: "",
+
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
             //{ button_name: "INSCREVA-SE", button_url: "", },
+        ],
+        speakers: [
+            /*{
+                name: "teste",
+                role: "teste",
+                picture: "/no_picture.png",
+                htmlDescription: "<p></p>",
+            },
+            {
+                name: "teste2",
+                role: "teste2",
+                picture: "/no_picture_2.png",
+                htmlDescription: "<p></p>",
+            }*/
         ]
     },
     {
         hour: "16:00                        ",
         title: "Coffee-break",
-        speaker: "",
+        speakerDescription: "",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Pausa para socialização",
         image: "/SI2023/coffee.png",
-        speakerlink: "",
+
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
             //{ button_name: "INSCREVA-SE", button_url: "", },
+        ],
+        speakers: [
+            /*{
+                name: "teste",
+                role: "teste",
+                picture: "/no_picture.png",
+                htmlDescription: "<p></p>",
+            },
+            {
+                name: "teste2",
+                role: "teste2",
+                picture: "/no_picture_2.png",
+                htmlDescription: "<p></p>",
+            }*/
         ]
     },
     {
         hour: "16:30                        ",
         title: "BITKA Analytics - Decisões Inteligentes, Resultados Extraordinários: História, Inovação e Oportunidades",
-        speaker: "Colaboradores da BITKA Analytics",
+        speakerDescription: "Colaboradores da BITKA Analytics",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Nessa conversa, iremos compartilhar a história da BITKA, empresa que foi criada por grandes referências no mercado brasileiro na área de sistemas de apoio a decisão. Apesar de pouco tempo de existência, a BITKA se destaca pelo extraordinário crescimento desde então. Atualmente o time conta com aproximadamente 140 pessoas sendo 60% desses cientistas de dados. Aliando técnicas de análise prescritiva (otimização) e preditiva, a BITKA tem como objetivo criar soluções de planejamento aderentes à realidade dos clientes e que irão auxiliá-los a extrair o máximo potencial do seu negócio. A filosofia da empresa é construir um ambiente saudável e colaborativo entre as pessoas, ajudando cada indivíduo a atingir a excelência profissional e proporcionando o ambiente correto para a construção de soluções incríveis. Nesse ambiente a prioridade é valorizar as diferenças entre cada um dos indivíduos entendendo que elas são essenciais para construirmos sistemas aderentes e impactantes. Um acompanhamento de carreira, com feedbacks justos e transparentes, foi construído para sustentar esses pilares. Os Palestrantes, além de dar dicas sobre carreira, irão falar um pouco a respeito dos projetos inovadores e oportunidades abertas na BITKA.",
         image: "/SI2023/bitka.png",
-        speakerlink: "",
+
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
             //{ button_name: "INSCREVA-SE", button_url: "", },
+        ],
+        speakers: [
+            /*{
+                name: "teste",
+                role: "teste",
+                picture: "/no_picture.png",
+                htmlDescription: "<p></p>",
+            },
+            {
+                name: "teste2",
+                role: "teste2",
+                picture: "/no_picture_2.png",
+                htmlDescription: "<p></p>",
+            }*/
         ]
     },
     {
         hour: "17:30                        ",
         title: "Banco de Dados Geográficos: uma história",
-        speaker: "Prof. Marconi Pereira / UFSJ",
+        speakerDescription: "Prof. Marconi Pereira / UFSJ",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Aguardando detalhes. Mais informações em breve",
         image: "/SI2023/logo_dpi.png",
-        speakerlink: "",
+
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
             //{ button_name: "INSCREVA-SE", button_url: "", },
+        ],
+        speakers: [
+            /*{
+                name: "teste",
+                role: "teste",
+                picture: "/no_picture.png",
+                htmlDescription: "<p></p>",
+            },
+            {
+                name: "teste2",
+                role: "teste2",
+                picture: "/no_picture_2.png",
+                htmlDescription: "<p></p>",
+            }*/
         ]
     }
 ];
@@ -222,118 +445,244 @@ export const DAY_3_SCHEDULE = [
     {
         hour: "08:30                        ",
         title: "Deep Learning para Visão Computacional: Aplicações e Estado da Arte",
-        speaker: "Hugo Oliveira",
+        speakerDescription: "Hugo Oliveira",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Aguardando detalhes. Mais informações em breve",
         image: "/SI2023/logo_dpi.png",
-        speakerlink: "",
+
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
             //{ button_name: "INSCREVA-SE", button_url: "", },
+        ],
+        speakers: [
+            /*{
+                name: "teste",
+                role: "teste",
+                picture: "/no_picture.png",
+                htmlDescription: "<p></p>",
+            },
+            {
+                name: "teste2",
+                role: "teste2",
+                picture: "/no_picture_2.png",
+                htmlDescription: "<p></p>",
+            }*/
         ]
     },
     {
         hour: "09:30 - 12:00",
         title: "Maratona Brasileira de Programação - Sede Regional de Viçosa.",
-        speaker: "",
+        speakerDescription: "",
         local: "LBI - Prédio da CEF",
         description: "Etapa regional da maratona oficial da SBC. Este ano, será concomitante com a Semana de Informática. As inscrições foram feitas previamente, pelos meios convencionais da SBC. Participarão 17 equipes, de 3 cidades/instituições distintas. As cidades de Viçosa, Ubá e Leopoldina estarão representadas. A competição acontecerá no segundo andar do prédio da Caixa Econômica Federal, nos laboratórios de ensino do Departamento de Informática.",
         image: "/SI2023/maratona-logo.jpg",
-        speakerlink: "",
+
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
             //{ button_name: "INSCREVA-SE", button_url: "", },
+        ],
+        speakers: [
+            /*{
+                name: "teste",
+                role: "teste",
+                picture: "/no_picture.png",
+                htmlDescription: "<p></p>",
+            },
+            {
+                name: "teste2",
+                role: "teste2",
+                picture: "/no_picture_2.png",
+                htmlDescription: "<p></p>",
+            }*/
         ]
     },
     {
         hour: "09:30                        ",
         title: "Coffee-break",
-        speaker: "",
+        speakerDescription: "",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Pausa para socialização",
         image: "/SI2023/coffee.png",
-        speakerlink: "",
+
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
             //{ button_name: "INSCREVA-SE", button_url: "", },
+        ],
+        speakers: [
+            /*{
+                name: "teste",
+                role: "teste",
+                picture: "/no_picture.png",
+                htmlDescription: "<p></p>",
+            },
+            {
+                name: "teste2",
+                role: "teste2",
+                picture: "/no_picture_2.png",
+                htmlDescription: "<p></p>",
+            }*/
         ]
     },
     {
         hour: "10:00 - 12:30        ",
         title: "Tutorial: Desinformação em Plataformas Digitais: Conceitos, Abordagens Tecnológicas e Desafios.",
-        speaker: "Julio Cesar Reis",
+        speakerDescription: "Julio Cesar Reis",
         local: "Auditório da Biblioteca Central / UFV",
         description: "O prof. Julio Reis, do Departamento de Informática, irá apresentar uma versão resumida do curso que ministrou no 43º Congresso da SBC, ocorrido no dia 07/08/2023.",
         image: "/SI2023/logo_dpi.png",
-        speakerlink: "",
+
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
             //{ button_name: "INSCREVA-SE", button_url: "", },
+        ],
+        speakers: [
+            /*{
+                name: "teste",
+                role: "teste",
+                picture: "/no_picture.png",
+                htmlDescription: "<p></p>",
+            },
+            {
+                name: "teste2",
+                role: "teste2",
+                picture: "/no_picture_2.png",
+                htmlDescription: "<p></p>",
+            }*/
         ]
     },
     {
         hour: "13:30 - 19:00",
         title: "Maratona Brasileira de Programação - Sede Regional de Viçosa.",
-        speaker: "",
+        speakerDescription: "",
         local: "LBI - Prédio da CEF",
         description: "Etapa regional da maratona oficial da SBC. Este ano, será concomitante com a Semana de Informática. As inscrições foram feitas previamente, pelos meios convencionais da SBC. Participarão 17 equipes, de 3 cidades/instituições distintas. As cidades de Viçosa, Ubá e Leopoldina estarão representadas. A competição acontecerá no segundo andar do prédio da Caixa Econômica Federal, nos laboratórios de ensino do Departamento de Informática.",
         image: "/SI2023/maratona-logo.jpg",
-        speakerlink: "",
+
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
             //{ button_name: "INSCREVA-SE", button_url: "", },
+        ],
+        speakers: [
+            /*{
+                name: "teste",
+                role: "teste",
+                picture: "/no_picture.png",
+                htmlDescription: "<p></p>",
+            },
+            {
+                name: "teste2",
+                role: "teste2",
+                picture: "/no_picture_2.png",
+                htmlDescription: "<p></p>",
+            }*/
         ]
     },
     {
         hour: "14:00                        ",
         title: "Modelos text-to-image e image-to-text",
-        speaker: "Daniel L. Fernandes",
+        speakerDescription: "Daniel L. Fernandes",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Aguardando detalhes Mais informações em breve",
         image: "/SI2023/logo_dpi.png",
-        speakerlink: "",
+
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
             //{ button_name: "INSCREVA-SE", button_url: "", },
+        ],
+        speakers: [
+            /*{
+                name: "teste",
+                role: "teste",
+                picture: "/no_picture.png",
+                htmlDescription: "<p></p>",
+            },
+            {
+                name: "teste2",
+                role: "teste2",
+                picture: "/no_picture_2.png",
+                htmlDescription: "<p></p>",
+            }*/
         ]
     },
     {
         hour: "15:00                        ",
         title: "Título: Explorando o Drex - A importância da blockchain na criação do Real Digital Brasileiro",
-        speaker: "Bruno Coelho",
+        speakerDescription: "Bruno Coelho",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Formado em Ciência da Computação pela UFV, Bruno Coelho atua como engenheiro de software na área automotiva e é entusiasta de crypto e finanças no geral. A palestra cobrirá aspectos importantes para a criação da moeda digital brasileira por parte do Banco Central, como: Fundamentos do Drex, Arquitetura Técnica, Papel das Blockchains, Processo de Transação e Mineração, Desafios Técnicos e Soluções e Impacto no Setor de TI.",
         image: "/SI2023/logo_dpi.png",
-        speakerlink: "",
+
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
             //{ button_name: "INSCREVA-SE", button_url: "", },
+        ],
+        speakers: [
+            /*{
+                name: "teste",
+                role: "teste",
+                picture: "/no_picture.png",
+                htmlDescription: "<p></p>",
+            },
+            {
+                name: "teste2",
+                role: "teste2",
+                picture: "/no_picture_2.png",
+                htmlDescription: "<p></p>",
+            }*/
         ]
     },
     {
         hour: "16:00                        ",
         title: "Coffee-break e confraternização",
-        speaker: "",
+        speakerDescription: "",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Pausa para socialização",
         image: "/SI2023/coffee.png",
-        speakerlink: "",
+
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
             //{ button_name: "INSCREVA-SE", button_url: "", },
+        ],
+        speakers: [
+            /*{
+                name: "teste",
+                role: "teste",
+                picture: "/no_picture.png",
+                htmlDescription: "<p></p>",
+            },
+            {
+                name: "teste2",
+                role: "teste2",
+                picture: "/no_picture_2.png",
+                htmlDescription: "<p></p>",
+            }*/
         ]
     },
     {
         hour: "19:30                        ",
         title: "Divulgação dos Resultados da Maratona da SBC",
-        speaker: "",
+        speakerDescription: "",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Divulgação dos resultados da Maratona",
         image: "/SI2023/maratona-logo.jpg",
-        speakerlink: "",
+
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
             //{ button_name: "INSCREVA-SE", button_url: "", },
+        ],
+        speakers: [
+            /*{
+                name: "teste",
+                role: "teste",
+                picture: "/no_picture.png",
+                htmlDescription: "<p></p>",
+            },
+            {
+                name: "teste2",
+                role: "teste2",
+                picture: "/no_picture_2.png",
+                htmlDescription: "<p></p>",
+            }*/
         ]
     }
 ];
@@ -342,105 +691,217 @@ export const DAY_4_SCHEDULE = [
     {
         hour: "09:30                        ",
         title: "Geração Procedural em Jogos Digitais",
-        speaker: "Lucas N. Ferreira",
+        speakerDescription: "Lucas N. Ferreira",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Aguardando confirmação dos palestrantes. Mais informações em breve",
         image: "/SI2023/logo_dpi.png",
-        speakerlink: "",
+
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
             //{ button_name: "INSCREVA-SE", button_url: "", },
+        ],
+        speakers: [
+            /*{
+                name: "teste",
+                role: "teste",
+                picture: "/no_picture.png",
+                htmlDescription: "<p></p>",
+            },
+            {
+                name: "teste2",
+                role: "teste2",
+                picture: "/no_picture_2.png",
+                htmlDescription: "<p></p>",
+            }*/
         ]
     },
     {
         hour: "10:30                        ",
         title: "Coffee-break",
-        speaker: "",
+        speakerDescription: "",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Pausa para socialização",
         image: "/SI2023/coffee.png",
-        speakerlink: "",
+
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
             //{ button_name: "INSCREVA-SE", button_url: "", },
+        ],
+        speakers: [
+            /*{
+                name: "teste",
+                role: "teste",
+                picture: "/no_picture.png",
+                htmlDescription: "<p></p>",
+            },
+            {
+                name: "teste2",
+                role: "teste2",
+                picture: "/no_picture_2.png",
+                htmlDescription: "<p></p>",
+            }*/
         ]
     },
     {
         hour: "11:00                        ",
         title: "Iniciando no mercado + exemplos de projetos",
-        speaker: "Victor Alexandrino (Microsoft)",
+        speakerDescription: "Victor Alexandrino (Microsoft)",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Aguardando detalhes. Mais informações em breve",
         image: "/SI2023/logo_dpi.png",
-        speakerlink: "",
+
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
             //{ button_name: "INSCREVA-SE", button_url: "", },
+        ],
+        speakers: [
+            /*{
+                name: "teste",
+                role: "teste",
+                picture: "/no_picture.png",
+                htmlDescription: "<p></p>",
+            },
+            {
+                name: "teste2",
+                role: "teste2",
+                picture: "/no_picture_2.png",
+                htmlDescription: "<p></p>",
+            }*/
         ]
     },
     {
         hour: "14:00                        ",
         title: "Palestra Cadence",
-        speaker: "",
+        speakerDescription: "",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Aguardando detalhes. Mais informações em breve",
         image: "/SI2023/logo_dpi.png",
-        speakerlink: "",
+
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
             //{ button_name: "INSCREVA-SE", button_url: "", },
+        ],
+        speakers: [
+            /*{
+                name: "teste",
+                role: "teste",
+                picture: "/no_picture.png",
+                htmlDescription: "<p></p>",
+            },
+            {
+                name: "teste2",
+                role: "teste2",
+                picture: "/no_picture_2.png",
+                htmlDescription: "<p></p>",
+            }*/
         ]
     },
     {
         hour: "15:00                        ",
         title: "Startups: Decifrando os Desafios Iniciais",
-        speaker: "Guttardo Pereira (Bioflore)",
+        speakerDescription: "Guttardo Pereira (Bioflore)",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Formado em Ciência da Computação pela UFV, Guttardo Pereira traz uma visão inspiradora que une a paixão pela tecnologia e o empreendedorismo. Durante a graduação na UFV viveu experiências únicas que somente a vida de um estudante de Viçosa pode proporcionar. Entrou no mercado como desenvolvedor, mas logo descobriu sua paixão pelo empreendedorismo. A cultura da UFV de Ensino, Pesquisa e Extensão foram essenciais para o surgimento da Bioflore, startup fundada por ele e mais dois amigos, pesquisadores com formação na UFV. Nesta apresentação ele compartilhará um pouco sobre a Bioflore, mostrará como o conhecimento sólido em programação pode ser uma ferramenta poderosa para gerar ideias inovadoras, além de explorar os vários desafios enfrentados na vida de um empreendedor de primeira viagem. Durante a palestra, será compartilhada a a experiência do palestrante como ex-aluno da UFV, desenvolvedor e co-fundador da Bioflore. Irá abordar sua carreira, o surgimento da Bioflore, a missão da empresa, focada em mudanças climáticas e sustentabilidade, e os desafios e rotinas que enfrentou como empreendedor. ",
         image: "/SI2023/logo_dpi.png",
-        speakerlink: "",
+
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
             //{ button_name: "INSCREVA-SE", button_url: "", },
+        ],
+        speakers: [
+            /*{
+                name: "teste",
+                role: "teste",
+                picture: "/no_picture.png",
+                htmlDescription: "<p></p>",
+            },
+            {
+                name: "teste2",
+                role: "teste2",
+                picture: "/no_picture_2.png",
+                htmlDescription: "<p></p>",
+            }*/
         ]
     },
     {
         hour: "16:00                        ",
         title: "Coffee-break",
-        speaker: "",
+        speakerDescription: "",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Pausa para socialização",
         image: "/SI2023/coffee.png",
-        speakerlink: "",
+
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
             //{ button_name: "INSCREVA-SE", button_url: "", },
+        ],
+        speakers: [
+            /*{
+                name: "teste",
+                role: "teste",
+                picture: "/no_picture.png",
+                htmlDescription: "<p></p>",
+            },
+            {
+                name: "teste2",
+                role: "teste2",
+                picture: "/no_picture_2.png",
+                htmlDescription: "<p></p>",
+            }*/
         ]
     },
     {
         hour: "16:30                        ",
         title: "Engenharia de Performance e Gráficos para Jogos para Dispositivos Móveis",
-        speaker: "Marcelo Menezes (Wildlife Studios)",
+        speakerDescription: "Marcelo Menezes (Wildlife Studios)",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Marcelo é bacharel e mestre em Ciência da Computação pela UFV. Em seu mestrado pesquisou e desenvolveu algoritmos exatos para solucionar problemas de geometria computacional utilizando GPUs. Atualmente trabalha como Graphics Engineer na Wildlife Studios, onde é um dos engenheiros responsáveis pela rendering stack e performance em live games. Nessa palestra discutiremos sobre a carreira em desenvolvimento de jogos, com foco em gráficos e performance em dispositivos móveis. Tópicos importantes em um mercado cada vez mais competitivo.",
         image: "/SI2023/logo_dpi.png",
-        speakerlink: "",
+
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
             //{ button_name: "INSCREVA-SE", button_url: "", },
+        ],
+        speakers: [
+            /*{
+                name: "teste",
+                role: "teste",
+                picture: "/no_picture.png",
+                htmlDescription: "<p></p>",
+            },
+            {
+                name: "teste2",
+                role: "teste2",
+                picture: "/no_picture_2.png",
+                htmlDescription: "<p></p>",
+            }*/
         ]
     },
     {
         hour: "17:30                        ",
         title: "Encerramento",
-        speaker: "",
+        speakerDescription: "",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Breve cerimônia de encerramento do evento.",
         image: "/SI2023/logo_dpi.png",
-        speakerlink: "",
+
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
             //{ button_name: "INSCREVA-SE", button_url: "", },
+        ],
+        speakers: [
+            /*{
+                name: "teste",
+                role: "teste",
+                picture: "/no_picture.png",
+                htmlDescription: "<p></p>",
+            },
+            {
+                name: "teste2",
+                role: "teste2",
+                picture: "/no_picture_2.png",
+                htmlDescription: "<p></p>",
+            }*/
         ]
     }
 
@@ -450,24 +911,24 @@ export const EVENT_SPONSORS_DESCRIPTION = "Empresas apoiadoras e patrocinadoras 
 
 export const EVENT_SPONSORS = [
     {
-        image:"/SI2023/bitka.png",
-        url:"https://www.bitkaanalytics.com.br/",
+        image: "/SI2023/bitka.png",
+        url: "https://www.bitkaanalytics.com.br/",
     },
     {
-        image:"/SI2023/cientec.png",
-        url:"",
+        image: "/SI2023/cientec.png",
+        url: "",
     },
     {
-        image:"/SI2023/levity.png",
-        url:"https://levty.com/br/",
+        image: "/SI2023/levity.png",
+        url: "https://levty.com/br/",
     },
     {
-        image:"/SI2023/sydle.png",
-        url:"https://www.sydle.com/br/",
+        image: "/SI2023/sydle.png",
+        url: "https://www.sydle.com/br/",
     },
     {
-        image:"/SI2023/oriontec.png",
-        url:"https://www.oriontec.com.br/",
+        image: "/SI2023/oriontec.png",
+        url: "https://www.oriontec.com.br/",
     },
 ];
 
