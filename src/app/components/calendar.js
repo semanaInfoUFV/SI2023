@@ -77,7 +77,7 @@ export default function BasicTabs() {
                                         <span className='text-lg font-bold'>{data.hour}</span>
                                         {(data.speakers.length > 1) ? (<div className='flex'>
                                             <Avatar className='w-10 h-10 md:w-20 md:h-20 -mr-10 z-10' alt={data.speakerDescription} src={data.image} />
-                                            <Avatar className='w-10 h-10 md:w-20 md:h-20' alt="no picture" src='/no_picture.png' />
+                                            <Avatar className='w-10 h-10 md:w-20 md:h-20' alt="no picture" src='/SI2023/no_picture.png' />
                                         </div>) : (<div className='flex'>
                                             <Avatar className='w-10 h-10 md:w-20 md:h-20' alt={data.speakerDescription} src={data.image} />
                                         </div>)}

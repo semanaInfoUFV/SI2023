@@ -118,7 +118,7 @@ export const DAY_1_SCHEDULE = [
         speakerDescription: "Convidadas",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Um painel composto exclusivamente por mulheres discutirá os caminhos da carreira de um profissional de TI. Participarão profissionais da UFV e do mercado de trabalho e ex-alunas do curso de Ciência da Computação da UFV.",
-        image: "/SI2023/logo_dpi.png",
+        image: "/SI2023/no_picture_2.png",
 
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
@@ -310,7 +310,7 @@ export const DAY_2_SCHEDULE = [
         speakerDescription: "Jéferson Coêlho",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Um relato bem-humorado da experiência pessoal do palestrante através de sua carreira acadêmica e profissional e de como a interdisciplinaridade o ajudou a alcançar seus objetivos.",
-        image: "/SI2023/logo_dpi.png",
+        image: "/SI2023/no_picture.png",
 
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
@@ -337,7 +337,7 @@ export const DAY_2_SCHEDULE = [
         speakerDescription: "Thiago Luange",
         local: "Auditório da Biblioteca Central / UFV",
         description: "A renderização neural é uma classe de métodos, baseados em redes neurais profundas que podem criar imagens e vídeos inéditos com base em cenas existentes. Oferecendo ao usuário controle sobre propriedades da cena, como iluminação, parâmetros da câmera, poses, geometria, formas e estruturas semânticas. Mais informações em breve",
-        image: "/SI2023/logo_dpi.png",
+        image: "/SI2023/no_picture.png",
 
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
@@ -418,7 +418,7 @@ export const DAY_2_SCHEDULE = [
         speakerDescription: "Prof. Marconi Pereira / UFSJ",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Aguardando detalhes. Mais informações em breve",
-        image: "/SI2023/logo_dpi.png",
+        image: "/SI2023/no_picture.png",
 
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
@@ -448,7 +448,7 @@ export const DAY_3_SCHEDULE = [
         speakerDescription: "Hugo Oliveira",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Aguardando detalhes. Mais informações em breve",
-        image: "/SI2023/logo_dpi.png",
+        image: "/SI2023/no_picture.png",
 
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
@@ -529,7 +529,7 @@ export const DAY_3_SCHEDULE = [
         speakerDescription: "Julio Cesar Reis",
         local: "Auditório da Biblioteca Central / UFV",
         description: "O prof. Julio Reis, do Departamento de Informática, irá apresentar uma versão resumida do curso que ministrou no 43º Congresso da SBC, ocorrido no dia 07/08/2023.",
-        image: "/SI2023/logo_dpi.png",
+        image: "/SI2023/no_picture.png",
 
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
@@ -583,7 +583,7 @@ export const DAY_3_SCHEDULE = [
         speakerDescription: "Daniel L. Fernandes",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Aguardando detalhes Mais informações em breve",
-        image: "/SI2023/logo_dpi.png",
+        image: "/SI2023/no_picture.png",
 
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
@@ -610,7 +610,7 @@ export const DAY_3_SCHEDULE = [
         speakerDescription: "Bruno Coelho",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Formado em Ciência da Computação pela UFV, Bruno Coelho atua como engenheiro de software na área automotiva e é entusiasta de crypto e finanças no geral. A palestra cobrirá aspectos importantes para a criação da moeda digital brasileira por parte do Banco Central, como: Fundamentos do Drex, Arquitetura Técnica, Papel das Blockchains, Processo de Transação e Mineração, Desafios Técnicos e Soluções e Impacto no Setor de TI.",
-        image: "/SI2023/logo_dpi.png",
+        image: "/SI2023/no_picture.png",
 
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
@@ -694,7 +694,7 @@ export const DAY_4_SCHEDULE = [
         speakerDescription: "Lucas N. Ferreira",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Aguardando confirmação dos palestrantes. Mais informações em breve",
-        image: "/SI2023/logo_dpi.png",
+        image: "/SI2023/no_picture.png",
 
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
@@ -748,7 +748,7 @@ export const DAY_4_SCHEDULE = [
         speakerDescription: "Victor Alexandrino (Microsoft)",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Aguardando detalhes. Mais informações em breve",
-        image: "/SI2023/logo_dpi.png",
+        image: "/SI2023/no_picture.png",
 
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
@@ -802,7 +802,7 @@ export const DAY_4_SCHEDULE = [
         speakerDescription: "Guttardo Pereira (Bioflore)",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Formado em Ciência da Computação pela UFV, Guttardo Pereira traz uma visão inspiradora que une a paixão pela tecnologia e o empreendedorismo. Durante a graduação na UFV viveu experiências únicas que somente a vida de um estudante de Viçosa pode proporcionar. Entrou no mercado como desenvolvedor, mas logo descobriu sua paixão pelo empreendedorismo. A cultura da UFV de Ensino, Pesquisa e Extensão foram essenciais para o surgimento da Bioflore, startup fundada por ele e mais dois amigos, pesquisadores com formação na UFV. Nesta apresentação ele compartilhará um pouco sobre a Bioflore, mostrará como o conhecimento sólido em programação pode ser uma ferramenta poderosa para gerar ideias inovadoras, além de explorar os vários desafios enfrentados na vida de um empreendedor de primeira viagem. Durante a palestra, será compartilhada a a experiência do palestrante como ex-aluno da UFV, desenvolvedor e co-fundador da Bioflore. Irá abordar sua carreira, o surgimento da Bioflore, a missão da empresa, focada em mudanças climáticas e sustentabilidade, e os desafios e rotinas que enfrentou como empreendedor. ",
-        image: "/SI2023/logo_dpi.png",
+        image: "/SI2023/no_picture.png",
 
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
@@ -856,7 +856,7 @@ export const DAY_4_SCHEDULE = [
         speakerDescription: "Marcelo Menezes (Wildlife Studios)",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Marcelo é bacharel e mestre em Ciência da Computação pela UFV. Em seu mestrado pesquisou e desenvolveu algoritmos exatos para solucionar problemas de geometria computacional utilizando GPUs. Atualmente trabalha como Graphics Engineer na Wildlife Studios, onde é um dos engenheiros responsáveis pela rendering stack e performance em live games. Nessa palestra discutiremos sobre a carreira em desenvolvimento de jogos, com foco em gráficos e performance em dispositivos móveis. Tópicos importantes em um mercado cada vez mais competitivo.",
-        image: "/SI2023/logo_dpi.png",
+        image: "/SI2023/no_picture.png",
 
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
