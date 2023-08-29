@@ -12,8 +12,8 @@ export const DAY_1_SCHEDULE = [
         hour: "08:30 - 12:30",
         title: "Maratona de Programação da Semana de Informática",
         speakerDescription: "",
-        local: "LBI - Prédio da CEF",
-        description: "Maratona interna da UFV. Evento não-oficial da SBC, aberto ao público do Curso de Ciência da Computação. Acontecerá no segundo andar do prédio da Caixa Econômica Federal, nos laboratórios de ensino do Departamento de Informática.",
+        local: "Laboratório de Ensino do DPI - Sala CCE 416",
+        description: "Maratona interna da UFV. Evento não-oficial da SBC, aberto ao público do Curso de Ciência da Computação. Atenção: será no laboratório do prédio do CCE (sala 416).",
         image: "/SI2023/maratona-logo.jpg",
 
         links: [
@@ -61,10 +61,10 @@ export const DAY_1_SCHEDULE = [
     },
     {
         hour: "15:00        ",
-        title: "Palestra Sydle",
-        speakerDescription: "",
+        title: "Empregabilidade e dia a dia com um produto global: Visão do RH e um Tech Lead",
+        speakerDescription: "Verônica Leite (Sydle)",
         local: "Auditório da Biblioteca Central / UFV",
-        description: "Mais informações em breve",
+        description: "Verônica Leite, gestora de pessoas da Sydle traz uma visão, do ponto de vista de Recursos Humanos, do mercado de TI e empregabilidade.",
         image: "/SI2023/sydle.png",
 
         links: [
