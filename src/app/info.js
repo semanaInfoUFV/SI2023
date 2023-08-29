@@ -200,7 +200,7 @@ export const DAY_2_SCHEDULE = [
         hour: "09:30 - 12:00",
         title: "Processo Seletivo BITKA",
         speakerDescription: "BITKA",
-        local: "Local a confirmar",
+        local: "Sala de reuniões do Departamento de Informática (prédio do CCE)",
         description: "A BITKA, empresa que cria soluções inovadoras na área de sistemas de apoio a decisão, está à procura de talentos para preencher futuras vagas nas áreas de TI, Otimização e Análise Preditiva. Faremos na Semana da Informática a primeira etapa do processo seletivo, que será aberta para candidatos que estão cursando do 4º período para frente ( quem estiver em períodos anteriores a esses podem enviar o currículo para cadastramos na nossa base de talentos para futuras oportunidades). Iremos considerar currículos para vagas efetivas ou part-time dependendo da proximidade de formatura de cada candidato. Temos como prioridade construir um ambiente saudável, colaborativo e justo entre as pessoas para que possamos construir soluções incríveis. Venha trabalhar em uma empresa que está em pleno crescimento e que investe na carreira das suas pessoas. Mais informações em breve",
         image: "/SI2023/bitka.png",
 
@@ -227,7 +227,7 @@ export const DAY_2_SCHEDULE = [
         hour: "10:30                        ",
         title: "Coffee-break",
         speakerDescription: "",
-        local: "Auditório da Biblioteca Central / UFV",
+        local: "Hall de entrada do corredor do Departamento de Informática (prédio do CCE)",
         description: "Pausa para socialização",
         image: "/SI2023/coffee.png",
 
@@ -281,7 +281,7 @@ export const DAY_2_SCHEDULE = [
         hour: "13:00 - 15:00",
         title: "Processo Seletivo BITKA",
         speakerDescription: "BITKA",
-        local: "Local a confirmar",
+        local: "Sala de reuniões do Departamento de Informática (prédio do CCE)",
         description: "A BITKA, empresa que cria soluções inovadoras na área de sistemas de apoio a decisão, está à procura de talentos para preencher futuras vagas nas áreas de TI, Otimização e Análise Preditiva. Faremos na Semana da Informática a primeira etapa do processo seletivo, que será aberta para candidatos que estão cursando do 4º período para frente ( quem estiver em períodos anteriores a esses podem enviar o currículo para cadastramos na nossa base de talentos para futuras oportunidades). Iremos considerar currículos para vagas efetivas ou part-time dependendo da proximidade de formatura de cada candidato. Temos como prioridade construir um ambiente saudável, colaborativo e justo entre as pessoas para que possamos construir soluções incríveis. Venha trabalhar em uma empresa que está em pleno crescimento e que investe na carreira das suas pessoas. Mais informações em breve",
         image: "/SI2023/bitka.png",
 
