@@ -333,10 +333,10 @@ export const DAY_2_SCHEDULE = [
     },
     {
         hour: "15:00                        ",
-        title: "Renderização Neural",
-        speakerDescription: "Thiago Luange",
+        title: "Mitigando riscos de ciberataques com certificados digitais",
+        speakerDescription: "Cláudio Loris (GlobalSign)",
         local: "Auditório da Biblioteca Central / UFV",
-        description: "A renderização neural é uma classe de métodos, baseados em redes neurais profundas que podem criar imagens e vídeos inéditos com base em cenas existentes. Oferecendo ao usuário controle sobre propriedades da cena, como iluminação, parâmetros da câmera, poses, geometria, formas e estruturas semânticas. Mais informações em breve",
+        description: "Mais informações em breve",
         image: "/SI2023/no_picture.png",
 
         links: [
