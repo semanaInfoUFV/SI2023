@@ -1,4 +1,4 @@
-export const EVENT_DATE = new Date('2023-08-31T08:00:00-03:00');
+export const EVENT_DATE = new Date('2023-08-31T08:30:00-03:00');
 export const EVENT_SALE_URL = 'https://eventos.funarbe.org.br/xxviii-semana-da-informatica';
 
 export const EVENT_DESCRIPTION = "A semana de informática é um evento voltado para que os alunos da área de Tecnologia da Informação. Este ano a organização é de competência do Departamento de Informática da UFV. Serão 4 dias de evento, entre os dias 31/08/2023 e 03/09/2023, com minicursos, painel de discussão, competições de programação e palestras ministrados por profissionais gabaritados de diversas empresas, professores e pesquisadores do segmento de computação de todo o país. Temas como Inteligência Artificial, Tecnologia da Informação, Inclusão, Carreira e Empreendedorismo serão abordados.";
