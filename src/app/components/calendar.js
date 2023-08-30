@@ -91,7 +91,7 @@ export default function BasicTabs() {
                                         <span>
                                             <span className='text-justify'>{data.speakerDescription} </span>
                                         </span>
-                                        <span className='text-[#38124A]'>{data.local}</span>
+                                        <a target='_blank' href={data.localLink}><span className='text-[#38124A]'>{data.local}</span></a>
                                     </div>
                                 </div>
 
@@ -170,7 +170,7 @@ export default function BasicTabs() {
                                         <span>
                                             {data.speakerDescription}
                                         </span>
-                                        <span className='text-[#38124A]'>{data.local}</span>
+                                        <a target='_blank' href={data.localLink}><span className='text-[#38124A]'>{data.local}</span></a>
                                     </div>
                                 </div>
 
@@ -244,7 +244,7 @@ export default function BasicTabs() {
                                         <span>
                                             <span className='text-justify'>{data.speakerDescription} </span>
                                         </span>
-                                        <span className='text-[#38124A]'>{data.local}</span>
+                                        <a target='_blank' href={data.localLink}><span className='text-[#38124A]'>{data.local}</span></a>
                                     </div>
                                 </div>
 
@@ -318,7 +318,7 @@ export default function BasicTabs() {
                                         <span>
                                             <span className='text-justify'>{data.speakerDescription} </span>
                                         </span>
-                                        <span className='text-[#38124A]'>{data.local}</span>
+                                        <a target='_blank' href={data.localLink}><span className='text-[#38124A]'>{data.local}</span></a>
                                     </div>
                                 </div>
 
