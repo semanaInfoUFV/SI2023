@@ -626,7 +626,7 @@ export const DAY_3_SCHEDULE = [
     },
     {
         hour: "14:00                        ",
-        title: "Modelos text-to-image e image-to-text",
+        title: "Codificando saúde: Desvendando as fronteiras da Informática Biomédica",
         speakerDescription: "Daniel L. Fernandes",
         localLink: "https://goo.gl/maps/rrihFKn5U7u2zn1n8",
         local: "Auditório da Biblioteca Central / UFV",
