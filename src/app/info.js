@@ -1034,7 +1034,7 @@ export const COMMON_QUESTIONS = [
     },
     {
         question: "Existem atividades da Semana de Informática com inscrição separada?",
-        response: "Sim. Há apenas o processo seletivo da patrocinadora BITKA (ver pergunta frequente específica). As demais atividades que possuíam inscrições separadas ou já encerraram suas inscrições ou não possuem mais vagas."
+        response: "Sim. Há o Torneio de Jogos Retrô e o processo seletivo da patrocinadora BITKA (ver pergunta frequente específica). As demais atividades que possuíam inscrições separadas ou já encerraram suas inscrições ou não possuem mais vagas."
     },
     {
         question: "Como me inscrever nas atividades com inscrição separada?",
