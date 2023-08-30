@@ -1002,7 +1002,7 @@ export const COMMON_QUESTIONS = [
     },
     {
         question: "Como me inscrever nas Maratonas?",
-        response: "Para a Maratona da Semana de Informática, as inscrições estão abertas. Basta clicar no botão presente na seção MARATONA, da página principal ou clicar na atividade, dentro da grade de programação, e usar o botão INSCRIÇÃO. No entanto, infelizmente não é mais possível realizar inscrições na Maratona Brasileira de Programação. O evento oficial da SBC tem o processo de inscrição independente da organização da Semana de Informática e o mesmo já aconteceu."
+        response: "Infelizmente não é mais possível realizar inscrições nas Maratonas do Evento. A Maratona da Semana de Informática já esgotou as vagas e a Maratona Brasileira de Programação é um evento oficial da SBC que tem o processo de inscrição independente da organização da Semana de Informática e o mesmo já aconteceu."
     },
     {
         question: "Existem atividades da Semana de Informática com inscrição separada?",
