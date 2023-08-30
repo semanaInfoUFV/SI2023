@@ -709,16 +709,16 @@ export const DAY_3_SCHEDULE = [
         ]
     },
     {
-        hour: "16:30                        ",
-        title: "Atividade a confirmar",
-        speakerDescription: "Participantes do evento",
+        hour: "16:00                        ",
+        title: "Torneio de Jogos Retrô - Arcade BITKA/DPI",
+        speakerDescription: "Clique e inscreva",
         localLink: "https://goo.gl/maps/rrihFKn5U7u2zn1n8",
         local: "Auditório da Biblioteca Central / UFV",
-        description: "Aguardando confirmação. Mais informações em breve",
-        image: "/SI2023/no_picture.png",
+        description: "No arcade (fliperama) fornecido pela patrocinadora BITKA, serão realizados dois torneios de jogos retrô. Clique no link de inscrição para saber mais.",
+        image: "/SI2023/logo_dpi.png",
 
         links: [
-            //{ button_name: "INSCREVA-SE", button_url: "", },
+            { button_name: "INSCREVA-SE", button_url: "https://forms.gle/ZWEeVBxBjS9ZRSZYA", },
             //{ button_name: "INSCREVA-SE", button_url: "", },
         ],
         speakers: [
@@ -1052,11 +1052,11 @@ export const COMMON_QUESTIONS = [
 
 export const UPDATES = [
     {
-        "title": "30/08, 13:35h",
-        "content": "Encerradas inscrições para o Minicurso de React JS. Vagas esgotadas."
+        "title": "TORNEIO ABERTO",
+        "content": "Abertas inscrições para o Torneio de Jogos Retrô. Consulte a programação."
     },
     {
-        "title": "30/08, 13:00h",
+        "title": "30/08, 19:30h",
         "content": "Atualização massiva do site."
     }
 ]
