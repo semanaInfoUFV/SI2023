@@ -63,8 +63,8 @@ export const DAY_1_SCHEDULE = [
     },
     {
         hour: "14:00        ",
-        title: "Palestra Cientec",
-        speakerDescription: "",
+        title: "Que futuro profissional te espera?",
+        speakerDescription: "Paulo Márcio de Freitas (Cientec)",
         localLink: "https://goo.gl/maps/rrihFKn5U7u2zn1n8",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Mais informações em breve",
@@ -709,6 +709,34 @@ export const DAY_3_SCHEDULE = [
         ]
     },
     {
+        hour: "16:30                        ",
+        title: "Atividade a confirmar",
+        speakerDescription: "Participantes do evento",
+        localLink: "https://goo.gl/maps/rrihFKn5U7u2zn1n8",
+        local: "Auditório da Biblioteca Central / UFV",
+        description: "Aguardando confirmação. Mais informações em breve",
+        image: "/SI2023/no_picture.png",
+
+        links: [
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+        ],
+        speakers: [
+            /*{
+                name: "teste",
+                role: "teste",
+                picture: "/no_picture.png",
+                htmlDescription: "<p></p>",
+            },
+            {
+                name: "teste2",
+                role: "teste2",
+                picture: "/no_picture_2.png",
+                htmlDescription: "<p></p>",
+            }*/
+        ]
+    },
+    {
         hour: "19:30                        ",
         title: "Divulgação dos Resultados da Maratona da SBC",
         speakerDescription: "",
@@ -825,8 +853,8 @@ export const DAY_4_SCHEDULE = [
     },
     {
         hour: "14:00                        ",
-        title: "Palestra Cadence",
-        speakerDescription: "",
+        title: "Dia a dia de um engenheiro de software em empresas com mais de 10 mil engenheiros",
+        speakerDescription: "Danilo Almeida (Cadence Design Systems)",
         localLink: "https://goo.gl/maps/rrihFKn5U7u2zn1n8",
         local: "Auditório da Biblioteca Central / UFV",
         description: "Aguardando detalhes. Mais informações em breve",
