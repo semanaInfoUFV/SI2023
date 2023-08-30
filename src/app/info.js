@@ -36,6 +36,32 @@ export const DAY_1_SCHEDULE = [
         ]
     },
     {
+        hour: "13:30        ",
+        title: "Credenciamento",
+        speakerDescription: "",
+        localLink: "https://goo.gl/maps/rrihFKn5U7u2zn1n8",
+        local: "Auditório da Biblioteca Central / UFV",
+        description: "Confirme sua inscrição e pegue sua camiseta e cópia da programação do evento.",
+        image: "/SI2023/logo_dpi.png",
+        links: [
+            ////{ button_name: "INSCREVA-SE", button_url: "", },
+        ],
+        speakers: [
+            /*{
+                name: "teste",
+                role: "teste",
+                picture: "/no_picture.png",
+                htmlDescription: "<p></p>",
+            },
+            {
+                name: "teste2",
+                role: "teste2",
+                picture: "/no_picture_2.png",
+                htmlDescription: "<p></p>",
+            }*/
+        ]
+    },
+    {
         hour: "14:00        ",
         title: "Palestra Cientec",
         speakerDescription: "",
@@ -968,7 +994,7 @@ export const EVENT_SPONSORS = [
 export const COMMON_QUESTIONS = [
     {
         question: "Como me orientar para localizar as atividades?",
-        response: "Clique nos links abaixo para visualizar a localização:<br><ul><li><a href=\"https://goo.gl/maps/rrihFKn5U7u2zn1n8\" class=\"underline\" target=\"_blank\">Auditório da Biblioteca Central / UFV</a>: local das palestras, painel e tutorial</li><li><a href=\"https://goo.gl/maps/o4Tr9jyCytqtHQhg9\" class=\"underline\" target=\"_blank\">Prédio do CCE: Maratona da SI, Minicurso de React JS e Processo Seletivo BITKA</a></li><li><a href=\"https://goo.gl/maps/Yqb3gdgTmGuPmG4v8\" class=\"underline\" target=\"_blank\">LBI - Prédio da CEF: Maratona da SBC</a></li><li><a href=\https://goo.gl/maps/2phrds64syMwgudk6\" class=\"underline\" target=\"_blank\">Supermercado Escola</a>: para compras gerais e almoço. Aberto de segunda a sexta ate às 20:00h e sábado até 19:00h</li></ul>"
+        response: "Clique nos links abaixo para visualizar cada localização:<br><br><ul><li><a href=\"https://goo.gl/maps/rrihFKn5U7u2zn1n8\" class=\"underline\" target=\"_blank\">Auditório da Biblioteca Central / UFV</a>: local das palestras, painel e tutorial</li><li><a href=\"https://goo.gl/maps/o4Tr9jyCytqtHQhg9\" class=\"underline\" target=\"_blank\">Prédio do CCE: Maratona da SI, Minicurso de React JS e Processo Seletivo BITKA</a></li><li><a href=\"https://goo.gl/maps/Yqb3gdgTmGuPmG4v8\" class=\"underline\" target=\"_blank\">LBI - Prédio da CEF: Maratona da SBC</a></li><li><a href=\"https://goo.gl/maps/2phrds64syMwgudk6\" class=\"underline\" target=\"_blank\">Supermercado Escola</a>: para compras gerais e almoço. Aberto de segunda a sexta ate às 20:00h e sábado até 19:00h</li></ul>"
     },
     {
         question: "Como me inscrever no evento?",
