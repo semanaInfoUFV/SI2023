@@ -181,11 +181,11 @@ export const DAY_2_SCHEDULE = [
         speakerDescription: "Levty",
         localLink: "",
         local: "Laboratório de Ensino DPI - CCE 416",
-        description: "Minicurso da plataforma React JS, ministrado por profissional da Levty. Atenção: será no laboratório do prédio do CCE (sala 416). O curso poderá ser feito em duplas, portanto, existem 50 vagas disponíveis",
+        description: "Minicurso da plataforma React JS, ministrado por profissional da Levty. Atenção: será no laboratório do prédio do CCE (sala 416). Todas as vagas já foram preenchidas.",
         image: "/SI2023/levity.png",
 
         links: [
-            { button_name: "Inscrição", button_url: "https://forms.gle/MFJjDjN5f4yGt6gw7", },
+            { button_name: "Vagas Esgotadas", button_url: "", },
             //{ button_name: "INSCREVA-SE", button_url: "", },
         ],
         speakers: [
@@ -265,11 +265,11 @@ export const DAY_2_SCHEDULE = [
         speakerDescription: "Levty",
         localLink: "",
         local: "Laboratório de Ensino DPI - CCE 416",
-        description: "Minicurso da plataforma React JS, ministrado por profissional da Levty. Atenção: será no laboratório do prédio do CCE (sala 416). O curso poderá ser feito em duplas, portanto, existem 50 vagas disponíveis",
+        description: "Minicurso da plataforma React JS, ministrado por profissional da Levty. Atenção: será no laboratório do prédio do CCE (sala 416). Todas as vagas já foram preenchidas.",
         image: "/SI2023/levity.png",
 
         links: [
-            { button_name: "Inscrição", button_url: "https://forms.gle/MFJjDjN5f4yGt6gw7", },
+            { button_name: "Vagas Esgotadas", button_url: "", },
             //{ button_name: "INSCREVA-SE", button_url: "", },
         ],
         speakers: [
