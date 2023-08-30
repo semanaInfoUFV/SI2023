@@ -63,7 +63,7 @@ export default function Doubts() {
                     </AccordionSummary>
                     <AccordionDetails className='bg-[#38124A]'>
                         <Typography className='text-white p-2 md:p-5 flex flex-col items-end'>
-                            <span className='text-justify'>{data.response}</span >
+                        <div className='text-justify' dangerouslySetInnerHTML={{ __html: data.response}} />
                         </Typography>
                     </AccordionDetails>
                 </Accordion>
