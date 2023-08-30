@@ -4,7 +4,7 @@ export const EVENT_SALE_URL = 'https://eventos.funarbe.org.br/xxviii-semana-da-i
 export const EVENT_DESCRIPTION = "A semana de informática é um evento voltado para que os alunos da área de Tecnologia da Informação. Este ano a organização é de competência do Departamento de Informática da UFV. Serão 4 dias de evento, entre os dias 31/08/2023 e 03/09/2023, com minicursos, painel de discussão, competições de programação e palestras ministrados por profissionais gabaritados de diversas empresas, professores e pesquisadores do segmento de computação de todo o país. Temas como Inteligência Artificial, Tecnologia da Informação, Inclusão, Carreira e Empreendedorismo serão abordados.";
 
 export const EVENT_MARATONA_DESCRITION = "A Maratona de Programação é um evento da Sociedade Brasileira de Computação que existe desde o ano de 1996. Nasceu das competições regionais classificatórias para as etapas mundiais da competição de programação, o International Collegiate Programming Contest, e é parte da regional sul-americana do evento. Ela se destina a alunos e alunas de cursos de graduação e início de pós-graduação na área de Computação e afins. A competição promove nos estudantes a criatividade, a capacidade de trabalho em equipe, a busca de novas soluções de software e a habilidade de resolver problemas sob pressão. A cada ano, observa-se que as instituições de ensino e, principalmente, as grandes empresas da área têm valorizado os alunos que participam do evento.";
-export const EVENT_MARATONA_SUBSCRIPTION_URL = "https://forms.gle/sLiRHMxc1VRKvGdg7";
+export const EVENT_MARATONA_SUBSCRIPTION_URL = "";
 
 export const EVENT_SCHEDULE_DESCRIPTION = "Atividades para o período de 31/08/2023 a 03/09/2023. ATENÇÃO: Programação sujeita a alterações. Acompanhe o site para se manter a par das atualizações e novidades."
 export const DAY_1_SCHEDULE = [
@@ -18,7 +18,7 @@ export const DAY_1_SCHEDULE = [
         image: "/SI2023/maratona-logo.jpg",
 
         links: [
-            { button_name: "Inscrição", button_url: "https://forms.gle/sLiRHMxc1VRKvGdg7", },
+            { button_name: "Inscrições Encerradas", button_url: "", },
         ],
         speakers: [
             /*{
@@ -1006,7 +1006,7 @@ export const COMMON_QUESTIONS = [
     },
     {
         question: "Existem atividades da Semana de Informática com inscrição separada?",
-        response: "Sim. Além da Maratona da Semana de Informática, o minicurso (React) também tem inscrições separadas, devido ao número restrito de vagas. Há, ainda, o processo seletivo da patrocinadora BITKA (ver pergunta frequente específica). As atividades mencionadas aqui serão gratuitas para quem já se inscreveu no evento geral."
+        response: "Sim. Há apenas o processo seletivo da patrocinadora BITKA (ver pergunta frequente específica). As demais atividades que possuíam inscrições separadas ou já encerraram suas inscrições ou não possuem mais vagas."
     },
     {
         question: "Como me inscrever nas atividades com inscrição separada?",
