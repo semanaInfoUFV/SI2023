@@ -994,19 +994,11 @@ export const COMMON_QUESTIONS = [
 
 export const UPDATES = [
     {
-        "title": "25/08, 13:30h",
-        "content": "Novas atualizações na grade de programação"
+        "title": "30/08, 13:35h",
+        "content": "Encerradas inscrições para o Minicurso de React JS. Vagas esgotadas."
     },
     {
-        "title": "24/08, 19:30h",
-        "content": "Adicionados links de inscrição e agendamento de entrevista para o processo seletivo da BITKA"
-    },
-    {
-        "title": "24/08, 19:30h",
-        "content": "Abertas inscrições para o mini-curso de React JS"
-    },
-    {
-        "title": "24/08, 19:30h",
-        "content": "Inscrições abertas Maratona de Semana de Informática"
+        "title": "30/08, 13:00h",
+        "content": "Atualização massiva do site."
     }
 ]
