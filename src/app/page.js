@@ -31,9 +31,14 @@ export default function Home() {
     const currentTime = new Date();
     const timeDifference = Info.EVENT_DATE - currentTime;
 
-    const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
-    const hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+    
+    let days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+    let hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    let minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+
+    if (days < 0) days = 0;
+    if (hours < 0) hours = 0;
+    if (minutes < 0) minutes = 0;
 
     return { days, hours, minutes };
   };
