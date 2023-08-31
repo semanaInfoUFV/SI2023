@@ -654,7 +654,7 @@ export const DAY_3_SCHEDULE = [
     },
     {
         hour: "15:00                        ",
-        title: "Título: Explorando o Drex - A importância da blockchain na criação do Real Digital Brasileiro",
+        title: "Explorando o Drex - A importância da blockchain na criação do Real Digital Brasileiro",
         speakerDescription: "Bruno Coelho",
         localLink: "https://goo.gl/maps/rrihFKn5U7u2zn1n8",
         local: "Auditório da Biblioteca Central / UFV",
