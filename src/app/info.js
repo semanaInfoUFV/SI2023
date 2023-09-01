@@ -853,12 +853,12 @@ export const DAY_4_SCHEDULE = [
     },
     {
         hour: "14:00                        ",
-        title: "Dia a dia de um engenheiro de software em empresas com mais de 10 mil engenheiros",
-        speakerDescription: "Danilo Almeida (Cadence Design Systems)",
+        title: "Startups: Decifrando os Desafios Iniciais",
+        speakerDescription: "Guttardo Pereira (Bioflore)",
         localLink: "https://goo.gl/maps/rrihFKn5U7u2zn1n8",
         local: "Auditório da Biblioteca Central / UFV",
-        description: "Aguardando detalhes. Mais informações em breve",
-        image: "/SI2023/logo_dpi.png",
+        description: "Formado em Ciência da Computação pela UFV, Guttardo Pereira traz uma visão inspiradora que une a paixão pela tecnologia e o empreendedorismo. Durante a graduação na UFV viveu experiências únicas que somente a vida de um estudante de Viçosa pode proporcionar. Entrou no mercado como desenvolvedor, mas logo descobriu sua paixão pelo empreendedorismo. A cultura da UFV de Ensino, Pesquisa e Extensão foram essenciais para o surgimento da Bioflore, startup fundada por ele e mais dois amigos, pesquisadores com formação na UFV. Nesta apresentação ele compartilhará um pouco sobre a Bioflore, mostrará como o conhecimento sólido em programação pode ser uma ferramenta poderosa para gerar ideias inovadoras, além de explorar os vários desafios enfrentados na vida de um empreendedor de primeira viagem. Durante a palestra, será compartilhada a a experiência do palestrante como ex-aluno da UFV, desenvolvedor e co-fundador da Bioflore. Irá abordar sua carreira, o surgimento da Bioflore, a missão da empresa, focada em mudanças climáticas e sustentabilidade, e os desafios e rotinas que enfrentou como empreendedor. ",
+        image: "/SI2023/no_picture.png",
 
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
@@ -880,12 +880,12 @@ export const DAY_4_SCHEDULE = [
         ]
     },
     {
-        hour: "15:00                        ",
-        title: "Startups: Decifrando os Desafios Iniciais",
-        speakerDescription: "Guttardo Pereira (Bioflore)",
+        hour: "16:30                        ",
+        title: "Engenharia de Performance e Gráficos para Jogos para Dispositivos Móveis",
+        speakerDescription: "Marcelo Menezes (Wildlife Studios)",
         localLink: "https://goo.gl/maps/rrihFKn5U7u2zn1n8",
         local: "Auditório da Biblioteca Central / UFV",
-        description: "Formado em Ciência da Computação pela UFV, Guttardo Pereira traz uma visão inspiradora que une a paixão pela tecnologia e o empreendedorismo. Durante a graduação na UFV viveu experiências únicas que somente a vida de um estudante de Viçosa pode proporcionar. Entrou no mercado como desenvolvedor, mas logo descobriu sua paixão pelo empreendedorismo. A cultura da UFV de Ensino, Pesquisa e Extensão foram essenciais para o surgimento da Bioflore, startup fundada por ele e mais dois amigos, pesquisadores com formação na UFV. Nesta apresentação ele compartilhará um pouco sobre a Bioflore, mostrará como o conhecimento sólido em programação pode ser uma ferramenta poderosa para gerar ideias inovadoras, além de explorar os vários desafios enfrentados na vida de um empreendedor de primeira viagem. Durante a palestra, será compartilhada a a experiência do palestrante como ex-aluno da UFV, desenvolvedor e co-fundador da Bioflore. Irá abordar sua carreira, o surgimento da Bioflore, a missão da empresa, focada em mudanças climáticas e sustentabilidade, e os desafios e rotinas que enfrentou como empreendedor. ",
+        description: "Marcelo é bacharel e mestre em Ciência da Computação pela UFV. Em seu mestrado pesquisou e desenvolveu algoritmos exatos para solucionar problemas de geometria computacional utilizando GPUs. Atualmente trabalha como Graphics Engineer na Wildlife Studios, onde é um dos engenheiros responsáveis pela rendering stack e performance em live games. Nessa palestra discutiremos sobre a carreira em desenvolvimento de jogos, com foco em gráficos e performance em dispositivos móveis. Tópicos importantes em um mercado cada vez mais competitivo.",
         image: "/SI2023/no_picture.png",
 
         links: [
@@ -915,34 +915,6 @@ export const DAY_4_SCHEDULE = [
         local: "Auditório da Biblioteca Central / UFV",
         description: "Pausa para socialização",
         image: "/SI2023/coffee.png",
-
-        links: [
-            //{ button_name: "INSCREVA-SE", button_url: "", },
-            //{ button_name: "INSCREVA-SE", button_url: "", },
-        ],
-        speakers: [
-            /*{
-                name: "teste",
-                role: "teste",
-                picture: "/no_picture.png",
-                htmlDescription: "<p></p>",
-            },
-            {
-                name: "teste2",
-                role: "teste2",
-                picture: "/no_picture_2.png",
-                htmlDescription: "<p></p>",
-            }*/
-        ]
-    },
-    {
-        hour: "16:30                        ",
-        title: "Engenharia de Performance e Gráficos para Jogos para Dispositivos Móveis",
-        speakerDescription: "Marcelo Menezes (Wildlife Studios)",
-        localLink: "https://goo.gl/maps/rrihFKn5U7u2zn1n8",
-        local: "Auditório da Biblioteca Central / UFV",
-        description: "Marcelo é bacharel e mestre em Ciência da Computação pela UFV. Em seu mestrado pesquisou e desenvolveu algoritmos exatos para solucionar problemas de geometria computacional utilizando GPUs. Atualmente trabalha como Graphics Engineer na Wildlife Studios, onde é um dos engenheiros responsáveis pela rendering stack e performance em live games. Nessa palestra discutiremos sobre a carreira em desenvolvimento de jogos, com foco em gráficos e performance em dispositivos móveis. Tópicos importantes em um mercado cada vez mais competitivo.",
-        image: "/SI2023/no_picture.png",
 
         links: [
             //{ button_name: "INSCREVA-SE", button_url: "", },
