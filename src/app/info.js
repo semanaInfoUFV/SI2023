@@ -1024,11 +1024,11 @@ export const COMMON_QUESTIONS = [
 
 export const UPDATES = [
     {
-        "title": "TORNEIO ABERTO",
-        "content": "Abertas inscrições para o Torneio de Jogos Retrô. Consulte a programação."
+        "title": "AJUSTES NA PROGRAMAÇÃO",
+        "content": "Por motivos externos, fomos forçados a ajustar a programação do evento para os dias 02 e 03/09. Uma palestra foi trocada, outras duas tiveram seu horário ajustado e o Torneio de Jogos Retrô foi deslocado para domingo. Confira!"
     },
-    {
+    /*{
         "title": "30/08, 19:30h",
         "content": "Atualização massiva do site."
-    }
+    }*/
 ]
