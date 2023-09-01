@@ -682,7 +682,7 @@ export const DAY_3_SCHEDULE = [
     },
     {
         hour: "16:00                        ",
-        title: "Coffee-break e confraternização",
+        title: "Coffee-break",
         speakerDescription: "",
         localLink: "https://goo.gl/maps/rrihFKn5U7u2zn1n8",
         local: "Auditório da Biblioteca Central / UFV",
@@ -709,16 +709,16 @@ export const DAY_3_SCHEDULE = [
         ]
     },
     {
-        hour: "16:00                        ",
-        title: "Torneio de Jogos Retrô - Arcade BITKA/DPI",
-        speakerDescription: "Clique e inscreva",
+        hour: "16:30                        ",
+        title: "Web 3 e IA: A nova revolução",
+        speakerDescription: "Lucas Mucida",
         localLink: "https://goo.gl/maps/rrihFKn5U7u2zn1n8",
         local: "Auditório da Biblioteca Central / UFV",
-        description: "No arcade (fliperama) fornecido pela patrocinadora BITKA, serão realizados dois torneios de jogos retrô. Clique no link de inscrição para saber mais.",
-        image: "/SI2023/logo_dpi.png",
+        description: "Lucas é formado em Ciência da Computação pela UFV, atualmente cursando Doutorado em Inteligência Artificial. Programador na UFV e também community manager na Upland, uma startup de web3 do Vale do Silício.",
+        image: "/SI2023/no_picture.png",
 
         links: [
-            { button_name: "INSCREVA-SE", button_url: "https://forms.gle/ZWEeVBxBjS9ZRSZYA", },
+            //{ button_name: "INSCREVA-SE", button_url: "", },
             //{ button_name: "INSCREVA-SE", button_url: "", },
         ],
         speakers: [
@@ -880,7 +880,7 @@ export const DAY_4_SCHEDULE = [
         ]
     },
     {
-        hour: "16:30                        ",
+        hour: "15:00                        ",
         title: "Engenharia de Performance e Gráficos para Jogos para Dispositivos Móveis",
         speakerDescription: "Marcelo Menezes (Wildlife Studios)",
         localLink: "https://goo.gl/maps/rrihFKn5U7u2zn1n8",
@@ -936,16 +936,16 @@ export const DAY_4_SCHEDULE = [
         ]
     },
     {
-        hour: "17:30                        ",
-        title: "Encerramento",
-        speakerDescription: "",
+        hour: "16:00                        ",
+        title: "Torneio de Jogos Retrô - Arcade BITKA/DPI",
+        speakerDescription: "Clique e inscreva",
         localLink: "https://goo.gl/maps/rrihFKn5U7u2zn1n8",
         local: "Auditório da Biblioteca Central / UFV",
-        description: "Breve cerimônia de encerramento do evento.",
+        description: "No arcade (fliperama) fornecido pela patrocinadora BITKA, serão realizados dois torneios de jogos retrô. Clique no link de inscrição para saber mais.",
         image: "/SI2023/logo_dpi.png",
 
         links: [
-            //{ button_name: "INSCREVA-SE", button_url: "", },
+            { button_name: "INSCREVA-SE", button_url: "https://forms.gle/ZWEeVBxBjS9ZRSZYA", },
             //{ button_name: "INSCREVA-SE", button_url: "", },
         ],
         speakers: [
