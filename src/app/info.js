@@ -740,8 +740,8 @@ export const DAY_3_SCHEDULE = [
         hour: "19:30                        ",
         title: "Divulgação dos Resultados da Maratona da SBC",
         speakerDescription: "",
-        localLink: "https://goo.gl/maps/rrihFKn5U7u2zn1n8",
-        local: "Auditório da Biblioteca Central / UFV",
+        localLink: "https://goo.gl/maps/o4Tr9jyCytqtHQhg9",
+        local: "Auditório do CCE",
         description: "Divulgação dos resultados da Maratona",
         image: "/SI2023/maratona-logo.jpg",
 
