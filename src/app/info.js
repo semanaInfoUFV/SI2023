@@ -1024,6 +1024,10 @@ export const COMMON_QUESTIONS = [
 
 export const UPDATES = [
     {
+        "title": "02/09",
+        "content": "Local de divulgação dos resultados da Maratona da SBC foi alterado. Confira na programação do evento."
+    },
+    {
         "title": "AJUSTES NA PROGRAMAÇÃO",
         "content": "Por motivos externos, fomos forçados a ajustar a programação do evento para os dias 02 e 03/09. Uma palestra foi trocada, outras duas tiveram seu horário ajustado e o Torneio de Jogos Retrô foi deslocado para domingo. Confira!"
     },
