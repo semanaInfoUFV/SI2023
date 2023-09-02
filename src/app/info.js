@@ -1024,8 +1024,8 @@ export const COMMON_QUESTIONS = [
 
 export const UPDATES = [
     {
-        "title": "02/09",
-        "content": "Local de divulgação dos resultados da Maratona da SBC foi alterado. Confira na programação do evento."
+        "title": "AVISOS",
+        "content": "<ul><li>Local de divulgação dos resultados da Maratona da SBC foi alterado. Confira na programação do evento.</li><li>Inscrições do Torneio de Jogos Retrô se Encerram hoje, dia 02/09, às 22h</li></ul>"
     },
     {
         "title": "AJUSTES NA PROGRAMAÇÃO",
