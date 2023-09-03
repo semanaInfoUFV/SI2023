@@ -852,6 +852,34 @@ export const DAY_4_SCHEDULE = [
         ]
     },
     {
+        hour: "13:30                        ",
+        title: "Sorteio dos Grupos do Torneio de Jogos Retrô - Arcade BITKA/DPI",
+        speakerDescription: "Inscrições encerradas",
+        localLink: "https://goo.gl/maps/rrihFKn5U7u2zn1n8",
+        local: "Auditório da Biblioteca Central / UFV",
+        description: "Confirmação de participantes, sorteio dos grupos e apresentação do regulamento e regras.",
+        image: "/SI2023/logo_dpi.png",
+
+        links: [
+            //{ button_name: "INSCREVA-SE", button_url: "https://forms.gle/ZWEeVBxBjS9ZRSZYA", },
+            //{ button_name: "INSCREVA-SE", button_url: "", },
+        ],
+        speakers: [
+            /*{
+                name: "teste",
+                role: "teste",
+                picture: "/no_picture.png",
+                htmlDescription: "<p></p>",
+            },
+            {
+                name: "teste2",
+                role: "teste2",
+                picture: "/no_picture_2.png",
+                htmlDescription: "<p></p>",
+            }*/
+        ]
+    },
+    {
         hour: "14:00                        ",
         title: "Startups: Decifrando os Desafios Iniciais",
         speakerDescription: "Guttardo Pereira (Bioflore)",
