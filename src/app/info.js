@@ -936,16 +936,16 @@ export const DAY_4_SCHEDULE = [
         ]
     },
     {
-        hour: "16:00                        ",
+        hour: "16:30                        ",
         title: "Torneio de Jogos Retrô - Arcade BITKA/DPI",
-        speakerDescription: "Clique e inscreva",
+        speakerDescription: "Inscrições encerradas",
         localLink: "https://goo.gl/maps/rrihFKn5U7u2zn1n8",
         local: "Auditório da Biblioteca Central / UFV",
         description: "No arcade (fliperama) fornecido pela patrocinadora BITKA, serão realizados dois torneios de jogos retrô. Clique no link de inscrição para saber mais.",
         image: "/SI2023/logo_dpi.png",
 
         links: [
-            { button_name: "INSCREVA-SE", button_url: "https://forms.gle/ZWEeVBxBjS9ZRSZYA", },
+            //{ button_name: "INSCREVA-SE", button_url: "https://forms.gle/ZWEeVBxBjS9ZRSZYA", },
             //{ button_name: "INSCREVA-SE", button_url: "", },
         ],
         speakers: [
